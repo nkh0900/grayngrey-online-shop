@@ -1,0 +1,4 @@
+#menu img.search {
+    height: 12px;
+    vertical-align: middle;
+}

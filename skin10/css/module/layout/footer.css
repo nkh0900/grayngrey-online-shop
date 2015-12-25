@@ -1,0 +1,35 @@
+/* Common */
+.xans-layout-footer {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    color: #111;
+    font-family: 'Lato',Helvetica,sans-serif;
+    text-transform: uppercase;
+    font-size: 9px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.xans-layout-footer ul {
+    width: 100%;
+    font-weight: normal;
+}
+.xans-layout-footer ul li {
+    padding: 0 0 10px 0;
+}
+.xans-layout-footer ul li a {
+    color: #888;
+}
+/*.xans-layout-footer { position:relative; z-index:100; overflow:hidden; width:100%; padding:10px 0; font:normal 9px/200% verdana, tahoma, arial, sans-serif; background:black;}
+.xans-layout-footer a {color:#eee;}
+.xans-layout-footer ul {float:right; margin-right:45px;}
+.xans-layout-footer li {float:left; margin-left:15px;}
+.xans-layout-footer li a:link, .xans-layout-footer li a:visited {color:#7a7a7a;}
+.xans-layout-footer li a:hover {color:white;}
+.xans-layout-footer hr {clear:both; overflow:hidden; height:0; margin:0; border:none; border-top:1px solid #333;}
+.xans-layout-footer p {float:right; width:80%; margin:7px 45px 0 0; color:#eee; text-align:right;}
+.xans-layout-footer p + p {color:#7a7a7a;}
+.xans-layout-footer p span,
+.xans-layout-footer p strong {font-size:11px; font-family:dotum, verdana, tahoma, arial, sans-serif;}*/

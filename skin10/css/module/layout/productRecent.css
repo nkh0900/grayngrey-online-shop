@@ -1,0 +1,19 @@
+/*
+
+.xans-layout-productrecent .btn {}
+.xans-layout-productrecent .btn img { cursor:pointer; }
+.xans-layout-productrecent ul {width:86px; margin:0 auto; }
+.xans-layout-productrecent li img { display:block; width:86px; }
+.xans-layout-productrecent li span { display:block; padding:0 0 5px; font-size:12px; line-height:18px; }
+.xans-layout-productrecent a,
+.xans-layout-productrecent a:hover { color:#838382; }
+*/
+
+.xans-layout-productrecent h2 { font-size:9px;text-transform: uppercase;}
+.xans-layout-productrecent h2 a { color:#888; }
+.xans-layout-productrecent p.player {padding:2px 0;}
+.xans-layout-productrecent p img {padding: 0 5px;}
+.xans-layout-productrecent ul {width:46px;}
+.xans-layout-productrecent li {padding:0;}
+.xans-layout-productrecent li img {max-width:100%;border: 2px solid transparent;}
+.xans-layout-productrecent li a:hover img {border: 2px solid #888;}

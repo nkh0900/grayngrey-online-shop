@@ -1,0 +1,12 @@
+.xans-member-findidresult { background:#f5f5f5; border:1px solid #d2d2cf; padding:60px 0 70px; }
+.xans-member-findidresult .inner { width:327px; margin:0 auto; font-size:.9em; color:#8f8f91; }
+.xans-member-findidresult .inner .mainCopy { padding:27px 0 17px; font-size:30px; color:#333; font-weight:bold; letter-spacing:-0.5px; }
+.xans-member-findidresult .inner .mainCopy span { display:block; padding:16px 0 30px; font-size:11px; color:#8f8f91; line-height:18px; font-weight:normal; }
+.xans-member-findidresult .inner .memberInfo { overflow:hidden; }
+.xans-member-findidresult .inner span.img { float:left; width:70px; }
+.xans-member-findidresult .inner span.txt { float:left; width:257px; }
+.xans-member-findidresult .inner span.txt strong { color:#202020; font-weight:normal; }
+.xans-member-findidresult .inner span.txt em { color:#34a7b3; font-size:13px; }
+.xans-member-findidresult .inner .subCopy { padding:16px 0 0; }
+.xans-member-findidresult .btnArea { width:327px; margin:20px auto 0; padding:20px 0 0;  }
+.xans-member-findidresult .btnArea img { padding:0; }

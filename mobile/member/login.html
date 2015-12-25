@@ -1,0 +1,107 @@
+<!--@layout(/layout/basic/layout.html)-->
+
+<div id="titleArea">
+    <h2>login</h2>
+</div>
+<div module="MyShop_OrderHistoryNologin" id="{$order_history_nologin_id}">
+<!--@css(/css/module/myshop/orderhistorynologin.css)-->
+<!--@js(/js/module/member/login.js)-->
+    <!--
+        $orderDetailUrl = /myshop/order/detail.html
+    -->
+    <div class="tab eTab">
+        <ul>
+            <li>
+                <a href="#member">회원</a>
+            </li>
+            <li class="selected">
+                <a href="#noMember">비회원</a>
+            </li>
+        </ul>
+    </div>
+    <div class="loginHeader">
+        <div class="keyboard">
+            <button type="button" class="btnKey korean" title="korean">한글자판</button>
+            <button type="button" class="btnKey special" title="special">특수문자</button>
+        </div>
+        <div class="view">
+            <div class="korean"><img src="http://img.echosting.cafe24.com/skin/mobile_ko_KR/member/img_keyboard.png" alt="" width="254"></div>
+            <div class="special"><img src="http://img.echosting.cafe24.com/skin/mobile_ko_KR/member/img_keyboard_special.png" alt="" width="254"></div>
+        </div>
+    </div>
+    <fieldset>
+        <div class="formBox">
+            <div class="form">
+                {$form.order_name}
+                {$form.order_id}
+                {$form.order_password}
+            </div>
+            <div class="btnArea type1">
+                <button type="button" class="btnSubmit" onclick="$('#historyNoLoginForm').submit();">조회</button>
+            </div>
+            <div class="btnJoin btnArea type1">
+                <a href="/member/agreement.html" class="btnEm">회원가입</a>
+            </div>
+            <div class="help">
+                <p>비회원인 경우 주문번호로 주문조회만 가능합니다.</p>
+            </div>
+        </div>
+    </fieldset>
+</div>
+
+<div module="member_login" id="{$member_login_module_id}">
+<!--@css(/css/module/member/login.css)-->
+<!--@js(/js/module/member/login.js)-->
+    <!--
+        $defaultReturnUrl = /index.html
+    -->
+    <!--주문조회-->
+    <div class="loginWrap">
+        <div class="tab eTab {$member_login_tab_display|display}">
+            <ul>
+                <li class="selected">
+                    <a href="#member">회원</a>
+                </li>
+                <li>
+                    <a href="#noMember">비회원</a>
+                </li>
+            </ul>
+        </div>
+        <div class="loginHeader">
+            <div class="keyboard">
+                <button type="button" class="btnKey korean" title="korean">한글자판</button>
+                <button type="button" class="btnKey special" title="special">특수문자</button>
+            </div>
+            <div class="view">
+                <div class="korean"><img src="http://img.echosting.cafe24.com/skin/mobile_ko_KR/member/img_keyboard.png" alt="" width="254"></div>
+                <div class="special"><img src="http://img.echosting.cafe24.com/skin/mobile_ko_KR/member/img_keyboard_special.png" alt="" width="254"></div>
+            </div>
+        </div>
+        <fieldset>
+            <div class="formBox">
+                <div class="form">
+                    {$form.member_id}
+                    {$form.member_passwd}
+                </div>
+                <div class="option">
+                    <span class="auto">{$form.use_login_keeping}</span>
+                    <span class="save">{$form.check_save_id}</span>
+                    <span class="ssl"><img src="http://img.echosting.cafe24.com/skin/mobile_ko_KR/member/ico_ssl.png" alt="보안접속"><em>보안접속</em></span>
+                </div>
+                <div class="btnArea type1">
+                    <button type="button" class="btnSubmit" onclick="{$action_func_login}">login</button>
+                    <a href="#none" class="btnGoogle {$display_google|display}" onclick="{$google_func_login}"><span>구글 로그인</span></a>
+                </div>
+                <div class="btnArea type1 {$display_nomember|display}">
+                    <a href="{$returnUrl}" onclick="{$action_nomember_order}" class="btnEm">비회원 구매</a>
+                </div>
+            </div>
+        </fieldset>
+        <div class="btnArea typeLogin">
+            <a href="/member/id/find_id.html" class="btnLogin">find id</a>
+            <a href="/member/passwd/find_passwd_info.html" class="btnLogin">find password</a>
+            <a href="/member/agreement.html" class="btnLogin">join us</a>
+        </div>
+    </div>
+     <!--//주문조회-->
+</div>

@@ -1,0 +1,27 @@
+.xans-product-normalmenu { overflow:hidden; padding:14px; background:#fff; }
+.xans-product-normalmenu .sort { float:left; }
+.xans-product-normalmenu .sort select { max-width:150px; }
+
+.xans-product-normalmenu .viewType li.list { background-image:url("http://img.echosting.cafe24.com/skin/mobile_ko_KR/product/ico_list.png"); }
+.xans-product-normalmenu .viewType li.thumb { background-image:url("http://img.echosting.cafe24.com/skin/mobile_ko_KR/product/ico_thumb.png"); }
+.xans-product-normalmenu .viewType li.gallery { background-image:url("http://img.echosting.cafe24.com/skin/mobile_ko_KR/product/ico_gallery.png"); }
+.xans-product-normalmenu .viewType li.slide { background-image:url("http://img.echosting.cafe24.com/skin/mobile_ko_KR/product/ico_slide.png"); }
+.xans-product-normalmenu .viewType li.selected.list { background-image:url("http://img.echosting.cafe24.com/skin/mobile_ko_KR/product/ico_list_on.png"); }
+.xans-product-normalmenu .viewType li.selected.thumb { background-image:url("http://img.echosting.cafe24.com/skin/mobile_ko_KR/product/ico_thumb_on.png"); }
+.xans-product-normalmenu .viewType li.selected.gallery { background-image:url("http://img.echosting.cafe24.com/skin/mobile_ko_KR/product/ico_gallery_on.png"); }
+.xans-product-normalmenu .viewType li.selected.slide { background-image:url("http://img.echosting.cafe24.com/skin/mobile_ko_KR/product/ico_slide_on.png"); }
+
+/* 수정 */
+.xans-product-normalmenu {overflow:hidden;padding:0 10px 15px 10px;background:#fff;}
+.xans-product-normalmenu .sort {float:left;}
+.xans-product-normalmenu .sort select {max-width:105px;}
+.xans-product-normalmenu .viewType {font-size:0;float:right;}
+.xans-product-normalmenu .viewType {-webkit-border-radius:4px;border-radius:4px;}
+.xans-product-normalmenu .viewType li {display:inline-block;width:25px;height:23px;border:1px solid #ddd;border-right:0;background-repeat:no-repeat;background-position:center;background-size:30%;}
+.xans-product-normalmenu .viewType li.selected {border-color:#111;background-color:#111;}
+.xans-product-normalmenu .viewType li.thumb {background-image:url('http://img.echosting.cafe24.com/skin/mobile_ko_KR/product/ico_thumb.png');}
+.xans-product-normalmenu .viewType li.gallery {background-image:url('http://img.echosting.cafe24.com/skin/mobile_ko_KR/product/ico_gallery.png');}
+.xans-product-normalmenu .viewType li a {display:block;height:100%;}
+
+.xans-product-normalmenu .viewType li:first-child {-webkit-border-radius:2px 0 0 2px;border-radius:2px 0 0 2px;}
+.xans-product-normalmenu .viewType li:last-child {border-right:1px solid #ddd;-webkit-border-radius:0 2px 2px 0;border-radius:0 2px 2px 0;}

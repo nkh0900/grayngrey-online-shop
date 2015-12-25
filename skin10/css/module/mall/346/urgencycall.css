@@ -1,0 +1,19 @@
+.xans-mall-urgencycall .info { margin:20px 10px; color:#8f8f8f; font-size:11px; }
+
+.xans-mall-urgencycall .boardWrite table { table-layout:fixed; border:1px solid #d7d5d5; line-height:180%; }
+.xans-mall-urgencycall .boardWrite th { width:110px; padding:10px 0 8px 20px; border-top:1px solid #e8e8e8; border-right:1px solid #e8e8e8; background-color:#fbfafa; text-align:left; font-weight:normal; vertical-align:middle; }
+.xans-mall-urgencycall .boardWrite td { width:auto; padding:10px 0 8px 10px; border-top:1px solid #e8e8e8; }
+.xans-mall-urgencycall .boardWrite tr.first th,
+.xans-mall-urgencycall .boardWrite tr.first td { border-top:none; }
+.xans-mall-urgencycall .boardWrite img { vertical-align:middle; }
+.xans-mall-urgencycall .boardWrite a { text-decoration:none; }
+.xans-mall-urgencycall .boardWrite label { padding:0 20px 0 0; }
+.xans-mall-urgencycall .boardWrite select { height:24px; margin:0 4px 0 0; }
+.xans-mall-urgencycall .boardWrite input,
+.xans-mall-urgencycall .boardWrite textarea { width:500px; height:14px; padding:3px; border:1px solid #d9d9d9; color:#000; font-size:12px; }
+.xans-mall-urgencycall .boardWrite textarea { height:100px; }
+.xans-mall-urgencycall .boardWrite input[type=radio],
+.xans-mall-urgencycall .boardWrite input[type=checkbox] { width:14px; height:14px; margin:0 3px 0 0; padding:0; border:0; }
+.xans-mall-urgencycall .boardWrite p.grid { margin:7px 0 0; }
+
+.xans-mall-urgencycall .btnArea { overflow:hidden; margin:20px 0 0; text-align:center; }

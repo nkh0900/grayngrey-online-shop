@@ -1,0 +1,7 @@
+html {overflow:hidden;}
+body {color:white; min-width:372px; height:100%; background-color:#222;}
+
+#contents {overflow-x:hidden; overflow-y:auto; height:100%; padding:0 10px; background-color:#333; scrollbar-face-color:#222; scrollbar-shadow-color:#333; scrollbar-highlight-color:#333; scrollbar-3dlight-color:#111; scrollbar-darkshadow-color:#111; scrollbar-track-color:#333; scrollbar-arrow-color:#333;}
+#contents h1 {font:bold 2.2em/1em Georgia, dotum, arial, sans-serif; margin:20px 0 7px 0;}
+#contents h1 + p {font:0.8em/1.5em verdana, dotum, arial, sans-serif;}
+#contents a {color:white;}

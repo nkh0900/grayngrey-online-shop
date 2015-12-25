@@ -1,0 +1,38 @@
+/* 사은품 선택 레이어 팝업 */
+.xans-gift-select h1 { height:39px; padding:0 35px 0 19px; color:#fefefe; font-size:14px; line-height:39px; background-color:#4a5164; }
+.xans-gift-select .content { overflow:auto; overflow-x:hidden; max-height:500px; height:500px; padding:28px 30px; color:#747474; }
+.xans-gift-select .close { position:absolute; right:14px; top:12px; }
+.xans-gift-select .close img { cursor:pointer; }
+.xans-gift-select .btnArea { margin:0; padding:10px 0; border-top:1px solid #c7ccd2; text-align:center; background:#e5e5e5; }
+
+.xans-gift-select .info { padding:0 0 0 6px; line-height:20px; color:#777; background:url("http://img.echosting.cafe24.com/skin/base_ko_KR/common/ico_info3.gif") no-repeat 0 7px; }
+.xans-gift-select .help { padding:0 0 20px 5px; line-height:15px; color:#777; font-size:11px; background:url("http://img.echosting.cafe24.com/skin/base_ko_KR/common/ico_info3.gif") no-repeat 0 5px; }
+
+.xans-gift-select .xans-gift-point{ margin:5px 0 0; padding:15px; border:10px solid #e6e6e6; line-height:20px; color:#747474; }
+.xans-gift-select .xans-gift-point th { padding:0 0 0 7px; font-weight:normal; text-align:left; vertical-align:middle;  background:url("http://img.echosting.cafe24.com/skin/base_ko_KR/common/ico_info2.gif") no-repeat 0 50%; }
+.xans-gift-select .xans-gift-point td { vertical-align:middle; }
+.xans-gift-select .xans-gift-point .total th { color:#261f07; }
+.xans-gift-select .xans-gift-point .total td { color:#5a8fdd; }
+.xans-gift-select .xans-gift-point .use th,
+.xans-gift-select .xans-gift-point .use td { padding-bottom:3px; }
+.xans-gift-select .xans-gift-point .able th,
+.xans-gift-select .xans-gift-point .able td { padding-top:4px; border-top:1px dotted #e3e3e3; }
+.xans-gift-select .xans-gift-point .select { font-size:11px; }
+
+.xans-gift-select .giftList table { margin:20px 0 10px; border-bottom:1px solid #d9d9d9; color:#747474; font-size:11px; }
+.xans-gift-select .giftList th { padding:9px 0 7px; border-top:1px solid #d9d9d9; border-bottom:1px solid #d9d9d9; background:#f6f6f6; font-weight:normal; }
+.xans-gift-select .giftList td { padding:11px 0 9px; border-top:1px dotted #e3e3e3; line-height:140%; text-align:center; vertical-align:middle; }
+.xans-gift-select .giftList td.product { padding-left:5px; line-height:20px; text-align:left; vertical-align:top; }
+.xans-gift-select .giftList td.product .check { float:left; margin:0 5px 0 0; }
+.xans-gift-select .giftList td.product .thumb { float:left; }
+.xans-gift-select .giftList td.product .thumb img { width:72px; }
+.xans-gift-select .giftList td.product .prdInfo { float:left; width:220px; margin:0 0 0 10px; }
+.xans-gift-select .giftList td.product .prdInfo li { margin:5px 0 0; }
+.xans-gift-select .giftList td.product .prdInfo img { vertical-align:middle; }
+.xans-gift-select .giftList td.point { width:90px; padding-right:10px; text-align:right; color:#5a8fdd; font-weight:bold; }
+.xans-gift-select .giftList td.amount { width:65px; }
+.xans-gift-select .giftList td.select { width:65px; color:#ff7108; }
+.xans-gift-select span.quantity { position:relative; display:inline-block; width:27px; margin:0 1px 4px 0; padding:0 21px 0 0; border:1px solid #d4d8d9; border-radius:2px; }
+.xans-gift-select span.quantity input { width:22px; height:23px; padding:0 0 0 5px; border:0; line-height:23px; }
+.xans-gift-select span.quantity .up { position:absolute; left:27px; top:0; }
+.xans-gift-select span.quantity .down { position:absolute; left:27px; bottom:0; }

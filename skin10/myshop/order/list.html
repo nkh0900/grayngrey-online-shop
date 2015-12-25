@@ -1,0 +1,84 @@
+<!--@layout(/layout/basic/layout.html)-->
+<div class="path">
+	<h2>현재 위치</h2>
+	<ol>
+		<li class="first"><a href="/">home</a></li>
+		<li><a href="/myshop/index.html">my page</a></li>
+		<li title="현재 위치"><strong>order</strong></li>
+	</ol>
+</div>
+
+<div class="board_layout">
+<div class="titleArea">
+	<h3><span>order</span></h3>
+</div>
+
+<div id="inquiry">
+	<p>
+		주문번호를 클릭하시면 해당 주문에 대한 상세내역을 확인하실 수 있습니다.<br />
+		개별상품에 대한 배송조회는 상세내역에서 확인하시기 바랍니다.
+	</p>
+
+	<p class="icon"><img src="http://img.echosting.cafe24.com/design/skin/mono/myshop/ico_inqText1.gif" alt="세금계산서" /><img src="http://img.echosting.cafe24.com/design/skin/mono/myshop/ico_inqText2.gif" alt="현금영수증" /></p>
+</div>
+
+<div module="Myshop_OrderHistoryList">
+<!--@css(/css/module/myshop/orderHistoryList.css)-->
+	<!--
+		$login_url = /member/login.html
+	-->
+
+	<table summary="주문내역 목록 입니다.">
+	<caption>주문내역 목록</caption>
+
+		<thead>
+		<tr>
+			<th scope="col" class="date">주문일자</th>
+			<th scope="col" class="number">주문번호</th>
+			<th scope="col" class="product">주문상품</th>
+			<th scope="col" class="price">주문금액</th>
+			<th scope="col" class="state">주문처리상태</th>
+		</tr>
+		</thead>
+
+		<tbody class="{$list_display|display}">
+		<tr class="first">
+			<td class="date">{$order_date}</td>
+			<td class="number"><a href="detail.html{$param_detail}">{$order_id}</a></td>
+			<td class="product">{$product_name} <strong>(총 {$product_count}개 품목)</strong></td>
+			<td class="price">{$product_price}</td>
+			<td class="state">{$cur_state}</td>
+		</tr>
+
+		<tr>
+			<td class="date">{$order_date}</td>
+			<td class="number"><a href="detail.html{$param_detail}">{$order_id}</a></td>
+			<td class="product">{$product_name} <strong>(총 {$product_count}개 품목)</strong></td>
+			<td class="price">{$product_price}</td>
+			<td class="state">{$cur_state}</td>
+		</tr>
+		</tbody>
+
+        <tbody class="empty {$empty_display|display}">
+            <tr>
+                <td colspan="5">주문 내역이 없습니다</td>
+            </tr>
+        </tbody>
+	</table>
+</div>
+
+<div module="Myshop_OrderHistoryPaging">
+<!--@css(/css/module/myshop/orderHistoryPaging.css)-->
+<!--@js(/js/module/myshop/pager.js)-->
+	<p><a href="{$param_first}"><img src="http://teamgray.cafe24.com/web/upload/images/i_nav_prev_.png" alt="첫 페이지" /></a></p>
+	<p><a href="{$param_prev}"><img src="http://teamgray.cafe24.com/web/upload/images/i_nav_prev.png" alt="이전 페이지" /></a></p>
+
+	<ol>
+		<li><a href="{$param_page}" class="{$cls}" title="[{$num}] 페이지로 이동">{$num}</a></li>
+		<li><a href="{$param_page}" class="{$cls}" title="[{$num}] 페이지로 이동">{$num}</a></li>
+	</ol>
+
+	<p><a href="{$param_next}"><img src="http://teamgray.cafe24.com/web/upload/images/i_nav_next.png" alt="다음 페이지" /></a></p>
+	<p><a href="{$param_last}"><img src="http://teamgray.cafe24.com/web/upload/images/i_nav_next_.png" alt="마지막 페이지" /></a></p>
+</div>
+</div>

@@ -1,0 +1,130 @@
+<!--@layout(/layout/basic/layout.html)-->
+<div class="path">
+	<h3>현재 위치</h3>
+	<ol>
+		<li class="first"><a href="/">홈</a></li>
+		<li title="현재 위치"><strong>이용안내</strong></li>
+	</ol>
+</div>
+
+<div class="titleArea">
+	<h2><span>이용안내</span></h2>
+</div>
+
+<div module="mall_faq">
+<!--@css(/css/module/mall/faq.css)-->
+
+<div id="member_info">
+	<ul class="link">
+		<li class="on"><a href="#member_info">회원가입 안내</a></li>
+		<li><a href="#order_info">주문 안내</a></li>
+		<li><a href="#payment_info">결제 안내</a></li>
+		<li><a href="#delv_info">배송 안내</a></li>
+		<li><a href="#product_change_info">교환/반품 안내</a></li>
+		<li><a href="#refund_info">환불 안내</a></li>
+		<li><a href="#etc_info">기타 안내</a></li>
+	</ul>
+
+	<h3>회원가입 안내</h3>
+	<div class="cont">{$member_info}</div>
+</div>
+
+<div id="order_info">
+	<ul class="link">
+		<li><a href="#member_info">회원가입 안내</a></li>
+		<li class="on"><a href="#order_info">주문 안내</a></li>
+		<li><a href="#payment_info">결제 안내</a></li>
+		<li><a href="#delv_info">배송 안내</a></li>
+		<li><a href="#product_change_info">교환/반품 안내</a></li>
+		<li><a href="#refund_info">환불 안내</a></li>
+		<li><a href="#etc_info">기타 안내</a></li>
+	</ul>
+
+	<h3>주문 안내</h3>
+	<div class="cont">{$order_info}</div>
+</div>
+
+<div id="payment_info">
+	<ul class="link">
+		<li><a href="#member_info">회원가입 안내</a></li>
+		<li><a href="#order_info">주문 안내</a></li>
+		<li class="on"><a href="#payment_info">결제 안내</a></li>
+		<li><a href="#delv_info">배송 안내</a></li>
+		<li><a href="#product_change_info">교환/반품 안내</a></li>
+		<li><a href="#refund_info">환불 안내</a></li>
+		<li><a href="#etc_info">기타 안내</a></li>
+	</ul>
+
+	<h3>결제안내</h3>
+	<div class="cont">{$payment_info}</div>
+</div>
+
+<div id="delv_info">
+	<ul class="link">
+		<li><a href="#member_info">회원가입 안내</a></li>
+		<li><a href="#order_info">주문 안내</a></li>
+		<li><a href="#payment_info">결제 안내</a></li>
+		<li class="on"><a href="#delv_info">배송 안내</a></li>
+		<li><a href="#product_change_info">교환/반품 안내</a></li>
+		<li><a href="#refund_info">환불 안내</a></li>
+		<li><a href="#etc_info">기타 안내</a></li>
+	</ul>
+
+	<h3>배송안내</h3>
+	<div class="cont">
+		<ul>
+			<li>배송 방법 : {$shipping_method}</li>
+			<li>배송 지역 : {$shipping_area}</li>
+			<li>배송 비용 : {$shipping_fee}</li>
+			<li>배송 기간 : {$shipping_period}</li>
+			<li>배송 안내 : {$shipping_agreement}</li>
+		</ul>
+	</div>
+</div>
+
+<div id="product_change_info">
+	<ul class="link">
+		<li><a href="#member_info">회원가입 안내</a></li>
+		<li><a href="#order_info">주문 안내</a></li>
+		<li><a href="#payment_info">결제 안내</a></li>
+		<li><a href="#delv_info">배송 안내</a></li>
+		<li class="on"><a href="#product_change_info">교환/반품 안내</a></li>
+		<li><a href="#refund_info">환불 안내</a></li>
+		<li><a href="#etc_info">기타 안내</a></li>
+	</ul>
+
+	<h3>교환/반품안내</h3>
+	<div class="cont">{$product_change_info}</div>
+</div>
+
+<div id="refund_info">
+	<ul class="link">
+		<li><a href="#member_info">회원가입 안내</a></li>
+		<li><a href="#order_info">주문 안내</a></li>
+		<li><a href="#payment_info">결제 안내</a></li>
+		<li><a href="#delv_info">배송 안내</a></li>
+		<li><a href="#product_change_info">교환/반품 안내</a></li>
+		<li class="on"><a href="#refund_info">환불 안내</a></li>
+		<li><a href="#etc_info">기타 안내</a></li>
+	</ul>
+
+	<h3>환불안내</h3>
+	<div class="cont">{$refund_info}</div>
+</div>
+
+<div id="etc_info">
+	<ul class="link">
+		<li><a href="#member_info">회원가입 안내</a></li>
+		<li><a href="#order_info">주문 안내</a></li>
+		<li><a href="#payment_info">결제 안내</a></li>
+		<li><a href="#delv_info">배송 안내</a></li>
+		<li><a href="#product_change_info">교환/반품 안내</a></li>
+		<li><a href="#refund_info">환불 안내</a></li>
+		<li class="on"><a href="#etc_info">기타 안내</a></li>
+	</ul>
+
+	<h3>기타안내</h3>
+	<div class="cont">{$etc_info}</div>
+</div>
+
+</div>

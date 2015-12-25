@@ -1,0 +1,33 @@
+<!--@layout(/layout/basic/layout.html)-->
+<div class="path">
+	<h3>현재 위치</h3>
+	<ol>
+		<li class="first"><a href="/">home</a></li>
+		<li title="현재 위치"><strong>find id</strong></li>
+	</ol>
+</div>
+
+<div class="titleArea">
+	<h2><span>find id</span></h2>
+</div>
+
+<div module="member_findidresult">
+<!--@css(/css/module/member/265/findidresult.css)-->
+    <div class="findId">
+        <!-- <h3><img src="http://img.echosting.cafe24.com/skin/base_ko_KR/member/h3_find_id.gif" alt="아이디 찾기" /></h3> -->
+        <p class="desc">고객님 아이디 찾기가 완료 되었습니다.</p>
+        <div class="memberInfo">
+            <ul>
+                <li>이름 : <strong>{$name}</strong></li>
+                <li>{$searchType} : {$searchInfo}</li>
+                <li>{$searchIds}</li>
+            </ul>
+        </div>
+        <p class="button">
+            <a href="javascript:go_findlogin('{$id}');">login</a>
+            <a href="javascript:go_findpwd('{$id}','{$mtype}');">find it password</a>
+        </p>
+    </div>
+</div>
+
+

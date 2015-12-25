@@ -1,0 +1,20 @@
+/* Common */
+.xans-layout-category {width:100%; margin-top:25px;}
+.xans-layout-category > ul {width:100%;}
+.xans-layout-category > ul > li {line-height: 20px;}
+.xans-layout-category a {display:block; height:100%; padding:4px 0; white-space:nowrap; font:11px 'arial' ,'Nanhum Gothic', dotum, tahoma, arial, sans-serif; text-align: left; ;text-indent:5px;text-transform: uppercase;}
+.xans-layout-category > ul > li > a.active {font-weight:bold; }
+.xans-layout-category > ul > li > a:link, .xans-layout-category > ul > li > a:visited {color:black;}
+.xans-layout-category > ul > li > a:hover {text-decoration:none;}
+
+.xans-layout-category .sub-category {padding-bottom:7px;}
+.xans-layout-category .sub-category li {margin-top:7px;}
+.xans-layout-category .sub-category a {padding:0; border:none; color:#888;}
+.xans-layout-category .sub-category a.active {color:black;}
+.xans-layout-category .sub-category a:hover {color:black; text-decoration:none;}
+
+/* Main */
+.xans-layout-category.main a {/*border-color:black; background-color:black*/}
+.xans-layout-category.main > ul > li > a:link,
+.xans-layout-category.main > ul > li > a:visited {color:black;}
+.xans-layout-category.main > ul > li > a:hover {color:black;}

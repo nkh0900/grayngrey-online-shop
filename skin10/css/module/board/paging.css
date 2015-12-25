@@ -1,0 +1,25 @@
+/*.xans-board-paging { clear:both; padding:13px 0; margin:20px 0; text-align:center; }
+.xans-board-paging p,
+.xans-board-paging ol,
+.xans-board-paging li { display:inline; }
+.xans-board-paging img {vertical-align:middle; }
+.xans-board-paging ol { margin:0 7px; }
+.xans-board-paging li { margin:0 9px 0 0; padding:0 0 0 11px; font-size:.9em; background:url(http://img.echosting.cafe24.com/design/skin/mono/bg_page.gif) left center no-repeat; }
+.xans-board-paging li:first-child { background:none; }
+.xans-board-paging li strong { color:#f26522; }
+.xans-board-paging li a { color:#202020; }
+.xans-board-paging li a:hover { color:#f26522; text-decoration:underline; }
+.xans-board-paging a.nolink { cursor:default; }*/
+
+.xans-board-paging {max-width:760px;margin:0 auto;}
+.xans-board-paging {clear:both;padding:50px 0 50px 0;text-align:center;}
+.xans-board-paging p {display:inline-block;padding:0 15px;vertical-align:middle;}
+.xans-board-paging img {vertical-align:top;}
+.xans-board-paging ol {font-size:0;line-height:0;display:inline-block;vertical-align:top;}
+.xans-board-paging li {font-size:9px;line-height:22px;display:inline-block;vertical-align:top;color:#111;}
+.xans-board-paging li a {font-weight:bold;display:block;padding:0 10px;color:#888;background:#fff;}
+.xans-board-paging li a.this {text-decoration:underline;color:#f26522;}
+.xans-board-paging li strong { color:#f26522; }
+.xans-board-paging li a:hover { color:#f26522; text-decoration:underline; }
+.xans-board-paging li:first-child {margin-left:0;}
+

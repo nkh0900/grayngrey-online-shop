@@ -1,0 +1,67 @@
+.xans-board-commentlist .boardReply { border-top:1px solid #ddd;  border-bottom:1px solid #ddd; }
+.xans-board-commentlist .boardReply li { padding:5px; border:none; text-align:left; border-bottom:1px dotted #bdc0cb; line-height:1.4em; }
+.xans-board-commentlist .boardReply li:last-child {border-bottom: none;}
+.xans-board-commentlist .boardReply li strong,
+.xans-board-commentlist .boardReply li span { padding:0 5px 0 0; font-size:11px; }
+.xans-board-commentlist .boardReply li span.comment { display:block; clear:both; word-wrap:break-word; }
+
+.xans-board-commentlist .btnArea { text-align:right; overflow:hidden; margin:10px 0 20px; padding:0 15px; }
+.xans-board-commentlist .btnArea img { float:left; padding:0 1px 0 0; cursor:pointer; }
+.xans-board-commentlist .btnArea p  { float:left; }
+
+.xans-board-commentpaging { clear:both; padding:13px 0; margin:20px 0; text-align:center; }
+.xans-board-commentpaging p,
+.xans-board-commentpaging ol,
+.xans-board-commentpaging li { display:inline; }
+.xans-board-commentpaging img {vertical-align:middle; }
+.xans-board-commentpaging ol { margin:0 7px; }
+.xans-board-commentpaging li { margin:0 9px 0 0; padding:0 0 0 11px; font-size:.9em; background:url(http://img.echosting.cafe24.com/design/skin/mono/bg_page.gif) left center no-repeat; }
+.xans-board-commentpaging li:first-child { background:none; }
+.xans-board-commentpaging li strong { color:#f26522; }
+.xans-board-commentpaging li a { color:#202020; }
+.xans-board-commentpaging li a:hover { color:#f26522; text-decoration:underline; }
+.xans-board-commentpaging a.nolink { cursor:default; }
+
+.xans-board-commentwrite {
+    font-size: 11px;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+}
+
+.xans-board-commentwrite .comment_button {
+      font-size: 11px;
+    display: inline-block;
+    float: right;
+    width: 7%;
+    height: 16px;
+    margin-left: 1%;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 18px 12px;
+    color: #111;
+    background: #ddd;
+}
+
+/*.xans-board-commentwrite { margin:20px 0; padding:15px 20px; border:1px solid #d2d2cf; background:#ececec; font-size:.9em; }*/
+.xans-board-commentwrite legend { display:none; }
+.xans-board-commentwrite p { padding:5px 0; color:#000; }
+.xans-board-commentwrite p label { padding:0 10px 0 0; }
+/*.xans-board-commentwrite p a { margin:0 -2px 0 0;}*/
+.xans-board-commentwrite textarea { width:87%; height:46px; }
+.xans-board-commentwrite p.grade input { border:0; padding:0; background:none; }
+.xans-board-commentwrite input,
+.xans-board-commentwrite textarea { border:1px solid #ddd; background:#fff; color:#202020; padding:1px 0 2px 4px; }
+.xans-board-commentwrite #attendCommentBtnWrap input { border:none !important; width:auto !important; height:auto !important; margin:0 !important; padding:0 !important; }
+
+.xans-board-commentform { margin:20px 0; padding:15px 20px; border:1px solid #d2d2cf; background:#ececec; font-size:.9em; }
+.xans-board-commentform legend { display:none; }
+.xans-board-commentform p { padding:5px 0; color:#000; }
+.xans-board-commentform p label { padding:0 10px 0 0; }
+.xans-board-commentform p a { margin:0 -2px 0 0;}
+.xans-board-commentform textarea { width:560px; height:46px; }
+.xans-board-commentform p.grade input { border:0; padding:0; background:none; }
+.xans-board-commentform input,
+.xans-board-commentform textarea { border:1px solid #bcbcbc; background:#fff; color:#202020; padding:1px 0 2px 4px; }
+.xans-board-commentform #attendCommentBtnWrap input { border:none !important; width:auto !important; height:auto !important; margin:0 !important; padding:0 !important; }
+
+

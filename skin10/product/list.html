@@ -1,0 +1,130 @@
+<!--@layout(/layout/basic/layout.html)-->
+
+
+
+<div module="Product_menupackage">
+    <!--@css(/css/module/product/menupackage.css)-->
+
+    <div class="path" module="product_headcategory">
+        <ol>
+            <li><a href="/">Home</a></li>
+            <li class="{$disp_cate_1|display}"><a href="/product/list.html{$param_1}">{$name_1}</a></li>
+            <li class="{$disp_cate_2|display}"><a href="/product/list.html{$param_2}">{$name_2}</a></li>
+            <li class="{$disp_cate_3|display}"><a href="/product/list.html{$param_3}">{$name_3}</a></li>
+            <li class="{$disp_cate_4|display}"><strong><a href="/product/list.html{$param_4}">{$name_4}</a></strong></li>
+        </ol>
+    </div>
+    <div class="title" module="product_headcategory">
+        <h2><span>{$title_text_or_image}</span></h2>
+    </div>
+
+    <div module="product_normalpackage">
+        <!--@css(/css/module/product/listnormal.css)-->
+        <!--@js(/js/module/product/product_selectsearch.js)-->
+        <!-- <div module="product_normalmenu"> -->
+            <!--
+                $compare_page = /product/compare.html
+            -->
+            <!-- <div class="title" id="{$listmenu_position}">
+                <h3><span>HIT PRODUCT</span></h3>
+            </div> -->
+            <!-- <div class="function">
+                <p class="prdCount">등록 제품 : <strong>{$total_count}</strong>개</p>
+                <ul id="type" module="product_Orderby">
+                    <li><a href="{$param}" {$style}>{$sort_name}</a></li>
+                    <li><a href="{$param}" {$style}>{$sort_name}</a></li>
+                </ul>
+                <span class="compare {$product_compare_display|display}"><a href="#none" onclick="{$product_compare_action}"><img src="http://img.echosting.cafe24.com/skin/base_ko_KR/product/btn_compare.gif" alt="상품비교" /></a></span>
+            </div> -->
+             <!-- <fieldset class="condition {$select_search_display|display}">
+                <legend>조건별 검색</legend>
+                <p>
+                    <select class="FirstSelect" module="product_FirstSelect">
+                        <option value="">-조건선택-</option>
+                        <option value="{$value}" {$selected}>{$title}</option>
+                        <option value="{$value}" {$selected}>{$title}</option>
+                    </select>
+                    <select class="SecondSelect" module="product_SecondSelect">
+                        <option value="">-조건선택-</option>
+                        <option value="{$value}" {$selected}>{$title}</option>
+                        <option value="{$value}" {$selected}>{$title}</option>
+                    </select>
+                    <a href="#SelectSearch" class="SelectSearch"><img src="http://img.echosting.cafe24.com/skin/base_ko_KR/common/btn_list_search.gif" alt="검색" /></a>
+                </p>
+            </fieldset>  -->
+        <!-- </div> -->
+            <div module="product_listnormal">
+                <!--
+            $count = 12
+            $basket_result = /product/add_basket.html
+            $basket_option = /product/basket_option.html
+            -->
+                <ul class="prdList column4">
+                    <li class="item" id="anchorBoxId_{$product_no}">
+                        <div class="box">
+                            <span class="chk"><input type="checkbox" class="{$product_compare_class} {$product_compare_display|display}" /></span>
+                            <a href="/product/detail.html{$param}" name="anchorBoxName_{$product_no}"><img src="{$image_medium}" id="{$image_medium_id}" alt="" class="thumb" /></a>
+                            <div class="over_bg">
+                                <a href="/product/detail.html{$param}"><img src="http://teamgray.cafe24.com/web/upload/images/over_bg.png" style="width:100% !important;"></a>
+                                <div class="over_info">
+                                    <p class="name">
+                                        <strong><a href="/product/detail.html{$param}" class="{$product_name_display|display}"><span class="title {$product_name_title_display|display}">{$product_name_title} :</span> {$product_name}</a></strong>
+                                    </p>
+                                    <ul module="product_ListItem">
+                                        <li class="{$item_display|display}"><strong class="title {$item_title_display|display}">{$item_title} :</strong> {$item_content}</li>
+                                        <li class="{$item_display|display}"><strong class="title {$item_title_display|display}">{$item_title} :</strong> {$item_content}</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="status">
+                                <!-- <div class="icon">{$soldout_icon} {$recommend_icon} {$new_icon} {$product_icons}</div> -->
+                                <!-- <div class="button">
+                                    <div class="option">{$option_preview_icon}</div> {$basket_icon} {$zoom_icon}</div> -->
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="item" id="anchorBoxId_{$product_no}">
+                        <div class="box">
+                            <span class="chk"><input type="checkbox" class="{$product_compare_class} {$product_compare_display|display}" /></span>
+                            <a href="/product/detail.html{$param}" name="anchorBoxName_{$product_no}"><img src="{$image_medium}" id="{$image_medium_id}" alt="" class="thumb" /></a>
+                            <div class="over_bg">
+                                <a href="/product/detail.html{$param}"><img src="http://teamgray.cafe24.com/web/upload/images/over_bg.png" style="width:100% !important;"></a>
+                                <div class="over_info">
+                                    <p class="name">
+                                        <strong><a href="/product/detail.html{$param}" class="{$product_name_display|display}"><span class="title {$product_name_title_display|display}">{$product_name_title} :</span> {$product_name}</a></strong>
+                                    </p>
+                                    <ul module="product_ListItem">
+                                        <li class="{$item_display|display}"><strong class="title {$item_title_display|display}">{$item_title} :</strong> {$item_content}</li>
+                                        <li class="{$item_display|display}"><strong class="title {$item_title_display|display}">{$item_title} :</strong> {$item_content}</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="status">
+                                <!-- <div class="icon">{$soldout_icon} {$recommend_icon} {$new_icon} {$product_icons}</div> -->
+                                <!-- <div class="button">
+                                    <div class="option">{$option_preview_icon}</div> {$basket_icon} {$zoom_icon}</div> -->
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+    </div>
+<div module="product_normalpaging">
+    <!--@css(/css/module/product/normalpaging.css)-->
+    <!--@js(/js/module/product/pager.js)-->
+    <p><a href="{$param_first}"><img src="http://teamgray.cafe24.com/web/upload/images/i_nav_prev_.png" alt="첫 페이지" /></a> </p>
+    <p><a href="{$param_before}"><img src="http://teamgray.cafe24.com/web/upload/images/i_nav_prev.png" alt="이전 페이지" /></a></p>
+    <ol>
+        <li><a href="{$param}" title="페이지로 이동">{$no}</a></li>
+        <li><a href="{$param}" title="페이지로 이동">{$no}</a></li>
+        <li><a href="{$param}" title="페이지로 이동">{$no}</a></li>
+        <li><a href="{$param}" title="페이지로 이동">{$no}</a></li>
+        <li><a href="{$param}" title="페이지로 이동">{$no}</a></li>
+    </ol>
+    <p><a href="{$param_next}"><img src="http://teamgray.cafe24.com/web/upload/images/i_nav_next.png" alt="다음 페이지" /></a> </p>
+    <p><a href="{$param_last}"><img src="http://teamgray.cafe24.com/web/upload/images/i_nav_next_.png" alt="마지막 페이지" /></a> </p>
+</div>
+
+</div>
+

@@ -1,0 +1,141 @@
+.xans-myshop-orderhistorydetail {}
+.xans-myshop-orderhistorydetail .orderArea { margin:50px 0 20px; overflow:hidden; zoom:1; }
+.xans-myshop-orderhistorydetail .orderArea h3 {font-size:12px;float:left;margin:0 0 18px;}
+.xans-myshop-orderhistorydetail .orderArea table.ordInfo { clear:both; }
+.xans-myshop-orderhistorydetail .orderList { margin:50px 0 20px; overflow:hidden; zoom:1; }
+.xans-myshop-orderhistorydetail .orderList h3 { font-size:12px;float:left;margin:0 0 18px;}
+
+.xans-myshop-orderhistorydetail div.boardView { clear:both; margin-top:18px; border-top:1px solid #333; border-bottom:1px solid #333; }
+.xans-myshop-orderhistorydetail table.ordInfo.ordInfo { background:#fff; font-size:11px; }
+.xans-myshop-orderhistorydetail table.ordInfo {}
+.xans-myshop-orderhistorydetail table.ordInfo input,
+.xans-myshop-orderhistorydetail table.ordInfo textarea { border:1px solid #bcbcbc; background:#fff; color:#202020; padding:1px 0 2px 4px; }
+.xans-myshop-orderhistorydetail table.ordInfo thead th { border-bottom:3px solid #333; }
+.xans-myshop-orderhistorydetail table.ordInfo thead td { border-bottom:3px solid #333; }
+.xans-myshop-orderhistorydetail table.ordInfo tfoot th { border-top:3px solid #333; }
+.xans-myshop-orderhistorydetail table.ordInfo tfoot td { border-top:3px solid #333; }
+.xans-myshop-orderhistorydetail table.ordInfo .first { border-top:0; padding-top:20px; }
+.xans-myshop-orderhistorydetail table.ordInfo th { width:120px; padding:5px 0 5px 20px; text-align:left; line-height:2em; border-bottom:1px solid #e6e6e6; color:#000;}
+.xans-myshop-orderhistorydetail table.ordInfo td { width:616px; padding:5px 0 5px; border-bottom:1px solid #e6e6e6; line-height:2em; color:#8b8b8c;  }
+.xans-myshop-orderhistorydetail table.ordInfo td.write { width:100%; }
+.xans-myshop-orderhistorydetail table.ordInfo td img { vertical-align:middle; }
+.xans-myshop-orderhistorydetail table.ordInfo .price { color:#34a7b3; font-size:16px; }
+.xans-myshop-orderhistorydetail table.ordInfo .mileage { color:#00aeef; font-weight:normal; }
+.xans-myshop-orderhistorydetail table.ordInfo .colType { padding-left:0 }
+.xans-myshop-orderhistorydetail table.ordInfo input.btn { padding:1px 3px;}
+.xans-myshop-orderhistorydetail table.ordInfo #total_price { background:#f6f7f9; margin:0 4px 0 0; }
+.xans-myshop-orderhistorydetail table.ordInfo #eguarantee_personal #eguarantee_ssn1 { width:80px; }
+.xans-myshop-orderhistorydetail table.ordInfo #eguarantee_personal #eguarantee_ssn2 { width:80px; }
+
+.xans-myshop-orderhistorydetail table.ordInfo th { width:auto; }
+.xans-myshop-orderhistorydetail table.ordInfo .type { text-align:center; }
+.xans-myshop-orderhistorydetail table.ordInfo td.payment { text-align:center; }
+.xans-myshop-orderhistorydetail table.ordInfo td.bank a { display:block; }
+
+.xans-myshop-orderhistorydetailpayment table.ordInfo th { text-align:center; padding-left:0; }
+.xans-myshop-orderhistorydetail table.ordHead td { width:auto; }
+
+.xans-myshop-orderhistorydetail .ordDelivery1 { background:none; }
+.xans-myshop-orderhistorydetail .ordDelivery1 th { padding:9px 0; font-size:11px; font-weight:normal; }
+.xans-myshop-orderhistorydetail .ordDelivery1 th.delivery { color:#333; }
+.xans-myshop-orderhistorydetail .ordDelivery1 td { padding:10px 0; font-size:11px; text-align:center; border-top:1px solid #d9ada0; }
+.xans-myshop-orderhistorydetail .ordDelivery1 .thumb { width:60px; text-align:center; overflow:hidden; }
+.xans-myshop-orderhistorydetail .ordDelivery1 .thumb img { width:46px; }
+.xans-myshop-orderhistorydetail .ordDelivery1 .thumb span { float:left; padding:0 0 0 8px; width:80px; text-align:left; }
+.xans-myshop-orderhistorydetail .ordDelivery1 td.prduct { text-align:left;}
+.xans-myshop-orderhistorydetail .ordDelivery1 td.prduct strong { display:block; padding:5px 0 0; font-weight:normal; color:#888a86; overflow:hidden; }
+.xans-myshop-orderhistorydetail .ordDelivery1 td.prduct .btnPrdWrite a { float:left; padding:1px; background:#b0b0b0; color:#fff; }
+.xans-myshop-orderhistorydetail .ordDelivery1 td.prduct ul { padding:5px 0 0; color:#888a86;}
+.xans-myshop-orderhistorydetail .ordDelivery1 .sell { width:80px; }
+.xans-myshop-orderhistorydetail .ordDelivery1 .mileage { width:63px;}
+.xans-myshop-orderhistorydetail .ordDelivery1 .quantity { width:80px; }
+.xans-myshop-orderhistorydetail .ordDelivery1 .quantity img { margin:0 0 0 2px; cursor:pointer; }
+.xans-myshop-orderhistorydetail .ordDelivery1 .delivery { width:75px; color:#888a86; }
+.xans-myshop-orderhistorydetail .ordDelivery1 .state { width:75px; }
+.xans-myshop-orderhistorydetail .ordDelivery1 .delivery1 { width:75px; }
+.xans-myshop-orderhistorydetail .ordDelivery1 .delivery2 { width:75px; }
+.xans-myshop-orderhistorydetail .ordDelivery1 tfoot td { text-align:right; padding:7px 7px 20px; background:none; color:#000; }
+.xans-myshop-orderhistorydetail .ordDelivery1 tfoot td .total { color:#f8941d; }
+.xans-myshop-orderhistorydetail .ordDelivery1 tfoot td { border-top:2px solid #d9ada0; }
+.xans-myshop-orderhistorydetail .ordDelivery1 tfoot td .type { color:#d9ada0; float:left; }
+
+.xans-myshop-orderhistorydetail .ordDelivery2 { background:none; }
+.xans-myshop-orderhistorydetail .ordDelivery2 th { padding:9px 0; font-size:11px; font-weight:normal; }
+.xans-myshop-orderhistorydetail .ordDelivery2 th.delivery { color:#333; }
+.xans-myshop-orderhistorydetail .ordDelivery2 td { padding:10px 0; font-size:11px; text-align:center; border-top:1px solid #a0bdd9; }
+.xans-myshop-orderhistorydetail .ordDelivery2 .thumb { width:60px; text-align:center; overflow:hidden; }
+.xans-myshop-orderhistorydetail .ordDelivery2 .thumb img { width:46px; }
+.xans-myshop-orderhistorydetail .ordDelivery2 .thumb span { float:left; padding:0 0 0 8px; width:80px; text-align:left; }
+.xans-myshop-orderhistorydetail .ordDelivery2 td.prduct { text-align:left;}
+.xans-myshop-orderhistorydetail .ordDelivery2 td.prduct strong { display:block; padding:5px 0 0; font-weight:normal; color:#888a86; overflow:hidden; }
+.xans-myshop-orderhistorydetail .ordDelivery2 td.prduct .btnPrdWrite a { float:left; padding:1px; background:#b0b0b0; color:#fff; }
+.xans-myshop-orderhistorydetail .ordDelivery2 td.prduct ul { padding:5px 0 0; color:#888a86;}
+.xans-myshop-orderhistorydetail .ordDelivery2 .sell { width:80px; }
+.xans-myshop-orderhistorydetail .ordDelivery2 .mileage { width:63px;}
+.xans-myshop-orderhistorydetail .ordDelivery2 .quantity { width:80px; }
+.xans-myshop-orderhistorydetail .ordDelivery2 .quantity img { margin:0 0 0 2px; cursor:pointer; }
+.xans-myshop-orderhistorydetail .ordDelivery2 .delivery { width:75px; color:#888a86; }
+.xans-myshop-orderhistorydetail .ordDelivery2 .state { width:75px; }
+.xans-myshop-orderhistorydetail .ordDelivery2 .delivery1 { width:75px; }
+.xans-myshop-orderhistorydetail .ordDelivery2 .delivery2 { width:75px; }
+.xans-myshop-orderhistorydetail .ordDelivery2 tfoot td { text-align:right; padding:7px 7px 20px; background:none; color:#000; }
+.xans-myshop-orderhistorydetail .ordDelivery2 tfoot td .total { color:#f8941d; }
+.xans-myshop-orderhistorydetail .ordDelivery2 tfoot td { border-top:2px solid #a0bdd9;  }
+.xans-myshop-orderhistorydetail .ordDelivery2 tfoot td .type { color:#a0bdd9; float:left; }
+
+.xans-myshop-orderhistorydetail .ordDelivery3 { background:none; }
+.xans-myshop-orderhistorydetail .ordDelivery3 th { padding:9px 0; font-size:11px; font-weight:normal; }
+.xans-myshop-orderhistorydetail .ordDelivery3 th.delivery { color:#333; }
+.xans-myshop-orderhistorydetail .ordDelivery3 td { padding:10px 0; font-size:11px; text-align:center; border-top:1px solid #c3c3c3; }
+.xans-myshop-orderhistorydetail .ordDelivery3 .thumb { width:60px; text-align:center; overflow:hidden; }
+.xans-myshop-orderhistorydetail .ordDelivery3 .thumb img { width:46px; }
+.xans-myshop-orderhistorydetail .ordDelivery3 .thumb span { float:left; padding:0 0 0 8px; width:80px; text-align:left; }
+.xans-myshop-orderhistorydetail .ordDelivery3 td.prduct { text-align:left;}
+.xans-myshop-orderhistorydetail .ordDelivery3 td.prduct strong { display:block; padding:5px 0 0; font-weight:normal; color:#888a86; overflow:hidden; }
+.xans-myshop-orderhistorydetail .ordDelivery3 td.prduct .btnPrdWrite a { float:left; padding:1px; background:#b0b0b0; color:#fff; }
+.xans-myshop-orderhistorydetail .ordDelivery3 td.prduct ul { padding:5px 0 0; color:#888a86;}
+.xans-myshop-orderhistorydetail .ordDelivery3 .sell { width:80px; }
+.xans-myshop-orderhistorydetail .ordDelivery3 .mileage { width:63px;}
+.xans-myshop-orderhistorydetail .ordDelivery3 .quantity { width:80px; }
+.xans-myshop-orderhistorydetail .ordDelivery3 .quantity img { margin:0 0 0 2px; cursor:pointer; }
+.xans-myshop-orderhistorydetail .ordDelivery3 .delivery { width:75px; color:#888a86; }
+.xans-myshop-orderhistorydetail .ordDelivery3 .state { width:75px; }
+.xans-myshop-orderhistorydetail .ordDelivery3 .delivery1 { width:75px; }
+.xans-myshop-orderhistorydetail .ordDelivery3 .delivery2 { width:75px; }
+.xans-myshop-orderhistorydetail .ordDelivery3 tfoot td { text-align:right; padding:7px 7px 20px; background:none; color:#000; }
+.xans-myshop-orderhistorydetail .ordDelivery3 tfoot td .total { color:#f8941d; }
+.xans-myshop-orderhistorydetail .ordDelivery3 tfoot td { border-top:2px solid #c3c3c3;  }
+.xans-myshop-orderhistorydetail .ordDelivery3 tfoot td .type { color:#c3c3c3; float:left; }
+
+.xans-myshop-orderhistorydetail .ordDelivery4 td { border-color:#333; }
+.xans-myshop-orderhistorydetail .ordDelivery4 tfoot td { border-color:#333; }
+.xans-myshop-orderhistorydetail .ordDelivery4 tfoot td .type { color:#333; }
+
+.xans-myshop-orderhistorydetail .btnArea { text-align:right; overflow:hidden; margin:20px 0 50px; }
+.xans-myshop-orderhistorydetail .btnArea img { float:left; padding:0 1px 0 0; cursor:pointer; }
+.xans-myshop-orderhistorydetail .btnArea p.btnLeft { float:left; }
+.xans-myshop-orderhistorydetail .btnArea p.btnRight { float:right; }
+.xans-myshop-orderhistorydetail .btnArea p.btnRight a {
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 8px 20px;
+    vertical-align: top;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #111;
+    background: #ccc;
+}
+.xans-myshop-orderhistorydetail .btnArea p.btnRight img { float:left; padding:0 0 0 1px; }
+
+.xans-myshop-orderhistorydetail .boardProduct {font-size: 14px;}
+.xans-myshop-orderhistorydetail .boardProduct tfoot td { text-align:right; padding:7px 7px 20px; background:none; color:#000; }
+.xans-myshop-orderhistorydetail .boardProduct tfoot .totalPrice { padding:10px; background:#f8f8f8; }
+
+
+.xans-myshop-orderhistorydetail .boardProduct tfoot td .total { color:#f8941d; }
+
+#toolTipStyle { display:none; width:120px; height:167px; padding:36px 20px 0 18px; z-index:95; background:url(http://img.echosting.cafe24.com/design/skin/mono/product/bg_prdBalloon.gif) 0 0 no-repeat; }
+

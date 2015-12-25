@@ -1,0 +1,41 @@
+/*
+Plugin: jQuery Parallax
+Version 1.1.3
+Author: Ian Lunn
+Twitter: @IanLunn
+Author URL: http://www.ianlunn.co.uk/
+Plugin URL: http://www.ianlunn.co.uk/plugins/jquery-parallax/
+
+License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike). Please attribute work to Ian Lunn simply by leaving these comments in the source code or if you'd prefer, place a link on your website to http://www.ianlunn.co.uk/.
+*/
+
+@charset 'utf-8';
+
+/* CSS Document */
+body {min-width:1000px;margin:0 auto;padding:0;}
+p {margin:0 0 20px 0;}
+p,
+ul {font-family:'Lato', Helvetica, sans-serif;font-weight:200;font-style:normal;font-size-adjust:.488;}
+img {border:0;}
+h1,
+#pixels {font-family:Arial, Helvetica, sans-serif;font-weight:800;font-style:normal;font-size-adjust:.50;}
+h2 {font-family:Arial, Helvetica, sans-serif;font-size:3.6em;font-weight:800;font-style:normal;}
+#header h1,
+#pixels {color:#48941a;}
+.float-left {float:left;margin:0 0 0 20px;}
+.float-right {float:right;margin:0 20px 0 0;}
+.center {font-size:2.5em;padding:80px 0 0 0;text-align:center;}
+#nav {position:fixed;top:100px;right:50px;list-style:none;}
+#nav li {margin:0 0 15px 0;}
+#header,
+#intro,
+#second {width:100%;}
+#intro {height:1100px;margin:0 auto;padding:0;color:black;background:url(/web/season2_skin/skin2/firstBG.jpg) 50% 0 no-repeat fixed;background-size:cover;}
+#second {overflow:hidden;height:1100px;margin:0 auto;padding:0;color:black;background:#000 url(/web/season2_skin/skin2/secondBG.jpg) 50% 0 no-repeat fixed;background-size:cover;}
+#second .bg {position:absolute;z-index:200;width:900px;height:550px;margin:0 auto;padding:0;background:url(/web/season2_skin/skin2/trainers.png) 50% 0 no-repeat fixed;background-size:cover;}
+#third {height:950px;padding:100px 0 0 0;color:black;background:url(/web/season2_skin/skin2/thirdBG.jpg) 50% 0 no-repeat fixed;background-size:cover;}
+#fifth {height:400px;margin:0 auto;padding:40px 0 0 0;background:#333;}
+.story {overflow:auto;margin:0 auto;}
+.story .float-left,
+.story .float-right {position:relative;padding:100px 0 0 0;}
+

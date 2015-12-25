@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<meta http-equiv="Pragma" content="no-cache" />
+<title>SHOPPING CART</title>
+<!--@css(/layout/basic/css/common.css)-->
+<!--@css(/layout/basic/css/rightscroll.css)-->
+</head>
+<body>
+<div id="contents">
+	<h1>SHOPPING CART</h1>
+
+	<p>super-hot labels and fresh design talent. Bringing a fresh, sporty vibe for Spring</p>
+
+	<!--@css(/css/module/order/basketPackage_rightscroll.css)-->
+
+	<!-- 장바구니 비어있을 때 -->
+	<p module="Order_Empty">No items saved.</p>
+
+	<!-- 일반상품 (기본 배송) -->
+	<div module="Order_NormNormal">
+		<div module="Order_list">
+			<dl>
+				<dt><a href="/product/detail.html{$param}" target="_parent"><img src="{$img}" alt="{$name}" /></a></dt>
+				<dd>
+					<p><a href="/product/detail.html{$param}" target="_parent">{$name}</a></p>
+					<p>{$product_price}</p>
+				</dd>
+			</dl>
+			<dl>
+				<dt><a href="/product/detail.html{$param}" target="_parent"><img src="{$img}" alt="{$name}" /></a></dt>
+				<dd>
+					<p><a href="/product/detail.html{$param}" target="_parent">{$name}</a></p>
+					<p>{$product_price}</p>
+				</dd>
+			</dl>
+		</div>
+	</div>
+
+	<!-- 일반상품 (개별 배송) -->
+	<div module="Order_NormIndividual">
+		<div module="Order_list">
+			<dl>
+				<dt><a href="/product/detail.html{$param}" target="_parent"><img src="{$img}" alt="{$name}" /></a></dt>
+				<dd>
+					<p><a href="/product/detail.html{$param}" target="_parent">{$name}</a></p>
+					<p>{$product_price}</p>
+				</dd>
+			</dl>
+			<dl>
+				<dt><a href="/product/detail.html{$param}" target="_parent"><img src="{$img}" alt="{$name}" /></a></dt>
+				<dd>
+					<p><a href="/product/detail.html{$param}" target="_parent">{$name}</a></p>
+					<p>{$product_price}</p>
+				</dd>
+			</dl>
+		</div>
+	</div>
+
+	<!-- 일반상품 (해외 배송) -->
+	<div module="Order_NormOversea">
+		<div module="Order_list">
+			<dl>
+				<dt><a href="/product/detail.html{$param}" target="_parent"><img src="{$img}" alt="{$name}" /></a></dt>
+				<dd>
+					<p><a href="/product/detail.html{$param}" target="_parent">{$name}</a></p>
+					<p>{$product_price}</p>
+				</dd>
+			</dl>
+			<dl>
+				<dt><a href="/product/detail.html{$param}" target="_parent"><img src="{$img}" alt="{$name}" /></a></dt>
+				<dd>
+					<p><a href="/product/detail.html{$param}" target="_parent">{$name}</a></p>
+					<p>{$product_price}</p>
+				</dd>
+			</dl>
+		</div>
+	</div>
+
+	<!-- 무이자 상품 (기본 배송) -->
+	<div module="Order_InstNormal">
+		<div module="Order_list">
+			<dl>
+				<dt><a href="/product/detail.html{$param}" target="_parent"><img src="{$img}" alt="{$name}" /></a></dt>
+				<dd>
+					<p><a href="/product/detail.html{$param}" target="_parent">{$name}</a></p>
+					<p>{$product_price}</p>
+				</dd>
+			</dl>
+			<dl>
+				<dt><a href="/product/detail.html{$param}" target="_parent"><img src="{$img}" alt="{$name}" /></a></dt>
+				<dd>
+					<p><a href="/product/detail.html{$param}" target="_parent">{$name}</a></p>
+					<p>{$product_price}</p>
+				</dd>
+			</dl>
+		</div>
+	</div>
+
+	<!-- 무이자 상품 (개별 배송) -->
+	<div module="Order_InstIndividual">
+		<div module="Order_list">
+			<dl>
+				<dt><a href="/product/detail.html{$param}" target="_parent"><img src="{$img}" alt="{$name}" /></a></dt>
+				<dd>
+					<p><a href="/product/detail.html{$param}" target="_parent">{$name}</a></p>
+					<p>{$product_price}</p>
+				</dd>
+			</dl>
+			<dl>
+				<dt><a href="/product/detail.html{$param}" target="_parent"><img src="{$img}" alt="{$name}" /></a></dt>
+				<dd>
+					<p><a href="/product/detail.html{$param}" target="_parent">{$name}</a></p>
+					<p>{$product_price}</p>
+				</dd>
+			</dl>
+		</div>
+	</div>
+
+	<!-- 무이자 상품 (해외 배송) -->
+	<div module="Order_InstOversea">
+		<div module="Order_list">
+			<dl>
+				<dt><a href="/product/detail.html{$param}" target="_parent"><img src="{$img}" alt="{$name}" /></a></dt>
+				<dd>
+					<p><a href="/product/detail.html{$param}" target="_parent">{$name}</a></p>
+					<p>{$product_price}</p>
+				</dd>
+			</dl>
+			<dl>
+				<dt><a href="/product/detail.html{$param}" target="_parent"><img src="{$img}" alt="{$name}" /></a></dt>
+				<dd>
+					<p><a href="/product/detail.html{$param}" target="_parent">{$name}</a></p>
+					<p>{$product_price}</p>
+				</dd>
+			</dl>
+		</div>
+	</div>
+
+	<!-- 총 주문합계 -->
+	<p module="Order_TotalSummary">TOTAL <strong>{$total_order_price}</strong></p>
+
+	<p class="basket_jump"><a href="/order/basket.html" target="_parent">GO SHOPPING CART PAGE!</a></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.xans-myshop-historypaging { text-align:center; margin:20px 0 50px;}
+.xans-myshop-historypaging p,
+.xans-myshop-historypaging ol,
+.xans-myshop-historypaging li { display:inline; }
+.xans-myshop-historypaging img {vertical-align:middle; }
+.xans-myshop-historypaging ol { margin:0 7px; }
+.xans-myshop-historypaging li { margin:0 9px 0 0; padding:0 0 0 11px; font-size:.9em; background:url(http://img.echosting.cafe24.com/design/skin/mono/bg_page.gif) left center no-repeat; }
+.xans-myshop-historypaging li:first-child { background:none; }
+.xans-myshop-historypaging li strong { color:#f26522; }
+.xans-myshop-historypaging li a { color:#202020; }
+.xans-myshop-historypaging li a:hover { color:#f26522; text-decoration:underline; }
+.xans-myshop-historypaging li a.nolink { cursor:default; }

@@ -1,0 +1,17 @@
+.xans-member-findpasswdquestion { background:#f5f5f5; border:1px solid #d2d2cf; padding:60px 0 70px; }
+.xans-member-findpasswdquestion h3 { padding:0 0 40px; }
+.xans-member-findpasswdquestion .inner { width:200px; margin:0 auto; }
+.xans-member-findpasswdquestion .inner input { font-size:11px; }
+.xans-member-findpasswdquestion .inner p.check { width:210px; }
+.xans-member-findpasswdquestion .inner p.check img { display:block; padding:8px 0 4px; }
+.xans-member-findpasswdquestion .inner p.check span { display:block; color:#8f8f91; }
+.xans-member-findpasswdquestion .inner p.check span.type { padding:30px 0 15px; }
+.xans-member-findpasswdquestion .inner p.check span label { padding:0 15px 0 0; }
+.xans-member-findpasswdquestion .inner .findType { padding:0 0 30px; }
+.xans-member-findpasswdquestion .inner .findType span { display:block; padding:13px 0 0; font-size:.9em; color:#000; }
+.xans-member-findpasswdquestion .inner .findType span.question { margin:2px 0 0; padding:2px 5px; width:168px; background:#b4bdc5; color:#fff; font-size:11px;}
+.xans-member-findpasswdquestion .inner .findType span span { padding:3px 0 0;}
+.xans-member-findpasswdquestion .inner .findType .question input { border:1px solid #34a7b3; background:#34a7b3; color:#fff; }
+.xans-member-findpasswdquestion .inner .lostInput {border:1px solid #bcbcbc; width:166px; height:14px; padding:2px 5px; }
+.xans-member-findpasswdquestion .inner #ssn1 { width:70px; }
+.xans-member-findpasswdquestion .inner #ssn2 { width:70px; }

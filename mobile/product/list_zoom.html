@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko" class="popupFullSize">
+<head>
+    <meta charset="euc-kr" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes" />
+    <title></title>
+    <!--@css(/layout/basic/css/common.css)-->
+    <!--@css(/layout/basic/css/button.css)-->
+    <!--@js(/layout/basic/js/common.js)-->
+</head>
+<body>
+<div class="typeZoom" module="product_listnormal">
+    <!--@css(/css/module/product/listnormal_zoom.css)-->
+    <!--
+        $count = 10
+        $swipe = yes
+        $plugin = pictorial
+    -->
+    <h1>{$category_name}</h1>
+    <div class="zoomList">
+        <div class="inner">
+            <ul>
+                <li data-infomation="{$mobile_infomation}">
+                    <div class="thumbnail"><span><img src="{$image_medium}" alt="" /></span></div>
+                </li>
+                <li data-infomation="{$mobile_infomation}">
+                    <div class="thumbnail"><span><img src="{$image_medium}" alt="" /></span></div>
+                </li>
+            </ul>
+            <div class="information">
+                <p class="name"><a href="#none"><!-- 상품명 --></a></p>
+                <p class="price"><a href="#none"><span class="price_value"></span> <span class="price_ref"></span></a></p>
+                <p class="detail"><a href="#none" class="btnStrong">상세보기</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="pagenate">
+        <button type="button" class="prev" id="{$pictorial_prev_id}">이전</button>
+        <button type="button" class="next" id="{$pictorial_next_id}">다음</button>
+    </div>
+    <button type="button" class="btnClose" onclick="{$pictorial_close_action}">닫기</button>
+</div>
+</body>
+</html>

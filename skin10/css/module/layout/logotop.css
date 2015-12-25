@@ -1,0 +1,18 @@
+.xans-layout-logotop {
+    width: 100%;
+    padding: 0 0 30px 0;
+    clear: both;
+    font-family: 'Suranna',Helvetica,sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+.xans-layout-logotop a {
+    color: #111;
+
+}
+.xans-layout-logotop a:hover {
+    color: #888;
+    text-decoration: none;
+}

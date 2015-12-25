@@ -1,0 +1,46 @@
+<footer module="layout_footerPackage">
+    <!--@css(/css/module/layout/footerPackage.css)-->
+    <p class="footerTerms">
+        <a href="/member/mall_agreement.html">agreement</a>
+        <a href="/member/privacy.html">privacy</a>
+        <a href="/shopinfo/guide.html">guide</a>
+        <a href="#none" onclick="javascript:isPCver();" class="btnUtil">pc ver.</a>
+    </p>
+    <address module="Layout_footer">
+        <br> company : {$mall_name}
+        <br> owner/Cpo : young-long jang
+        <br> e-mail : <a href="mailto:{$email}">{$email}</a>
+        <br> tel : {$phone}
+        <br> address : {$mall_zipcode} ,
+        <br>&nbsp;<span>Seongbuk-gu, Seoul, Korea</span> ,
+        <br> business number : {$company_regno}
+        <br> permit number : {$network_regno}
+        <p class="social">
+            <a href="http://blog.naver.com/teamgray/" target="_blank"><img src="/web/upload/images/i_m_blog.png"></a>
+            <a href="https://instagram.com/grayngrey" target="_blank"><img src="/web/upload/images/i_m_instagram.png"></a>
+            <a href="http://goto.kakao.com/@grayngrey" target="_blank"><img src="/web/upload/images/i_m_kakao.png"></a>
+        </p>
+        Copyright&copy; grayngrey. All Rights Reserved.
+    </address>
+</footer>
+<div id="progressPaybar" style="display:none;">
+    <!-- 배경 -->
+    <div id="progressPaybarBackground" class="layerProgress"></div>
+    <!-- 진행바 -->
+    <div id="progressPaybarView">
+        <p class="graph">현재 결제가 진행중입니다.</p>
+        <p class="txt">
+            본 결제 창은 결제완료 후 자동으로 닫히며, <br>
+            결제 진행 중에 본 결제 창을 닫으시면<br>
+            주문이 되지 않으니 <br>
+            결제 완료 될 때 까지 닫지 마시기 바랍니다.
+        </p>
+    </div>
+</div>
+<div class="btnTop" id="btnTop" style="display: block;">
+    <a href="#"><img src="/web/upload/images/i_arrival_top.png"></a>
+</div>
+<div module="mobilequick_display">
+    {$quick_link}
+    {$quick_button}
+</div>

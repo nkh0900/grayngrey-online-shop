@@ -1,0 +1,46 @@
+.xans-project-package .menuCategory { margin:-1px 0 0; padding:0 14px; border-bottom:1px solid #d5d5d5; background:#fff; }
+.xans-project-package .menuCategory .icoOpen { width:13px; cursor:pointer; vertical-align:top; }
+.xans-project-package .menuCategory > li { padding:11px 0 10px; border-top:1px solid #ececec; }
+.xans-project-package .menuCategory > li:first-child { border-top:0; }
+.xans-project-package .menuCategory > li > a { display:inline-block; margin:0 14px 0 0; color:#2e2e2e; font-weight:bold; font-size:13px; vertical-align:top; }
+.xans-project-package .menuCategory li.selected > a { color:#508bed; }
+.xans-project-package .menuCategory li.xans-product-projectcategory { display:inline-block; border:0; }
+.xans-project-package .banner { padding:10px 14px; }
+
+/* 타입 : 섬네일 */
+.xans-project-list { background:#fff; }
+.xans-project-list h3 { margin:0; padding:14px 14px 0; font-size:14px; line-height:15px; color:#4a5164; }
+.xans-project-productlist > ul { display:table; table-layout:fixed; width:100%; padding:14px 7px 0; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; font-size:0; line-height:0; letter-spacing:-4px; }
+.xans-project-productlist img { max-width:100%; }
+.xans-project-productlist li { display:inline-block; margin:0 0 14px; padding:0; vertical-align:top; font-size:12px; line-height:1.2em; letter-spacing:normal; }
+.xans-project-productlist .thumbnail { margin:0 0 14px; padding:0 7px; }
+.xans-project-productlist .thumbnail img { width:100%; border:1px solid #ededed; }
+.xans-project-productlist .information { padding:0 7px; }
+.xans-project-productlist .name { line-height:1.5em; word-wrap:break-word; margin:0 0 10px; }
+.xans-project-productlist .name a { font-size:13px; }
+.xans-project-productlist .icon { margin:0 0 10px; }
+.xans-project-productlist .price { color:#494949; font-size:13px; margin:0 0 10px; }
+.xans-project-productlist .price.sale { color:#000; font-size:15px; }
+.xans-project-productlist .strike { text-decoration:line-through; }
+.xans-project-productlist .color { overflow:hidden; margin:0 0 10px; }
+.xans-project-productlist .color .chips { float:left; width:12px; height:10px; margin:0 2px 2px 0; font-size:0; line-height:0; }
+.xans-project-productlist .summary { color:#757575; font-size:11px; margin:0 0 10px; }
+
+.xans-project-productlist .grid1 li { width:100%; }
+.xans-project-productlist .grid1 li .name a { font-size:15px; }
+.xans-project-productlist .grid2 li { width:50%; }
+.xans-project-productlist .grid2 li .name a { font-size:13px; }
+.xans-project-productlist .grid3 li { width:33.333%; }
+.xans-project-productlist .grid3 li .name a { font-size:13px; }
+.xans-project-productlist .grid4 li { width:25%; }
+.xans-project-productlist .grid4 li .name a { font-size:11px; }
+
+.xans-project-productlist .layerDiscountPeriod { display:none; position:absolute; z-index:100; left:0; width:100%; padding:11px 7px; box-sizing:border-box; }
+.xans-project-productlist .layerDiscountPeriod .inner { border:1px solid #353535; background:#f1f1f1; border-radius:4px; }
+.xans-project-productlist .layerDiscountPeriod .inner h3 { padding:10px 14px; font-size:14px; background-color:#353535; color:#fff; }
+.xans-project-productlist .layerDiscountPeriod .inner .timeleft { padding:14px; color:#508bed; font-size:13px; font-weight:bold; text-align:center; }
+.xans-project-productlist .layerDiscountPeriod ul { margin:0 7px 14px; padding:0; border:1px solid #d5d5d5; background:#fff; }
+.xans-project-productlist .layerDiscountPeriod ul li { position:relative; display:block; width:100%; margin:0; padding:14px 13px 14px 100px; color:#353535; border-top:1px solid #ececec; box-sizing:border-box; }
+.xans-project-productlist .layerDiscountPeriod ul li:first-child { border-top:0; }
+.xans-project-productlist .layerDiscountPeriod ul li span { position:absolute; top:14px; left:13px; color:#757575; }
+.xans-project-productlist .layerDiscountPeriod .btnClose { position:absolute; top:8px; right:4px; display:block; width:40px; height:40px; text-indent:-9999px; font-size:0; background:url("http://img.echosting.cafe24.com/skin/mobile_ko_KR/layout/ico_close_white.png") center center no-repeat; background-size:50% 50%; }

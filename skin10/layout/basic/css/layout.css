@@ -1,0 +1,200 @@
+@charset "utf-8";
+
+/* layout */
+#header { overflow:hidden; width:960px; margin:0 auto; color:#202020; font-size:.9em;}
+#header img { vertical-align:top; }
+
+#container { width:960px; margin:0 auto; zoom:1;}
+#container:after {content:""; display:block; clear:both; }
+
+#container #snbL { float:left; width:180px; margin:0 24px 0 0; }
+#container #contents {float:left; width:756px; }
+#main #container #contents { width:564px; margin:-30px 0 0;}
+#container #snbR {float:right; width:180px; }
+
+#footer { position:relative; clear:both; width:960px; margin:50px auto 50px; overflow:hidden; zoom:1; }
+
+#quickL { position:absolute; top:100px; left:0; width:100px; min-height:200px; }
+#quickR { position:absolute; top:100px; right:0; width:100px; min-height:200px; }
+/*#contents {clear:both;overflow:hidden;width:1240px;min-width:965px;max-width:1240px;min-height:600px;margin:0 45px 15px 218px;}*/
+
+/* HEADER */
+#header .inner {float:left; width:714px; padding:10px 0 0;}
+
+#header .bookmark,
+#header .desktop { float:right; }
+#header .bookmark { padding:0 0 0 20px; }
+#header .desktop { padding:0 0 0 5px; }
+
+/* MAIN */
+#kvMain { clear:both; margin:0 0 15px; }
+
+#main #container #snbL { margin-top:0; }
+#main #container #snbR { margin-top:-25px; }
+
+#main #prdArea2 { margin:30px 0; }
+#main #prdArea3 { padding:0 0 30px;  border-bottom:40px solid #e4b1b0; }
+#main .btnMore a { display:block; padding:20px 0 4px 529px; }
+
+#boardArea { overflow:hidden; margin:30px 0;}
+.mainBoard p { margin:10px 0 0;}
+.mainBoard thead {visibility:hidden; position:absolute; left:-1000px; top:-1000px; height:0; width:0; }
+.mainBoard td { border:none; font-size:.9em; line-height:1.8em; }
+.mainBoard td.title a,
+.mainBoard td.title a:hover { text-decoration:underline; color:#8f8f91; }
+
+
+#board2nd { float:right; width:270px; }
+#board2nd h2 { height:20px; margin:0 0 20px; border-bottom:1px solid #dedcdc; }
+#board3rd td { display:none; }
+#board3rd td.title { display:block; width:auto; }
+
+/* COMMON */
+
+#banners { margin:25px 0 0; overflow:hidden; zoom:1; }
+#banners p img { display:block; border-bottom:1px solid #e7e6d8; }
+
+.utilBanner { margin:25px 0 0; }
+
+/* 마이 쇼핑 메인 */
+.titleArea {margin:68px 0 30px 0;}
+.titleArea h3 {font-family:'Arial',Helvetica,sans-serif;font-size:11px;font-weight:normal;text-align:center;letter-spacing:2px;text-transform:uppercase;color:#111;}
+
+#myshopMain .shopMain {float:left;width:40%;height:60px;padding:30px 5%;border-bottom:1px solid #ddd;}
+#myshopMain .shopMain.last {margin:0 0 50px 0;}
+#myshopMain .shopMain h3 {font-family:'Arial',san-serif;font-size:12px;font-weight:normal;padding:0 0 10px;letter-spacing:0;color:#333;}
+#myshopMain .shopMain h3 strong {font-family:'Lato',serif;font-size:11px;font-weight:normal;padding:0 5px 0 0;letter-spacing:2px;text-transform:uppercase;}
+#myshopMain .shopMain p a {font-family:'Arial',san-serif;font-size:12px;line-height:18px;letter-spacing:0;color:#888;}
+#shopMain {border-top:1px solid #ddd;}
+#myshopMain .shopMain h3 a:hover {color:#888;}
+#myshopMain .shopMain a:hover {color:#111;text-decoration: none;}
+
+/*
+#shopMain { margin:30px 0 0; border-top:3px solid #333; border-bottom:3px solid #333; }
+.shopMain { border-bottom:1px solid #e9e9e9; }
+#contents .shopMain h3 { padding:0 0 5px; font-size:.9em; color:#333; font-weight:normal; }
+#contents .shopMain h3 strong {font-size:18px; padding:0 5px 0 0; font-family:'Lucida Sans', serif; }
+#contents .shopMain h3 a:hover { text-decoration:none; }
+#contents .shopMain p a,
+#contents .shopMain p a:hover { font-size:.9em; line-height:18px; color:#8f8f8f;}
+*/
+/*
+.shopMain .order { height:83px; padding:27px 0 0 30px; background:url(http://img.echosting.cafe24.com/design/skin/mono/myshop/bg_myShop01.gif) right 0 no-repeat;}
+.shopMain .profile { height:83px; padding:27px 0 0 30px; background:url(http://img.echosting.cafe24.com/design/skin/mono/myshop/bg_myShop02.gif) right 0 no-repeat; }
+.shopMain .wishlist { height:83px; padding:27px 0 0 30px; background:url(http://img.echosting.cafe24.com/design/skin/mono/myshop/bg_myShop03.gif) right 0 no-repeat; }
+.shopMain .mileage { height:83px; padding:27px 0 0 30px; background:url(http://img.echosting.cafe24.com/design/skin/mono/myshop/bg_myShop04.gif) right 0 no-repeat; }
+.shopMain .consult { height:83px; padding:27px 0 0 30px; background:url(http://img.echosting.cafe24.com/design/skin/mono/myshop/bg_myShop05.gif) right 0 no-repeat; }
+.shopMain .coupon { height:83px; padding:27px 0 0 30px; background:url(http://img.echosting.cafe24.com/design/skin/mono/myshop/bg_myShop06.gif) right 0 no-repeat; }
+.shopMain .board { height:83px; padding:27px 0 0 30px; background:url(http://img.echosting.cafe24.com/design/skin/mono/myshop/bg_myShop07.gif) right 0 no-repeat; }
+.shopMain .address { height:83px; padding:27px 0 0 30px; background:url(http://img.echosting.cafe24.com/design/skin/mono/myshop/bg_myShop08.gif) right 0 no-repeat; }
+*/
+
+
+/* 컨텐츠 하단 리스트 형식 안내 */
+#message { font-size:11px; color:#8B8B8C; clear:both; }
+#message h3 { padding:0 0 18px 0; margin:0; }
+#message li { padding:0 0 0 10px; line-height:18px; background:url(http://img.echosting.cafe24.com/design/skin/mono/ico_info.gif) 0 2px no-repeat; }
+#message li > strong { display:block; padding:0 0 5px; }
+#message li ul { padding:0 0 20px; }
+#message li li { padding:0; background:none;}
+#message p.info { padding:0 0 15px 10px; line-height:18px; background:url(http://img.echosting.cafe24.com/design/skin/mono/ico_info.gif) 0 2px no-repeat; color:#34a7b3; }
+#message a,
+#message a:hover {color:#8B8B8C; }
+#message em { color:#34a7b3; text-decoration:underline; font-style:normal; }
+
+/* 주문내역 조회 안내 문구 */
+#inquiry { overflow:hidden; margin:0 0 50px; }
+#inquiry p {
+    float: left;
+    font-size: 11px;
+    color: #8B8B8C;
+    line-height: 22px;
+}
+#inquiry p.icon { float:right; overflow:hidden; }
+#inquiry p.icon img { float:left; padding:20px 10px 0; }
+
+/* 주문 관련 안내 문구 */
+.basketInfo { font-size: 11px; color:#8B8B8C; margin:30px 0;}
+.basketInfo:first-child { margin-bottom:100px; }
+.basketInfo h3 { padding:0 0 18px 0; line-height:18px; color:#34a7b3; font-weight:normal; }
+.basketInfo li { padding:0 0 0 10px; line-height:18px; background:url(http://img.echosting.cafe24.com/design/skin/mono/ico_info.gif) 0 2px no-repeat; }
+.basketInfo li > strong { display:block; padding:0 0 5px; }
+.basketInfo li ul { padding:0 0 20px; }
+.basketInfo li li { padding:0; background:none;}
+.basketInfo a,
+.basketInfo a:hover {color:#8B8B8C; }
+.basketInfo.mileageType { margin:50px 0 0;}
+.basketInfo.couponType em { color:#34a7b3; text-decoration:underline; }
+
+/* 배송 주소록 관리 */
+#addManage { font-size: 11px; color:#8B8B8C; }
+#addManage h3 { padding:0 0 18px 0; margin:0; }
+#addManage li { padding:0 0 0 10px; line-height:18px; background:url(http://img.echosting.cafe24.com/design/skin/mono/ico_info.gif) 0 2px no-repeat; }
+#addManage li > strong { display:block; padding:0 0 5px; }
+
+/*  마이 쿠폰 안내 문구 */
+.couponInfo { margin:0 0 30px; }
+.couponInfo li { padding:0 0 0 10px; color:#8f8f8f; font-size:11px;  line-height:18px; background:url(http://img.echosting.cafe24.com/design/skin/mono/ico_info.gif) 0 2px no-repeat; }
+.couponInfo strong { color:#f26522; }
+
+/* edit Layout */
+body {min-width:965px;}
+#wrap {overflow:hidden;margin-top:45px;margin-right:240px;margin-bottom:40px;margin-left:240px;}
+#wrap .contents {width:100%;margin:0 auto;}
+#wrap .footer {position:relative;clear:both;overflow:hidden;width:100%;padding:40px 0;}
+#main_layout > #wrap {position:relative;overflow:hidden;width:100%;max-width:100%;margin:0;}
+#footer {width:auto;margin:0 auto;}
+
+
+/* max-width 변경 */
+#wrap .contents .board_layout {max-width:900px;margin:0 auto;}
+#boardWriteForm {max-width:900px;margin:0 auto;}
+#BoardDelForm {max-width:900px;margin:0 auto;}
+#boardSearchForm {max-width:900px;margin:0 auto;}
+.xans-board-commentpackage.xans-board-4 {max-width:900px;margin:0 auto;}
+.xans-board-listpackage .boardList {max-width:900px;margin:0 auto;}
+.xans-board-listpackage .xans-board-buttonlist {max-width:900px;margin:0 auto;margin-top:20px;margin-bottom:20px;}
+.xans-board-movement {max-width:900px;margin:0 auto;margin-top:30px;margin-bottom:30px;}
+.xans-order-basketpackage {max-width:900px;margin:0 auto;}
+.xans-order-result {max-width:900px;margin:0 auto;}
+.xans-order-form {max-width:900px;margin:0 auto;}
+
+.xans-product-menupackage {max-width:1400px;margin:0 auto;}
+.xans-search-form {max-width:960px;margin:0 auto;}
+.xans-search-result {max-width:960px;margin:0 auto;}
+.xans-search-paging {max-width:960px;margin:0 auto;}
+
+/* 게시판 전체 공통 */
+.path,
+.pathBoard {overflow:hidden;}
+
+.path h2,
+.path h3,
+.pathBoard h3 {position:absolute;overflow:hidden;width:0;height:0;white-space:nowrap;text-indent:100%;}
+
+.path ol,
+.pathBoard ol {float:right;}
+.path li,
+.pathBoard li {font-family:'Lato', 'Arial', Helvetica, sans-serif;font-size:9px !important;font-weight:normal;float:left;margin:0 0 0 10px;padding:0 0 0 14px;letter-spacing:1px;text-transform:uppercase;color:#111;background:url('http://teamgray.cafe24.com/web/upload/images/i_nav_path.png') no-repeat 0 4px;}
+.path li.displaynone,
+.pathBoard li.displaynone {display:none;}
+.path li:first-child,
+.pathBoard li:first-child {background:none;}
+
+.title,
+.titleArea,
+.titleAreaBoard {margin:68px 0 40px 0;color:#111 !important;}
+.titleArea:after {content:""; display:block; clear:both; }
+
+.title h2,
+.titleArea h2,
+.titleArea h3,
+.titleAreaBoard h2 {font-size:11px;font-weight:normal;text-align:center;letter-spacing:1px;text-transform:uppercase;color:#111 !important;}
+/*.titleArea h2 span { height:21px; padding:0 5px 0 0; color:#272823; font-size:16px; float:left; border-bottom:1px solid #272823; }*/
+
+.title p,
+.titleArea p,
+.titleAreaBoard p {font-size:12px;padding-top:50px;padding-bottom:20px;text-align:center;color:#8d91a2;}
+
+.xans-board-listpackage .boardSort {width:100%;height:30px;margin:0 0 10px 0;}
+.xans-board-category {margin:0 0 10px;}

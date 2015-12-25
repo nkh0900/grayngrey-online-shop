@@ -1,0 +1,29 @@
+.xans-product-2 {margin:30px auto; width:940px;}
+.xans-product-2 h2{padding:0 0 17px;}
+.xans-product-2 ul {clear:both; zoom:1; margin:0;}
+.xans-product-2 ul:after {content:""; display:block; clear:both;}
+.xans-product-2 ul li {float:left; width:150px; padding:0 4px 4px 0px; line-height:1.6em;}
+.xans-product-2 ul li.bar {float:left; margin:0; padding:0; background:url('/data/201011/IJ12887635039904/bar.png'); width:10px; height:11px;}
+.xans-product-2 ul li.number {float:left; margin:0; padding:0; height:28px;}
+.xans-product-2 ul li.empty {float:left; margin:0; padding:0; height:28px;}
+
+.xans-product-2 ul .prdImg {display:block;}
+.xans-product-2 ul .prdImg img {display:block; width:150px; height:150px;}
+.xans-product-2 ul .zoom {float:right; padding:7px 0 0; cursor:pointer;}
+.xans-product-2 ul .name {float:left; width:150px; padding:4px 0; line-height:16px;}
+.xans-product-2 ul .icon {display:block; clear:both;}
+.xans-product-2 ul .price {display:block; clear:both;}
+.xans-product-2 ul .mileage {display:block; clear:both;}
+.xans-product-2 ul .mileage img {vertical-align:middle;}
+.xans-product-2 ul .btns {overflow:hidden; zoom:1;}
+.xans-product-2 ul .btns img {cursor:pointer; margin:0 4px 0 0;}
+.xans-product-2 ul .btns .bag {float:left; padding:7px 10px 0 0;}
+.xans-product-2 ul .btns .option {float:left; padding:7px 0 0;}
+.xans-product-2 ul .custom {text-decoration:line-through;}
+.xans-product-2 ul .manu {display:block;}
+.xans-product-2 ul .btn {display:block; text-align:center;}
+
+.xans-product-2 ul .price_box {background:#000; color:#fff; display:none; top:0; width:145px; height:145px; position:absolute; margin:0px auto 0px auto; padding:3px}
+.xans-product-2 ul .price_box a {color:#fff; width:145px; height:145px;}
+.xans-product-2 ul .price_box a:link {color:#fff; width:145px; height:145px;}
+.xans-product-2 ul .price_box a:hover {color:#fff; width:145px; height:145px;}

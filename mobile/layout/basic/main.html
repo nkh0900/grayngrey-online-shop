@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="euc-kr">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes">
+    <title>grayngrey - Handcrafted Silver Jewellery</title>
+    <link rel="shortcut icon" href="http://teamgray.cafe24.com/web/upload/images/favicon.ico">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Suranna" rel="stylesheet" type="text/css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--@css(/layout/basic/css/common.css)-->
+    <!--@css(/layout/basic/css/layout.css)-->
+    <!--@css(/layout/basic/css/button.css)-->
+    <!--@css(/layout/basic/css/paginate.css)-->
+
+    <!-- 스마트디자인에서는 JQuery 1.4.4 버전이 내장되어있습니다. 추가로 호출하면 충돌이 생길 수 있습니다. -->
+    <!--@js(/layout/basic/js/common.js)-->
+</head>
+<body id="main">
+    <div module="Popup_Mobile">{$mobile}</div>
+    <div id="wrap">
+        <!--@import(/layout/basic/sidebar.html)-->
+        <hr class="layout">
+        <div id="container">
+            <header id="header">
+                <div class="header">
+                    <section id="topArea">
+                        <div class="searchWrap">
+                            <p class="category"><a href="#none" class="fold"><img src="/web/upload/images/i_category.png"></a></p>
+                            <p class="info" module="Layout_statelogon"><a href="{$action_logout}">logout</a></p>
+                            <p class="info" module="Layout_stateLogoff" class="member"><a href="/member/login.html" class="btnLogin">login</a></p>
+                            <p class="cart" module="Layout_orderBasketcount">
+                                <a href="/order/basket.html" class="btnBasket"><img src="/web/upload/images/i_cart.png"> &nbsp;<span class="count "><span class="count {$basket_count_display|display}">{$basket_count}</span></a>
+                            </p>
+                            <p class="search">
+                                <a href="/product/search.html"><img src="/web/upload/images/i_search_menu.png"></a>
+                            </p>
+                        </div>
+                        <h1 module="Layout_LogoTop"><a href="/">{$mobile_title}</a></h1>
+                    </section>
+                </div>
+            </header>
+            <hr class="layout">
+            <div id="contents">
+                <!--@contents-->
+            </div>
+            <hr class="layout">
+            <!--@import(/layout/basic/footer.html)-->
+        </div>
+    </div>
+</body>
+</html>

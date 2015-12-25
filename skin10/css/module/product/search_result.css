@@ -1,0 +1,47 @@
+/*
+.xans-search-result { margin:0 0 30px; }
+.xans-search-result .titleArea { margin:30px 0; }
+.xans-search-result ul { clear:both; zoom:1; margin:0 0 30px -2.8%; min-width:756px; }
+.xans-search-result ul:after {content:""; display:block; clear:both; }
+.xans-search-result ul li { float:left; width:22%; padding:0 0 30px 2.8%; line-height:1.6em; }
+
+.xans-search-result ul .prdImg { display:block; }
+.xans-search-result ul .prdImg img { display:block; width:100%; }
+.xans-search-result ul .zoom { float:right; padding:7px 0 0; cursor:pointer; }
+.xans-search-result ul .name { float:left; width:160px; padding:4px 0; line-height:16px; }
+.xans-search-result ul .icon { display:block; clear:both; }
+.xans-search-result ul .price {  display:block; clear:both; }
+.xans-search-result ul .mileage { display:block; clear:both; }
+.xans-search-result ul .mileage img { vertical-align:middle; }
+.xans-search-result ul .btns { overflow:hidden; zoom:1; }
+.xans-search-result ul .btns img { cursor:pointer; margin:0 4px 0 0; }
+.xans-search-result ul .btns .bag { float:left; padding:7px 10px 0 0; }
+.xans-search-result ul .btns .option { float:left; padding:7px 0 0; }
+.xans-search-result ul .custom {text-decoration:line-through; }
+.xans-search-result ul .manu { display:block; }
+.xans-search-result ul .btn { display:block; text-align:center; }
+
+
+.xans-search-result ul.prdColor { padding:5px 0 3px; margin:0; border:0; }
+.xans-search-result ul.prdColor li { width:8px; height:8px; padding:0; margin:0 2px 2px 0; border:1px solid #969696; }
+.xans-search-result ul.prdColor li span { display:block; height:100%; }
+*/
+
+.xans-search-result ul.prdList {font-size:0;line-height:0;}
+.xans-search-result ul.prdList li.item {display:inline-block;width:24%;text-align:center;vertical-align:top;color:#fff;}
+.xans-search-result ul.column4 {margin:0 0 0 -1%;}
+.xans-search-result ul.column4 li.item {width:24%;padding:0 0 1% 1%;}
+.xans-search-result ul.column4 li.item .box {position:relative;width:100%;}
+.xans-search-result ul.column4 li.item .box a {transition:none;}
+.xans-search-result ul.prdList li.item div.box {font-size:11px;line-height:1.8em;margin:0 auto;}
+.xans-search-result ul.column4 li.item .thumb {width:100%;}
+.xans-search-result ul.prdList li.item div.box {font-size:11px;line-height:1.8em;margin:0 auto;}
+.xans-search-result ul.column4 li.item .box .over_bg {visibility:hidden;}
+.xans-search-result ul.column4 li.item .box .over_bg {position:absolute;top:0;left:0;width:100%;}
+.xans-search-result ul.column4 li.item .box:hover .over_bg {visibility:visible;}
+.xans-search-result ul.column4 li.item .box .over_info {position:absolute;top:50%;left:0;display:block;width:80%;padding:0 10%;-webkit-transform:translate(0, -50%);-moz-transform:translate(0, -50%);-ms-transform:translate(0, -50%);-o-transform:translate(0, -50%);transform:translate(0, -50%);text-align:center;color:#fff !important;}
+.xans-search-result p.name {line-height:20px;padding:0 0 10px 0;}
+.xans-search-result p.name a {transition:none;}
+.xans-search-result .xans-search-listitem li {line-height:17px;margin:0 auto;text-align:center;}
+.xans-search-result .xans-search-listitem li.first {padding:0 0 5px 0;}
+.xans-search-result ul.column4 li.item .box .over_info li {padding-bottom:10px;}

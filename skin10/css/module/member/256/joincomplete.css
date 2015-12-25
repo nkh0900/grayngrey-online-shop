@@ -1,0 +1,17 @@
+.xans-member-joincomplete {width:100%;margin:0 auto;padding:0 0 50px 0;color:#333;}
+.xans-member-joincomplete .joinComplete {width:400px;margin:0 auto;}
+.xans-member-joincomplete .joinComplete .desc {font-size:16px;font-weight:bold;margin:20px 0;text-align:center;color:#333;}
+.xans-member-joincomplete .joinComplete .memberInfo {font-size:12px;overflow:hidden;border:1px solid #d6d4d4;}
+.xans-member-joincomplete .joinComplete .memberInfo ul {padding:30px;}
+.xans-member-joincomplete .joinComplete .memberInfo li {margin:0 0 4px;}
+.xans-member-joincomplete .joinComplete .memberInfo li strong,
+.xans-member-joincomplete .joinComplete .memberInfo li span {font-weight:bold;display:inline-block;width:248px;*display:inline;*zoom:1;}
+.xans-member-joincomplete .joinComplete .memberInfo li strong {font-weight:normal;width:60px;padding:0 0 0 10px;color:#2e2e2e;}
+.xans-member-joincomplete .joinComplete .memberEmail {font-weight:bold;color:#333;}
+.xans-member-joincomplete .joinComplete .memberEmail,
+.xans-member-joincomplete .joinComplete .memberAge {line-height:160%;margin:20px 0 0;}
+.xans-member-joincomplete .joinComplete .memberAge strong {color:#f26323;}
+
+.xans-member-joincomplete .joinComplete .button {float:right;padding:30px 0 20px 0;text-align:center;text-transform:uppercase;}
+.xans-member-joincomplete .joinComplete .button a {font-size:9px;float:left;margin:0 0 0 4px;padding:7px 20px;letter-spacing:1px;color:#fff;border:1px solid #111;background:#111;}
+.xans-member-joincomplete .joinComplete .button a:hover {text-decoration:none;color:#111;border:1px solid #ddd;background:#ddd;}

@@ -1,0 +1,17 @@
+.xans-board-movement { border-top:3px solid #333; border-bottom:3px solid #333; margin:30px 0; }
+.xans-board-movement li { overflow:hidden; padding:7px 10px; border-bottom:1px dotted #bdc0cb; }
+.xans-board-movement li strong { width:100px; float:left;  color:#8f8f8f; font-weight:normal; background:url(http://img.echosting.cafe24.com/design/skin/mono/board/bg_movePrev.gif) 41px center no-repeat; }
+.xans-board-movement li a { float:left; }
+.xans-board-movement li a,
+.xans-board-movement li a:hover { color:#8f8f8f; }
+.xans-board-movement li.next { border:none; }
+.xans-board-movement li.next strong { color:#202020; background:url(http://img.echosting.cafe24.com/design/skin/mono/board/bg_moveNext.gif) 41px center no-repeat;}
+
+
+.xans-board-movement {margin:30px 0;border-top:1px solid #ddd;border-bottom:1px solid #ddd;font-size: 11px;}
+.xans-board-movement li {line-height:140%;overflow:hidden;padding:11px 12px;}
+.xans-board-movement li.next {border:0;}
+.xans-board-movement li strong {font-weight:normal;float:left;width:10%;color:#8f8f8f;background:url('http://img.echosting.cafe24.com/design/skin/default/board/ico_move_prev.gif') no-repeat 41px 5px;}
+.xans-board-movement li a {float:left;width:89%;color:#8f8f8f;}
+.xans-board-movement li.next strong {color:#202020;background:url('http://img.echosting.cafe24.com/design/skin/default/board/ico_move_next.gif') no-repeat 41px 6px;}
+.xans-board-movement li.next a {color:#202020;}

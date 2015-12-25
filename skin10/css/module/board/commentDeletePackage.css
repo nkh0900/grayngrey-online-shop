@@ -1,0 +1,9 @@
+.xans-board-commentdel { background:#f5f5f5; border:1px solid #d2d2cf; padding:60px 0; }
+.xans-board-commentdel h3 { margin:0; }
+.xans-board-commentdel .login { width:200px; margin:0 auto; }
+.xans-board-commentdel .login p { margin:20px 0; font-size:.9em; color:#8f8f91; }
+.xans-board-commentdel .login p.check { }
+.xans-board-commentdel .login p.check img { display:block; padding:8px 0 4px; }
+.xans-board-commentdel .login p.check input {border:1px solid #000; width:166px; height:14px; padding:2px 5px; }
+.xans-board-commentdel .btn { overflow:hidden; width:230px; padding:25px 0 0; }
+.xans-board-commentdel .btn a { float:left; }

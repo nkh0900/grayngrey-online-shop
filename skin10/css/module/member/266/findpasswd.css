@@ -1,0 +1,24 @@
+.xans-member-findpasswd { border:1px solid #d7d5d5; padding:30px 0; color:#2e2e2e; }
+.xans-member-findpasswd .findPw { width:330px; margin:0 auto; }
+.xans-member-findpasswd .findPw h3 { margin:0 0 30px 0; text-align:center;}
+.xans-member-findpasswd .findPw p { margin:7px 0 0; }
+.xans-member-findpasswd .findPw strong { display:inline-block; margin:0 0 5px; padding:0 0 0 10px; width:110px; font-weight:normal; background:url("http://img.echosting.cafe24.com/skin/base_ko_KR/member/ico_login2.gif") no-repeat 0 4px;}
+.xans-member-findpasswd .findPw .check { margin-bottom:30px; margin-left:125px; color:#353535; }
+.xans-member-findpasswd .findPw .check label { margin:0 5px 0 0; }
+.xans-member-findpasswd .findPw .member select { width:177px; }
+.xans-member-findpasswd .findPw .ssn_no span { display:block; margin:5px 0 0 127px; color:#757575; }
+.xans-member-findpasswd .findPw .ipin,
+.xans-member-findpasswd .findPw .mobileauth { position:relative; margin:10px 0 0 0; }
+.xans-member-findpasswd .findPw .ipin strong,
+.xans-member-findpasswd .findPw .mobileauth strong { width:120px; }
+.xans-member-findpasswd .findPw .ipin span,
+.xans-member-findpasswd .findPw .mobileauth span { display:block; margin:0 0 5px; padding:0 0 0 10px; color:#757575; }
+.xans-member-findpasswd .findPw .ipin a,
+.xans-member-findpasswd .findPw .mobileauth a { position:absolute; bottom:0; right:0; }
+.xans-member-findpasswd .findPw .button { margin:20px 0 0; text-align:center; }
+.xans-member-findpasswd .findPw input { width:170px; height:18px; padding:2px 2px 2px 3px; border:1px solid #d9d9d9; color:#202020; }
+.xans-member-findpasswd .findPw input[type=radio],
+.xans-member-findpasswd .findPw input[type=checkbox] { width:13px; height:13px; margin:0 3px 0 0; padding:0; border:0; vertical-align:-2px; *vertical-align:2px; }
+.xans-member-findpasswd .findPw #mobile1 { width:36px; }
+.xans-member-findpasswd .findPw #mobile2,
+.xans-member-findpasswd .findPw #mobile3 { width:47px; }

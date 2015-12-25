@@ -1,0 +1,53 @@
+#searchForm #titleArea { background-color:transparent; border-bottom:0; }
+#searchForm #titleArea span.count { position:static; color:#508bed; }
+#searchForm #titleArea h2 { background:#fff; }
+
+.xans-search-form .empty {
+    padding: 30px 0 50px 0;
+    color: #111;
+    text-align: center;
+    letter-spacing: 0;
+    font-size: 11px;
+}
+.xans-search-form .searchbox {
+    position: relative;
+    padding: 10px;
+    background: #fff;
+}
+.xans-search-form .searchbox input#keyword {
+    width: 77%;
+}
+.xans-search-form .searchbox .button {
+    width: 20%;
+    position: absolute;
+    top: 10px;
+    right: 3%;
+    text-align: right;
+}
+.xans-search-form .searchbox .button .btnStrong {
+    width: 100%;
+}
+
+.xans-search-form .searchbox .btnDelete {
+    overflow: hidden;
+    position: absolute;
+    right: 26%;
+    top: 17px;
+    width: 15px;
+    height: 15px;
+    border: 0;
+    cursor: pointer;
+    text-indent: 100%;
+    font-size: 0;
+    white-space: nowrap;
+    background: url("http://img.echosting.cafe24.com/skin/mobile_ko_KR/layout/btn_delete.png") no-repeat 0 0;
+    background-size: 15px 15px;
+}
+.xans-search-form .inner {
+    overflow: hidden;
+    margin: 10px 20px;
+    background: #fff;
+}
+.xans-search-form .inner p { float:left; }
+.xans-search-form .inner p.button { float:right; padding:2px 0 0; }
+.xans-search-form .inner .button img { display:block; border:1px solid red; }

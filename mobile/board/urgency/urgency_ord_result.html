@@ -1,0 +1,41 @@
+<div module="Mall_UrgencycallOrdResult">
+    <div class="content">
+        <p class="ordPagenum">{$form.ordPagenum}</p>
+        <div class="boardList">
+            <ul class="{$displayPrdlist|display}">
+                <li>
+                    <div class="thumb"><img src="{$image_tiny}" alt="" /></div>
+                    <div class="info">
+                        <p class="name">{$product_name}</p>
+                    </div>
+                    <p>주문번호 : {$order_id}</p>
+                    <div class="btnArea">
+                        <a href="#none" class="btnStrong" onClick="{$selectfn}">선택</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="thumb"><img src="{$image_tiny}" alt="" /></div>
+                    <div class="info">
+                        <p class="name">{$product_name}</p>
+                    </div>
+                    <p>주문번호 : {$order_id}</p>
+                    <div class="btnArea">
+                        <a href="#none" class="btnStrong" onClick="{$selectfn}">선택</a>
+                    </div>
+                </li>
+            </ul>
+
+            <p class="empty {$displayEmpty|display}">검색 결과가 없습니다.</p>
+        </div>
+        <div module="Mall_UrgencycallOrdPage" class="paginate typeList">
+            <p class="prev"><a href="#none" onClick="{$prev}">이전 페이지</a></p>
+            <ol>
+                <li><a href="#none" onClick="{$select_pageno}" class="{$curPageClass}">{$num}</a></li>
+                <li><a href="#none" onClick="{$select_pageno}" class="{$curPageClass}">{$num}</a></li>
+                <li><a href="#none" onClick="{$select_pageno}" class="{$curPageClass}">{$num}</a></li>
+                <li><a href="#none" onClick="{$select_pageno}" class="{$curPageClass}">{$num}</a></li>
+            </ol>
+            <p class="next"><a href="#none" onClick="{$next}">다음 페이지</a></p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+/*
+.xans-myshop-orderhistorynologin { overflow:hidden; margin:30px 0 0; padding:30px 30px 0 155px; font-size:11px; color:#8f8f91; background:#f5f5f5 url(http://img.echosting.cafe24.com/design/skin/mono/member/bg_orderLogin.gif) 30px 70px no-repeat; border:1px solid #d2d2cf; }
+
+.xans-myshop-orderhistorynologin h3 { padding:0 0 18px; }
+.xans-myshop-orderhistorynologin .loginArea { overflow:hidden; zoom:1; padding:25px 0 30px; }
+.xans-myshop-orderhistorynologin p.login { float:left; padding:0 10px 0 0;}
+.xans-myshop-orderhistorynologin p.login span { display:block; padding:0 0 2px; overflow:hidden; zoom:1; }
+.xans-myshop-orderhistorynologin p.login strong { float:left; width:120px; padding:2px 0 0 7px; color:#333; background:url(http://img.echosting.cafe24.com/design/skin/mono/ico_login.gif) 0 50% no-repeat;}
+.xans-myshop-orderhistorynologin p.login input { border:1px solid #000; width:166px; height:14px; padding:1px 5px; }
+.xans-myshop-orderhistorynologin p.login span.number input { width:71px; margin:0 3px; }
+.xans-myshop-orderhistorynologin p.login span.number strong { margin:0 -3px 0 0; }
+.xans-myshop-orderhistorynologin p.btn { float:left; }
+.xans-myshop-orderhistorynologin p.btnDaum { padding:0 0 0 7px; background:url(http://img.echosting.cafe24.com/design/skin/mono/ico_login.gif) 0 50% no-repeat;}
+*/
+
+.xans-myshop-orderhistorynologin {position:relative;width:430px;margin:0 auto;padding:0 0 50px 0;color:#333;}
+.xans-myshop-orderhistorynologin p {font-family:'Arial',san-serif;font-size:12px;width:430px;margin:0 auto 15px;text-align:center;letter-spacing:0;color:#333;}
+.xans-myshop-orderhistorynologin ul {font-family:'Arial',san-serif;font-size:12px;margin:30px auto 30px;letter-spacing:0;}
+.xans-myshop-orderhistorynologin .button {position:absolute;top:44px;left:162px;}
+.xans-myshop-orderhistorynologin li {line-height:34px;}
+.xans-myshop-orderhistorynologin li.number input {width:84px;}
+.xans-myshop-orderhistorynologin li strong {font-weight:normal;display:inline-block;width:120px;}
+.xans-myshop-orderhistorynologin li input {width:180px;height:22px;padding:2px 2px 2px 3px;color:#333;border:1px solid #ddd;}
+.xans-myshop-orderhistorynologin .button {position:absolute;top:44px;left:162px;}
+.xans-myshop-orderhistorynologin .button input {height:98px;}

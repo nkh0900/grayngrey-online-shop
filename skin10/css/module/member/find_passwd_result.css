@@ -1,0 +1,12 @@
+.xans-member-findpasswdresult { background:#f5f5f5; border:1px solid #d2d2cf; padding:60px 0 70px; }
+.xans-member-findpasswdresult .inner { width:380px; margin:0 auto; font-size:.9em; color:#8f8f91; }
+.xans-member-findpasswdresult .inner .mainCopy { padding:27px 0 17px; font-size:30px; color:#333; font-weight:bold; letter-spacing:-0.5px; }
+.xans-member-findpasswdresult .inner .mainCopy span { display:block; padding:16px 0 30px; font-size:11px; color:#8f8f91; line-height:18px; font-weight:normal; }
+.xans-member-findpasswdresult .inner .memberInfo { overflow:hidden; }
+.xans-member-findpasswdresult .inner span.img { float:left; width:70px; }
+.xans-member-findpasswdresult .inner span.txt { float:left; width:257px; }
+.xans-member-findpasswdresult .inner span.txt strong { color:#202020; font-weight:normal; }
+.xans-member-findpasswdresult .inner span.txt em { color:#34a7b3; font-size:13px; font-style:normal; }
+.xans-member-findpasswdresult .inner .subCopy { padding:16px 0 0; }
+.xans-member-findpasswdresult .btnArea { padding:20px 0 0;  }
+.xans-member-findpasswdresult .btnArea img { padding:0; }

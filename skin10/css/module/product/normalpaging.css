@@ -1,0 +1,14 @@
+.xans-product-normalpaging { clear:both;padding: 40px 0 50px 0;text-align:center; }
+.xans-product-normalpaging { padding:13px 0; }
+.xans-product-normalpaging { text-align:center; margin:20px 0 0;}
+.xans-product-normalpaging img {vertical-align:top; }
+.xans-product-normalpaging p { margin-right:-4px; }
+.xans-product-normalpaging ol { margin:0 7px; }
+.xans-product-normalpaging li:first-child { margin-left: 0; }
+.xans-product-normalpaging li strong { color:#111; padding: 0 10px;}
+.xans-product-normalpaging li a { display: block;text-decoration:underline; padding: 0 10px;font-weight: bold;color:#888; background: #fff;}
+.xans-product-normalpaging li a:hover { text-decoration: none;color:#111; }
+.xans-product-normalpaging li a.nolink { cursor:default; }
+.xans-product-normalpaging p {display:inline-block;padding:0 15px;vertical-align:middle;*display:inline;*zoom:1;}
+.xans-product-normalpaging ol {font-size:0;line-height:0;display:inline-block;vertical-align:top;*display:inline;*zoom:1;*margin:0;}
+.xans-product-normalpaging li {font-size:11px;line-height:22px;display:inline-block;vertical-align:top;color:#111;*display:inline;*zoom:1;}

@@ -1,0 +1,10 @@
+.xans-member-checkid h1 { height:35px; padding:0 35px 0 19px; color:#fff; font-size:14px; line-height:35px; background-color:#495164; }
+.xans-member-checkid .content { padding:20px 20px 60px; background-color:#fff; font-size: 12px;}
+.xans-member-checkid .close { position:absolute; right:14px; top:12px; }
+.xans-member-checkid .close img { cursor:pointer; }
+.xans-member-checkid .btnArea { position:absolute; left:0; bottom:0; width:440px; padding:10px 0; border-top:1px solid #d7d5d5; text-align:center; background:#fbfafa; }
+
+.xans-member-checkid fieldset { display:block; }
+.xans-member-checkid fieldset p { margin:0 0 15px; color:#2e2e2e; }
+.xans-member-checkid fieldset input { width:130px; padding:2px 2px 2px 4px; border:1px solid #d9d9d9; color:#202020; }
+.xans-member-checkid ul { margin:18px 0 0; line-height:20px; color:#757575; }

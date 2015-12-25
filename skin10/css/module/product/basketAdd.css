@@ -1,0 +1,17 @@
+/* 상품 리스트 장바구니 담기 레이어 */
+/* LAYER POP */
+.xans-product-basketadd {
+	background:#b4bdc5; overflow:hidden;
+	position:fixed; _position:absolute; top:50%; left:50%; width:500px; margin:-157px 0 0 -250px; z-index:100; border:1px solid #d3d3d3;
+}
+.xans-product-basketadd .close { text-align:right; }
+.xans-product-basketadd .close img { cursor:pointer; }
+
+.xans-product-basketadd h1 { padding:0 25px 25px; color:#272823; font-size:26px; text-decoration:underline; }
+.xans-product-basketadd .layInner { position:relative;  padding:0 25px 0; background:#fff url(http://img.echosting.cafe24.com/design/skin/mono/bg_cart.gif) 50% 0 no-repeat; border-top:1px solid #99a2aa; }
+.xans-product-basketadd .btnArea { overflow:hidden; zoom:1; background:#fff; padding:30px 30px 30px 27px ; margin:0; position:relative; left:0; text-align:right; }
+.xans-product-basketadd .btnArea img { margin:0 0 0 -3px; }
+
+.xans-product-basketadd .ok { height:215px; padding:15px 0 0; font-size:11px; line-height:1.8em; border-bottom:1px solid #dedcdc; }
+.xans-product-basketadd .ok span { display:block; padding:0 0 10px;  color:#fff899; font-size:22px; }
+.xans-product-basketadd .ok em {color:#f26522; text-decoration:underline; font-style:normal; }

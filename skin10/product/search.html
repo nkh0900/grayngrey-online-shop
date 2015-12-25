@@ -1,0 +1,116 @@
+<!--@layout(/layout/basic/layout.html)-->
+<div class="path">
+    <h3>현재 위치</h3>
+    <ol>
+        <li class="first"><a href="/">home</a></li>
+        <li title="현재 위치"><strong>search</strong></li>
+    </ol>
+</div>
+
+<div class="titleArea">
+    <h2><span>search</span></h2>
+</div>
+
+<div module="search_form">
+    <!--@css(/css/module/product/search_form.css)-->
+    <div class="searchbox">
+        <fieldset>
+            <legend>상품 검색</legend>
+            <div class="item_"><strong>상품분류</strong> {$form.category_no}</div>
+            <div class="item">
+                <strong>검색조건</strong>
+                {$form.search_type}
+                {$form.keyword}
+                <div class="popular" module="search_hotkeyword">
+                <strong>인기검색어</strong>
+                <p>
+                    <a href="{$hot_keyword_url}">{$hot_keyword_name}</a>
+                    <a href="{$hot_keyword_url}">{$hot_keyword_name}</a>
+                </p>
+            </div>
+            </div>
+            <div class="item_"><strong>판매가격대</strong> {$form.product_price1} ~ {$form.product_price2}</div>
+            <div class="item"><strong>검색정렬기준</strong> {$form.order_by}</div>
+            <p class="button"><input type="image" src="/web/upload/images/i_search.png" alt="검색"></p>
+        </fieldset>
+    </div>
+    <div class="searchResult">
+        <p class="record">Total <strong>{$total_count}</strong></p>
+        <ul class="listType" module="search_Orderby">
+            <li class="btn_order" rel='{$rel}' style='{$style}' >{$sort_name}</li>
+            <li class="btn_order" rel='{$rel}' style='{$style}' >{$sort_name}</li>
+        </ul>
+    </div>
+    <p class="noData {$search_fail_display|display}">검색결과가 없습니다.</p>
+</div>
+
+<div module="Search_Result">
+    <!--@css(/css/module/product/search_result.css)-->
+    <!--
+        $count = 12
+    -->
+    <ul class="prdList column4">
+        <li class="item" id="anchorBoxId_{$product_no}">
+            <div class="box">
+                <span class="chk"><input type="checkbox" class="{$product_compare_class} {$product_compare_display|display}" /></span>
+                <a href="/product/detail.html{$param}" name="anchorBoxName_{$product_no}"><img src="{$image_medium}" id="{$image_medium_id}" alt="" class="thumb" /></a>
+                <div class="over_bg">
+                    <a href="/product/detail.html{$param}"><img src="http://teamgray.cafe24.com/web/upload/images/over_bg.png" style="width:100% !important;"></a>
+                    <div class="over_info">
+                        <p class="name">
+                            <strong><a href="/product/detail.html{$param}" class="{$product_name_display|display}"><span class="title {$product_name_title_display|display}">{$product_name_title} :</span> {$product_name}</a></strong>
+                        </p>
+                        <ul module="search_ListItem">
+                            <li class="{$item_display|display}"><strong class="title {$item_title_display|display}">{$item_title} :</strong> {$item_content}</li>
+                            <li class="{$item_display|display}"><strong class="title {$item_title_display|display}">{$item_title} :</strong> {$item_content}</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="status">
+                    <div class="icon">{$soldout_icon} {$recommend_icon} {$new_icon} {$product_icons}</div>
+                    <!-- <div class="button">
+    <div class="option">{$option_preview_icon}</div> {$basket_icon} {$zoom_icon}</div> -->
+                </div>
+            </div>
+        </li>
+        <li class="item" id="anchorBoxId_{$product_no}">
+            <div class="box">
+                <span class="chk"><input type="checkbox" class="{$product_compare_class} {$product_compare_display|display}" /></span>
+                <a href="/product/detail.html{$param}" name="anchorBoxName_{$product_no}"><img src="{$image_medium}" id="{$image_medium_id}" alt="" class="thumb" /></a>
+                <div class="over_bg">
+                    <a href="/product/detail.html{$param}"><img src="http://teamgray.cafe24.com/web/upload/images/over_bg.png" style="width:100% !important;"></a>
+                    <div class="over_info">
+                        <p class="name">
+                            <strong><a href="/product/detail.html{$param}" class="{$product_name_display|display}"><span class="title {$product_name_title_display|display}">{$product_name_title} :</span> {$product_name}</a></strong>
+                        </p>
+                        <ul module="search_ListItem">
+                            <li class="{$item_display|display}"><strong class="title {$item_title_display|display}">{$item_title} :</strong> {$item_content}</li>
+                            <li class="{$item_display|display}"><strong class="title {$item_title_display|display}">{$item_title} :</strong> {$item_content}</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="status">
+                    <div class="icon">{$soldout_icon} {$recommend_icon} {$new_icon} {$product_icons}</div>
+                    <!-- <div class="button">
+    <div class="option">{$option_preview_icon}</div> {$basket_icon} {$zoom_icon}</div> -->
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<div module="search_paging">
+    <!--@css(/css/module/product/search_form.css)-->
+    <!--@js(/js/module/product/search_paging.js)-->
+    <p><a href="{$param_first}"><img src="http://teamgray.cafe24.com/web/upload/images/i_nav_prev_.png" alt="첫 페이지" /></a> </p>
+    <p><a href="{$param_before}"><img src="http://teamgray.cafe24.com/web/upload/images/i_nav_prev.png" alt="이전 페이지" /></a></p>
+    <ol>
+        <li><a href="{$param}" title="페이지로 이동">{$no}</a></li>
+        <li><a href="{$param}" title="페이지로 이동">{$no}</a></li>
+        <li><a href="{$param}" title="페이지로 이동">{$no}</a></li>
+        <li><a href="{$param}" title="페이지로 이동">{$no}</a></li>
+        <li><a href="{$param}" title="페이지로 이동">{$no}</a></li>
+    </ol>
+    <p><a href="{$param_next}"><img src="http://teamgray.cafe24.com/web/upload/images/i_nav_next.png" alt="다음 페이지" /></a> </p>
+    <p><a href="{$param_last}"><img src="http://teamgray.cafe24.com/web/upload/images/i_nav_next_.png" alt="마지막 페이지" /></a> </p>
+</div>

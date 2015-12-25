@@ -1,0 +1,253 @@
+.xans-order-form {}
+.xans-order-form .orderStep { margin:-15px 0 30px; text-align:center; }
+.xans-order-form .orderList {margin:50px 0 20px;}
+.xans-order-form .orderList h3 { font-size:16px; margin:0 0 10px; }
+.xans-order-form .orderList h3 span { padding:0 0 0 9px; color:#34a7b3; font-weight:normal; font-size:11px; }
+
+.xans-order-form .btnArea { text-align:right; overflow:hidden; margin:20px 0 50px; }
+.xans-order-form .btnArea.miniType { margin:10px 0 20px; padding:0 15px; }
+.xans-order-form .btnArea img { float:left; padding:0 1px 0 0; cursor:pointer; }
+
+.xans-order-form .btnArea p.btnLeft { float:left; }
+.xans-order-form .btnArea p.btnRight { float:right; width: 20%;}
+/*
+.xans-order-form table.boardProduct th { padding:9px 0; font-size:11px; font-weight:normal; }
+.xans-order-form table.boardProduct th.delivery { color:#333; }
+.xans-order-form table.boardProduct td { padding:10px 0; font-size:11px; text-align:center; border-top:1px solid #d9ada0; background:#fdfbfa; }
+.xans-order-form table.boardProduct .chk { width:30px; }
+.xans-order-form table.boardProduct .thumb { width:134px; overflow:hidden; }
+.xans-order-form table.boardProduct .thumb a,
+.xans-order-form table.boardProduct .thumb a:hover { color:#000; }
+.xans-order-form table.boardProduct .thumb img { width:46px; float:left; }
+.xans-order-form table.boardProduct .thumb span { float:left; padding:0 0 0 8px; width:80px; text-align:left; }
+.xans-order-form table.boardProduct .prduct { }
+.xans-order-form table.boardProduct .sell { width:80px; }
+.xans-order-form table.boardProduct .mileage { width:63px;}
+.xans-order-form table.boardProduct .opt { width:280px; }
+.xans-order-form table.boardProduct .quantity { width:80px; }
+.xans-order-form table.boardProduct .quantity img { margin:0 0 0 2px; cursor:pointer; }
+.xans-order-form table.boardProduct .delivery { width:75px; color:#888a86; }
+.xans-order-form table.boardProduct .charge { width:58px; }
+.xans-order-form table.boardProduct .total { width:110px; }
+.xans-order-form table.boardProduct .state { width:75px; }
+.xans-order-form table.boardProduct .delivery1 { width:75px; }
+.xans-order-form table.boardProduct .delivery2 { width:75px; }
+*/
+.xans-order-form table.boardProduct td.chk {}
+.xans-order-form table.boardProduct td.thumb {}
+/*.xans-order-form table.boardProduct td.prduct { text-align:left;}*/
+.xans-order-form table.boardProduct td.prduct strong { display:block; padding:5px 0 0; font-weight:normal; color:#888a86; overflow:hidden; }
+.xans-order-form table.boardProduct td.prduct .btnPrdWrite a { float:left; padding:1px; background:#b0b0b0; color:#fff; }
+.xans-order-form table.boardProduct td.prduct ul { padding:5px 0 0; color:#888a86;}
+.xans-order-form table.boardProduct td.sell {}
+.xans-order-form table.boardProduct td.mileage { }
+.xans-order-form table.boardProduct td.opt {}
+/*.xans-order-form table.boardProduct td.quantity input { border:1px solid #bcbcbc; width:25px; text-align:center; }*/
+.xans-order-form table.boardProduct td.delivery { }
+.xans-order-form table.boardProduct td.charge { }
+/*.xans-order-form table.boardProduct td.total { font-weight:bold; color:#34a7b3; }*/
+
+.xans-order-form table.boardProduct tfoot td { text-align:right; padding:7px 7px 20px; background:none; color:#000; }
+.xans-order-form table.boardProduct tfoot td .total { color:#f8941d; }
+
+.xans-order-form .ordDetail1 { background:none; }
+.xans-order-form .ordDetail1 tfoot td { border-top:2px solid #d9ada0; }
+.xans-order-form .ordDetail1 .thumb { width:60px; text-align:center; }
+.xans-order-form .ordDetail1 .thumb img { float:none; }
+
+.xans-order-form .ordDetail2 { background:none; }
+.xans-order-form .ordDetail2 tbody td { border-top:1px solid #a0bdd9; background:#fafcfd; }
+.xans-order-form .ordDetail2 tfoot td {border-top:2px solid #a0bdd9;  }
+
+/*
+.xans-order-form .orderArea { margin:50px 0 20px; overflow:hidden; zoom:1; }
+.xans-order-form .orderArea h3 { float:left; margin:0 0 18px; }
+.xans-order-form .orderArea table { clear:both; }
+.xans-order-form .orderArea .chkAdd { float:right; margin:4px 0 0; color:#34a7b3; font-size:.9em; }
+.xans-order-form .orderArea .chkAdd label { color:#202020; }
+.xans-order-form .orderArea .chkAdd img { vertical-align:middle; }
+*/
+/*
+.xans-order-form div.boardView { clear:both; margin-top:18px; border-top:3px solid #333; border-bottom:3px solid #333; }
+.xans-order-form table.boardView { background:#f6f7f9; font-size:.9em; }
+.xans-order-form table.boardView input,
+.xans-order-form table.boardView textarea { border:1px solid #bcbcbc; background:#fff; color:#202020; padding:1px 0 2px 4px; }
+.xans-order-form table.boardView thead th { border-bottom:3px solid #333; }
+.xans-order-form table.boardView thead td { border-bottom:3px solid #333; }
+.xans-order-form table.boardView tfoot th { border-top:3px solid #333; }
+.xans-order-form table.boardView tfoot td { border-top:3px solid #333; }
+.xans-order-form table.boardView .first { border-top:0; padding-top:20px; }
+.xans-order-form table.boardView th { width:120px; padding:5px 0 5px 20px; text-align:left; line-height:2em; border-bottom:1px solid #e6e6e6; color:#868686;}
+.xans-order-form table.boardView td { width:616px; padding:5px 0 5px; border-bottom:1px solid #e6e6e6; line-height:2em; color:#8b8b8c;  }
+.xans-order-form table.boardView td.write { width:100%; }
+.xans-order-form table.boardView td img { vertical-align:middle; }
+*/
+
+.xans-order-form table.ordAdd .price { color:#34a7b3; font-size:16px; }
+.xans-order-form table.ordAdd .mileage { color:#00aeef; font-weight:normal; }
+.xans-order-form table.ordAdd .colType { padding-left:0 }
+.xans-order-form table.ordAdd input.btn { padding:1px 3px;}
+.xans-order-form table.ordAdd #total_price { background:#f6f7f9; margin:0 4px 0 0; }
+.xans-order-form table.ordAdd #eguarantee_personal #eguarantee_year { width:30px; }
+.xans-order-form table.ordAdd #eguarantee_personal #eguarantee_month { width:20px; }
+.xans-order-form table.ordAdd #eguarantee_personal #eguarantee_day { width:20px; }
+
+#bankBenefit { overflow:hidden; zoom:1; margin:30px 0; padding:20px; color:#8b8b8c; background:#f6f7f9; border-top:3px solid #333; border-bottom:3px solid #333; }
+#bankBenefit p { float:left; padding:0 20px 0 0; }
+#bankBenefit p.myInfo { width:550px; line-height:20px; }
+#bankBenefit p strong { color:#8c91a2; }
+#bankBenefit p span.typeBlock { display:block; }
+
+#bankBenefit p span.typeBlock { display:block; }
+/*
+.xans-order-form table.boardView input#hope_shipping_fast0 { border:0; background:none;}
+.xans-order-form table.boardView input#nm_agreement0 { border:0; background:none;}
+.xans-order-form table.boardView input#nm_agreement1 { border:0; background:none;}
+.xans-order-form table.boardView input#subscription_agreement0 { border:0; background:none;}
+.xans-order-form table.boardView input#subscription_agreement1 { border:0; background:none;}
+.xans-order-form table.boardView input#addr_paymethod0 { border:0; background:none;}
+.xans-order-form table.boardView input#addr_paymethod1 { border:0; background:none;}
+.xans-order-form table.boardView input#addr_paymethod2 { border:0; background:none;}
+.xans-order-form table.boardView input#addr_paymethod3 { border:0; background:none;}
+.xans-order-form table.boardView input#addr_paymethod4 { border:0; background:none;}
+.xans-order-form table.boardView input#addr_paymethod5 { border:0; background:none;}
+.xans-order-form table.boardView input#addr_paymethod6 { border:0; background:none;}
+.xans-order-form table.boardView input#addr_paymethod7 { border:0; background:none;}
+*/
+#subscription_terms { width:590px; height:200px; }
+
+#divNvPointInfo { display:none; position:absolute; z-index:99; width:245px; padding:10px; color:#777; font-size:11px; line-height:14px; background:#fff; border:1px solid #5B9761; }
+#divNvPointInfo a { display:block; padding:5px 0 0; color:#1ec228; }
+#divNvPointInfo a img { vertical-align:middle; }
+#imgNaverMileageHelp { cursor:pointer; }
+
+
+/* CSS 수정 */
+.xans-order-form .boardList {line-height:20px;padding:10px 0 0 0;color:#111;}
+.xans-order-form .boardList th {font-size:9px;font-weight:normal;font-weight:normal;padding:7px 0;vertical-align:middle;text-transform:uppercase;color:#111;background:#eee;}
+.xans-order-form .boardList .chk {width:3%;}
+.xans-order-form .boardList .thumb {width:10%;}
+.xans-order-form .boardList .product {width:auto;}
+.xans-order-form .boardList .price {width:10%;}
+.xans-order-form .boardList .quantity {width:3%;}
+.xans-order-form .boardList .mileage {width:10%;}
+.xans-order-form .boardList .delivery {width:7%;}
+.xans-order-form .boardList .charge {width:7%;}
+.xans-order-form .boardList .total {width:10%;}
+.xans-order-form .boardList td {font-family:Arial;font-size:12px;padding:10px 0;text-align:center;vertical-align:middle;letter-spacing:0;border-bottom:1px solid #ddd;}
+.xans-order-form .boardList td.mileage,
+.xans-order-form .boardList td a,
+.xans-order-form .boardList td strong {font-size:11px;font-weight:normal;letter-spacing:1px;}
+.xans-order-form .boardList td.thumb img {width:80px;}
+.xans-order-form .boardList td.product {font-size:9px;}
+.xans-order-form .boardList td.product div.option,
+.xans-order-form .boardList td.product ul.option > li {line-height:16px;margin:9px 0 0;color:#757575;}
+.xans-order-form .boardList td.product .free,
+.xans-order-form .boardList td.product .period {margin:5px 0 0;}
+.xans-order-form input[type=radio],
+.xans-order-form input[type=checkbox] {width:13px;height:13px;margin:0 5px 0 0;padding:0;border:0;}
+
+.xans-order-form .totalArea {line-height:1.5;margin:20px auto;color:#111;}
+.xans-order-form .totalArea .summary {font-family:'Lato',serif;font-size:10px;letter-spacing:2px;color:#111;border:1px solid #efefef;}
+.xans-order-form .totalArea .detail {}
+.xans-order-form .totalArea .summary th:first-child,
+.xans-order-form .totalArea .summary td:first-child {border-left:0;}
+.xans-order-form .totalArea .summary th {font-weight:normal;padding:7px 0;border-left:1px solid #efefef;}
+.xans-order-form .totalArea .summary .option {width:34%;}
+.xans-order-form .totalArea .summary .total {width:33%;}
+.xans-order-form .totalArea .summary td.total {color:#111;}
+.xans-order-form .totalArea .summary td.total strong {font-weight:bold;color:#111;}
+.xans-order-form .totalArea .summary td strong {font-weight:normal;}
+.xans-order-form .totalArea .summary td .box {word-wrap:break-word;word-break:break-all;}
+.xans-order-form .totalArea .summary td .tail {font-size:14px;}
+
+/* 주문자, 배송지 정보 */
+.xans-order-form .title {padding:15px 0;border-bottom:0;}
+.xans-order-form .title h3 {font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#111;}
+.xans-order-form .orderArea .title {margin-top:30px;padding-right:13px;padding-left:13px;background-color:#eee;}
+.xans-order-form .orderArea .title .required {font-family:'Arial',san-serif;font-size:12px;margin:-15px 0 0 0;text-align:right;letter-spacing:0;padding: 0;color: #888}
+.xans-order-form .orderArea .title .required img {height:5px;vertical-align:middle;}
+.xans-order-form .boardWrite th img {height:5px;}
+.xans-order-form .boardWrite table {table-layout:fixed;border-top:1px solid #eee;}
+.xans-order-form .boardWrite tbody tr:first-child th,
+.xans-order-form .boardWrite tbody tr:first-child td {border-top:0;}
+.xans-order-form .boardWrite th {font-family:'Arial', san-serif;font-size:12px;font-weight:normal;width:20%;padding:10px 0;text-align:left;vertical-align:middle;letter-spacing:0;color:#333;border-top:1px solid #eee;border-bottom:1px solid #eee;}
+.xans-order-form .boardWrite td {font-family:'Arial', san-serif;font-size:12px;width:80%;padding:10px 0;vertical-align:middle;letter-spacing:0;color:#888;border-top:1px solid #eee;border-bottom:1px solid #eee;}
+.xans-order-form input {padding:5px;border:1px solid #ddd;}
+.xans-order-form #oname,
+.xans-order-form #oname2,
+.xans-order-form #rname,
+.xans-order-form #fname,
+.xans-order-form #fname2,
+.xans-order-form #english_oname,
+.xans-order-form #pron_name,
+.xans-order-form #si_gun_dosi,
+.xans-order-form #ju_do,
+.xans-order-form #ocity,
+.xans-order-form #ostate {width:180px;}
+.xans-order-form #ozipcode1,
+.xans-order-form #ozipcode2,
+.xans-order-form #rzipcode1,
+.xans-order-form #rzipcode2 {width:60px;text-align:center;}
+.xans-order-form #oaddr1,
+.xans-order-form #oaddr2,
+.xans-order-form #raddr1,
+.xans-order-form #raddr2 {width:450px;margin:5px 0 0;}
+.xans-order-form .boardWrite span.grid {position:relative;top:2px;margin:0 0 0 6px;}
+.xans-order-form .boardWrite div.grid,
+.xans-order-form .boardWrite p.grid {margin:7px 0 0;}
+.xans-order-form #ophone1_2,
+.xans-order-form #ophone1_3,
+.xans-order-form #ophone2_2,
+.xans-order-form #ophone2_3,
+.xans-order-form #rphone1_2,
+.xans-order-form #rphone1_3,
+.xans-order-form #rphone2_2,
+.xans-order-form #rphone2_3,
+.xans-order-form #cashreceipt_user_mobile2,
+.xans-order-form #cashreceipt_user_mobile3 {width:60px;margin:0 4px;}
+.xans-order-form #ophone1_1,
+.xans-order-form #ophone2_1,
+.xans-order-form #rphone1_1,
+.xans-order-form #rphone2_1,
+.xans-order-form #cashreceipt_user_mobile1 {width:60px;}
+.xans-order-form select {margin:0 4px 0 0;}
+.xans-order-form #oemail1 {width:180px;margin:0 4px 0 0;}
+.xans-order-form #oemail2 {width:180px;margin:0 4px;}
+
+/* 주문합계 */
+.orderArea .boardWrite table.boardWrite.ordAdd.price {border-top: none;}
+.orderArea .boardWrite table.boardWrite.ordAdd.price tbody tr th {border-bottom:none;}
+.orderArea .boardWrite table.boardWrite.ordAdd.price tbody tr td {border-bottom:none;}
+.xans-order-form #totalOrder {overflow:hidden;margin:30px 0 10px;padding:35px 40px;color:#333;border-top:1px solid #efefef;border-right:1px solid #efefef;border-bottom:1px solid #efefef;border-left:4px solid #333;}
+.xans-order-form #totalOrder h4 {margin:0 10px 25px 10px;padding:0 0 10px 0;text-align:center;border-bottom:1px solid #efefef;}
+.xans-order-form #totalOrder h4 strong {font-size:12px;text-transform:uppercase;color:#333;font-weight: normal;letter-spacing: 2px;}
+.xans-order-form #totalOrder h4 span {display: none;font-size:11px;font-weight:normal;color: #999;padding-top: 6px;}
+.xans-order-form #totalOrder ul {font-size:11px;float:right;width:100%;}
+.xans-order-form #totalOrder li {float:left;overflow:hidden;width:25%;}
+.xans-order-form #totalOrder li strong {font-size:10px;font-weight:normal;display:block;text-align:center;color:#999;}
+.xans-order-form #totalOrder li span {font-size:20px;display:block;text-align:center;}
+.xans-order-form #totalOrder li em {font-style:normal;}
+.xans-order-form #totalOrder li.total span {font-weight:bold;color:#A6A63F;}
+.xans-order-form #totalOrder li.total strong {}
+.xans-order-form #totalOrder p.ship {clear:both;text-align:right;}
+
+/* 결제정보 */
+.xans-order-form .boardWrite tbody tr td .paymethod {margin-bottom:5px;padding:10px 0;border-bottom:1px solid #ddd;}
+#payment_input_cash li {width:450px;padding:10px 0;}
+.xans-order-form .btnArea p.btnRight a {font-size:12px;display:block;padding:20px 0;text-align:center;text-decoration:none;letter-spacing:2px;text-transform:uppercase;color:#fff;border:1px solid #111;background:#111;}
+.xans-order-form .btnArea p.btnRight a:hover {color:#111;border:1px solid #ddd;background:#ddd;}
+
+/* 이용안내 */
+.xans-order-form .freeInfo {font-family:'Arial',san-serif;font-size:12px;line-height:20px;margin:10px 0;letter-spacing:0;color:#111;}
+.xans-order-form .help {font-family:'Arial',san-serif;font-size:12px;line-height:20px;margin:0 0 100px 0;letter-spacing:0;color:#111;}
+
+.xans-order-form .freeInfo h3,
+.xans-order-form .help h3 {font-size:12px;margin:0 0 5px;color:#111;}
+.xans-order-form .freeInfo p,
+.xans-order-form .help ul,
+.xans-order-form .help ul a {padding:0 0 20px 0;color:#999;}
+.xans-order-form .help .content h4 {margin:0 0 10px;color:#111;}
+.xans-order-form .help .content ul li.item1 strong {font-weight:normal;}
+.xans-order-form .help .cross {margin:10px 0 0 0;}
+

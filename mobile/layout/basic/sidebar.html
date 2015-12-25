@@ -1,0 +1,40 @@
+<!--@css(/layout/basic/css/slideMenu.css)-->
+<!--@js(/layout/basic/js/slide_menu.js)-->
+<aside id="aside" module="layout_slidePackage">
+    <div module="myshop_main">
+        <a href="/myshop/recent_list.html" class="recentList">look ({$recent_count})</a>
+        <a href="/myshop/order/list.html" class="orderList">order</a>
+        <a href="/myshop/index.html" class="orderList">my page</a>
+    </div>
+    <div id="slideCateList" class="categoryCont">
+        <h2 class="selected">shop<!-- <button type="button" class="icoCategory">펼침</button> --></h2>
+        <ul module="layout_category" class="categoryList">
+            <li id="cate{$cate_no}">
+                <a href="#none" class="cate" cate="{$param}">{$name|cut 25}</a>
+                <!-- <a href="/product/list_thumb.html{$param}" class="view">ALL</a> -->
+            </li>
+            <li id="cate{$cate_no}">
+                <a href="#none" class="cate" cate="{$param}">{$name|cut 25}</a>
+                <!-- <a href="/product/list_thumb.html{$param}" class="view">ALL</a> -->
+            </li>
+        </ul>
+    </div>
+    <div id="board_list">
+        <h2><a href="/product/lookbook_list.html?cate_no=61">lookbook</a></h2>
+        <a href="/board/free/list.html?board_no=1">NOTICE</a>
+        <a href="/board/product/list.html?board_no=6">Q&amp;A</a>
+        <a href="/board/product/list.html?board_no=4">REVIEW</a>
+    </div>
+    <div id="board_list">
+        <ul>
+            <li class="c">
+                <br>opening. mon-fri pm11 - 7
+                <br>lunch. pm1 - 2
+                <br>sat.sun.red-day off
+                <br>우리 1002-947-588137
+                <br>young-long jang
+            </li>
+        </ul>
+    </div>
+    <a href="#none" class="btnClose"><img src="http://img.echosting.cafe24.com/skin/mobile_ko_KR/layout/btn_close.png" width="13" alt="닫기"></a>
+</aside>

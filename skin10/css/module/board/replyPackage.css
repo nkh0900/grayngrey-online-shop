@@ -1,0 +1,32 @@
+/* reply */
+.xans-board-reply div.boardView { clear:both; margin-top:18px; border-top:1px solid #d3d3d3; border-bottom:1px solid #e6e6e6; }
+
+.xans-board-reply table { background:#f6f7f9; font-size:.9em; }
+.xans-board-reply table input,
+.xans-board-reply table textarea { border:1px solid #bcbcbc; background:#fff; color:#202020; padding:1px 0 2px 4px; }
+.xans-board-reply table .first { border-top:0; padding-top:20px; }
+.xans-board-reply table th { width:120px; padding:5px 0 5px 20px; text-align:left; line-height:2em; border-bottom:1px solid #e6e6e6; color:#000; font-weight:normal; }
+
+.xans-board-reply table td { width:616px; padding:5px 0 5px; border-bottom:1px solid #e6e6e6; line-height:2em; color:#8b8b8c;  }
+.xans-board-reply table td.write { width:100%; padding:0; border-top:1px solid #e6e6e6; border-bottom:1px solid #e6e6e6; }
+.xans-board-reply table td img { vertical-align:middle; }
+.xans-board-reply table td.view { border-bottom:1px solid #e6e6e6; }
+.xans-board-reply table td.view .detail { padding:30px 10px; }
+.xans-board-reply table td.consult { border:0; }
+
+.xans-board-reply table tr.agree th { vertical-align:middle; font-weight:bold; color:#8d91a2; background:#f0f4ed; border-top:1px solid #e6e6e6; }
+.xans-board-reply table tr.agree td { padding:10px 0; background:#f0f4ed; border-top:1px solid #e6e6e6; }
+.xans-board-reply table tr.agree td textarea { width:600px; height:140px; margin:0 0 10px; color:#8B8B8C; }
+.xans-board-reply table tr.agree td #privacy_agreement_radio0 { border:none; width:auto; height:auto; margin:0 3px 0 0; vertical-align:middle; background:none; }
+.xans-board-reply table tr.agree td #privacy_agreement_radio1 { border:none; width:auto; height:auto; margin:0 3px 0 0; vertical-align:middle; background:none; }
+
+.xans-board-reply table #subject { width:450px; }
+.xans-board-reply table #ucc_width { width:30px; padding:1px 0; text-align:center; }
+.xans-board-reply table #ucc_height { width:30px; padding:1px 0; text-align:center; }
+
+.xans-board-reply .btnArea { text-align:right; overflow:hidden; margin:20px 0 50px; }
+.xans-board-reply .btnArea.miniType { margin:10px 0 20px; padding:0 15px; }
+.xans-board-reply .btnArea img { float:left; padding:0 1px 0 0; cursor:pointer; }
+.xans-board-reply .btnArea p.btnLeft { float:left; }
+.xans-board-reply .btnArea p.btnRight { float:right; }
+.xans-board-reply .btnArea p.btnRight img { float:left; padding:0 0 0 1px; }

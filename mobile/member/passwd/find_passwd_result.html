@@ -1,0 +1,28 @@
+<!--@layout(/layout/basic/layout.html)-->
+<div id="titleArea">
+    <h2>비밀번호 찾기</h2>
+    <span module="Layout_MobileAction">
+        <a href="#none" onclick="{$go_back}"><img src="http://img.echosting.cafe24.com/skin/mobile_ko_KR/layout/btn_back.gif" width="33" alt="뒤로가기"></a>
+    </span>
+</div>
+
+<div module="member_findpasswdresult">
+    <!--@css(/css/module/member/findpasswdresult.css)-->
+    <div class="info">
+        <p>고객님의 메일로<span>비밀번호가 발송되었습니다.</span></p>
+    </div>
+    <table border="1" summary="">
+        <caption>비밀번호 찾기 결과</caption>
+        <tr>
+            <th scope="row">이 &nbsp; 름</th>
+            <td>{$id}</td>
+        </tr>
+        <tr>
+            <th scope="row">이메일</th>
+            <td>{$email}</td>
+        </tr>
+    </table>
+    <div class="btnArea type1">
+        <a href="/member/login.html" class="btnSubmit">로그인</a>
+    </div>
+</div>

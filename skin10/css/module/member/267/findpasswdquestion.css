@@ -1,0 +1,20 @@
+
+.xans-member-findpasswdquestion {width:100%;margin:0 auto;padding:0 0 50px 0;color:#333;}
+.xans-member-findpasswdquestion .findPw {width:400px;margin:0 auto;}
+.xans-member-findpasswdquestion .findPw p {font-family:'Arial',san-serif;font-size:12px;margin:10px 0 0;letter-spacing:0;}
+.xans-member-findpasswdquestion .findPw strong {font-size:12px;font-weight:normal;display:inline-block;width:20%;padding:0 0 0 30px;letter-spacing:1px;text-transform:uppercase;color:#111;}
+.xans-member-findpasswdquestion .findPw .check {margin-bottom:30px;margin-left:125px;color:#353535;}
+.xans-member-findpasswdquestion .findPw .check label {margin:0 5px 0 0;}
+
+.xans-member-findpasswdquestion .findPw .question { vertical-align:middle; }
+.xans-member-findpasswdquestion .findPw .question strong,
+.xans-member-findpasswdquestion .findPw .answer label {font-size:9px;font-weight:normal;display:inline-block;width:20%;padding:0 0 0 30px;letter-spacing:1px;text-transform:uppercase;color:#111;}
+.xans-member-findpasswdquestion .findPw .answer input {width: 60%;}
+.xans-member-findpasswdquestion .findPw .question span { display:inline-block; height:14px; padding:2px; color:#202020; }
+
+.xans-member-findpasswdquestion .findPw input[type=radio],
+.xans-member-findpasswdquestion .findPw input[type=checkbox] {width:13px;height:13px;margin:0 3px 0 0;padding:0;vertical-align:-2px;border:0;}
+
+.xans-member-findpasswdquestion .findPw .button {padding:40px 0 20px 0;text-align:center;}
+.xans-member-findpasswdquestion .findPw .button a {font-family:'Arial',serif;font-size:9px;padding:7px 20px;color:#fff;border:1px solid #111;background:#111;}
+.xans-member-findpasswdquestion .findPw .button a:hover {color:#111;border:1px solid #ddd;background:#ddd;}

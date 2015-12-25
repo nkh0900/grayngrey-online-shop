@@ -1,0 +1,15 @@
+.xans-product-listnew {padding:0 0 30px;}
+.xans-product-listnew .titleArea { height:21px; margin:17px 0 30px; border-bottom:1px solid #dedcdc; zoom:1; }
+.xans-product-listnew .titleArea:after {content:""; display:block; clear:both; }
+.xans-product-listnew .titleArea h2 { height:21px; padding:0 5px 0 0; color:#272823; font-size:16px; float:left; border-bottom:1px solid #272823;  }
+.xans-product-listnew ul {overflow:hidden; margin-left:-10px;}
+.xans-product-listnew ul li {float:left; width:240px; margin-left:10px; line-height:1.6em;}
+.xans-product-listnew ul li a,
+.xans-product-listnew ul li a:hover { color:#838382; }
+.xans-product-listnew ul .prdImg { display:block; }
+.xans-product-listnew ul .prdImg img { display:block; width:100%; }
+.xans-product-listnew ul .name,
+.xans-product-listnew ul .price { display:block; overflow:hidden; padding:4px 0; border-top:1px solid #ddd; color:black; font-size:11px; line-height:16px; text-indent:5px; background-color:#f8f8f8; }
+.xans-product-listnew ul .name:hover { color:black; }
+.xans-product-listnew ul .price { border-bottom:1px solid #ddd; color:#333; font-weight:normal; background-color:#fefefe; }
+.xans-product-listnew ul .btn { display:block; text-align:center; }

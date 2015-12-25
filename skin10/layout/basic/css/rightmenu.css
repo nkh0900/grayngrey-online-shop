@@ -1,0 +1,29 @@
+#menu {clear:both;width:100%;padding:0 0 0 0;}
+#menu ul {margin:0 auto;}
+#menu li li {padding:5px 0 0 0;}
+#menu li {font-family:'Lato',Helvetica,sans-serif;font-size:9px;font-weight:normal;line-height:20px;position:relative;padding:15px 0 0 0;vertical-align:middle;letter-spacing:1px;text-transform:uppercase;color:#888;}
+#menu li a {font-size:12px;line-height:20px;color:#111;}
+#menu li a:hover.com {text-decoration:none;color:#111;}
+#menu li span {font-size:12px;line-height:30px;color:#111;}
+#menu li a.cate {font-size:12px;font-weight:normal;line-height:25px;display:block;color:#111;}
+#menu li a:hover.cate {text-decoration:none;color:#888;}
+#menu li a.com {font-size:9px;font-weight:normal;line-height:20px;color:#888;}
+
+#menu li a.sns {font-size:9px;font-weight:normal;line-height:20px;color:#888;}
+#menu li a:hover.new {color:#52dfd7;}
+#menu li a:hover.best {color:#f87157;}
+#menu li a:hover.sns {text-decoration:none;color:#111;}
+#menu img.cart {height:15px;vertical-align:middle;}
+#menu img.search {height:12px;vertical-align:middle;}
+
+#menu li .insta {display: block;margin-top: 5px;}
+
+#menu_top_02 {position:fixed;z-index:99999999999999999999999999;top:40px;left:0;display:block;width:200px;height:auto;margin:0 auto;padding:0 0 500px 40px;text-align:left;}
+#menu_top_03 {font-family:'Lato',Helvetica,sans-serif;font-size:9px;font-weight:normal;line-height:20px;position:fixed;z-index:99999999999999999999999999;top:40px;right:0;display:block;width:200px;height:auto;margin:0 auto;padding:0 40px 500px 0;text-align:right;letter-spacing:1px;text-transform:uppercase;color:#aaa;}
+#menu_top_03 a {font-weight:normal;color:#111;}
+#menu_top_03 a:hover {text-decoration:none;color:#aaa;}
+#menu_top_04 {position:fixed;z-index:99999999999999999999999999;right:0;bottom:40px;display:block;width:200px;height:auto;margin:0 auto;padding:0 40px 0 0;text-align:right;}
+#menu_top_04 a {font-size:9px;font-weight:normal;line-height:20px;color:#888;}
+#menu_top_04 a:hover {text-decoration:none;color:#111;}
+#menu_top_05 {position:fixed;z-index:99999999999999999999999999;bottom:40px;left:0;display:block;width:200px;height:auto;margin:0 auto;padding:0 0 0 40px;}
+

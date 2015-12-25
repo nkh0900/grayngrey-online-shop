@@ -1,0 +1,26 @@
+.xans-product-listnormal.typeDesc { margin:0; background:#fff; }
+.xans-product-listnormal.typeDesc li { padding:14px; border-top:1px solid #ececec; }
+.xans-product-listnormal.typeDesc li:first-child { padding:0 14px 14px; border-top:0; }
+.xans-product-listnormal.typeDesc li:after { display:block; content:""; clear:both; }
+.xans-product-listnormal.typeDesc .thumbnail { display:inline-block; float:left; width:87px; }
+.xans-product-listnormal.typeDesc .thumbnail img { width:100%; border:1px solid #ededed; }
+.xans-product-listnormal.typeDesc .information { padding:0 0 0 103px; }
+.xans-product-listnormal.typeDesc .name { line-height:1.5em; word-wrap:break-word; margin:0 0 10px; }
+.xans-product-listnormal.typeDesc .name a { font-size:13px; }
+.xans-product-listnormal.typeDesc .icon { margin:0 0 10px; }
+.xans-product-listnormal.typeDesc .price { color:#494949; font-size:13px; margin:0 0 10px; }
+.xans-product-listnormal.typeDesc .price.sale { color:#000; font-size:15px; }
+.xans-product-listnormal.typeDesc .strike { text-decoration:line-through; }
+.xans-product-listnormal.typeDesc .color { overflow:hidden; margin:0 0 10px; }
+.xans-product-listnormal.typeDesc .color .chips { float:left; width:12px; height:10px; margin:0 2px 2px 0; font-size:0; line-height:0; }
+.xans-product-listnormal.typeDesc .summary { font-size:11px; color:#757575; margin:0 0 10px; }
+
+.xans-product-listnormal.typeDesc .layerDiscountPeriod { display:none; position:absolute; z-index:100; left:0; width:100%; padding:11px 7px; box-sizing:border-box; }
+.xans-product-listnormal.typeDesc .layerDiscountPeriod .inner { border:1px solid #353535; background:#f1f1f1; border-radius:4px; }
+.xans-product-listnormal.typeDesc .layerDiscountPeriod .inner h3 { padding:10px 14px; font-size:14px; background-color:#353535; color:#fff; }
+.xans-product-listnormal.typeDesc .layerDiscountPeriod .inner .timeleft { padding:14px; color:#508bed; font-size:13px; font-weight:bold; text-align:center; }
+.xans-product-listnormal.typeDesc .layerDiscountPeriod ul { margin:0 7px 14px; padding:0; border:1px solid #d5d5d5; background:#fff; }
+.xans-product-listnormal.typeDesc .layerDiscountPeriod ul li { position:relative; padding:14px 13px 14px 100px; border-top:1px solid #ececec; color:#353535; }
+.xans-product-listnormal.typeDesc .layerDiscountPeriod ul li:first-child { border-top:0; }
+.xans-product-listnormal.typeDesc .layerDiscountPeriod ul li span { position:absolute; top:14px; left:13px; color:#757575; }
+.xans-product-listnormal.typeDesc .layerDiscountPeriod .btnClose { position:absolute; top:8px; right:4px; display:block; width:40px; height:40px; text-indent:-9999px; font-size:0; background:url("http://img.echosting.cafe24.com/skin/mobile_ko_KR/layout/ico_close_white.png") center center no-repeat; background-size:50% 50%; }

@@ -1,0 +1,23 @@
+#popup { width:620px; }
+.xans-product-recommmail .header { padding:0 0 0 19px; height:45px; background:#495164; }
+.xans-product-recommmail .header h1 { font-size:14px; color:#fff; line-height:45px; }
+.xans-product-recommmail .content { padding:20px; }
+.xans-product-recommmail .btnArea { padding:9px 0 10px; border-top:1px solid #d7d5d5; text-align:center; background:#fbfafa; }
+
+.xans-product-recommmail .prdArea { overflow:hidden; position:relative; padding:15px 15px 15px 146px; margin:0 0 20px; border:5px solid #e8e8e8; }
+.xans-product-recommmail .prdArea .thumbnail { float:left; width:90px; margin:0 0 0 -125px; text-align:center; }
+.xans-product-recommmail .prdArea .thumbnail img { max-width:88px; border:1px solid #d6d6d6; }
+.xans-product-recommmail .prdArea .info .icon { margin:0 0 14px; }
+.xans-product-recommmail .prdArea .info h2 { font-size:14px; color:#f2e2e2e; }
+.xans-product-recommmail .prdArea .info .price { margin:5px 0 0; font-weight:bold; font-size:14px; color:#008bcc;}
+
+.xans-product-recommmail table { table-layout:fixed; border-bottom:1px solid #e9e9e9; border-left:1px solid #e9e9e9; color:#353535; line-height:1.5; }
+.xans-product-recommmail table th { width:120px; padding:11px 0 10px 19px; border-top:1px solid #e9e9e9; border-right:1px solid #e9e9e9; font-weight:normal; text-align:left; background:#fbfafa; }
+.xans-product-recommmail table td { width:auto; padding:11px 0 10px 10px; border-top:1px solid #e9e9e9; border-right:1px solid #e9e9e9; background:#fff; }
+.xans-product-recommmail table .inputTypeText { width:80%; height:21px; padding-top:1px; }
+.xans-product-recommmail table textarea { padding:6px; width:90%; height:80px; border:1px solid #d5d5d5; color:#353535; }
+.xans-product-recommmail table img { vertical-align:middle; }
+.xans-product-recommmail table .chk { padding:3px 0 0; }
+.xans-product-recommmail table .chk label { padding:0 32px 0 4px; }
+.xans-product-recommmail table .captcha { margin:5px 0 0; }
+.xans-product-recommmail table .captcha  #tmp_image_name_str { width:80px; }

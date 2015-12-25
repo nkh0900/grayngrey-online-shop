@@ -1,0 +1,126 @@
+<!--@layout(/layout/basic/layout.html)-->
+<div module="board_ReadPackage_1">
+<!--@css(/css/module/board/readPackage.css)-->
+    <div module="board_title_4">
+        <div class="pathBoard">
+            <h3>현재 위치</h3>
+            <ol>
+                <li class="first"><a href="/">home</a></li>
+                <li><a href="/board/index.html">community</a></li>
+                <li title="현재 위치"><strong>{$board_name}</strong></li>
+            </ol>
+        </div>
+
+        <div class="titleAreaBoard">
+            <h2><span>{$board_name}</span></h2>
+            <!-- <p>{$board_info}</p> -->
+        </div>
+    </div>
+
+    <!-- 글 내용-->
+    <div module="board_read_1">
+        <!--
+            $login_page_url = /member/login.html
+            $deny_access_url = /board/free/list.html
+        -->
+        <div class="boardView">
+            <h2>{$subject}</h2>
+            <table border="1" summary="{$subject} 입니다.">
+            <caption>{$subject}</caption>
+
+            <tbody>
+                <!-- <tr>
+                    <th scope="row">작성자</th>
+                    <td>{$member_icon} {$writer} <span class="{$config.display_ip|display}">(ip:{$ip})</span> {$admin_mileage}</td>
+                </tr> -->
+                <tr class="etcArea">
+                    <td>
+                        <ul>
+                            <li>
+                                <strong class="th">name</strong>
+                                <span class="td">
+                                    {$member_icon} {$writer}
+                                    <span class="{$config.display_ip|display}">(ip:{$ip})</span> {$admin_mileage}
+                                </span>
+                            </li>
+                            <li class="{$config.use_date|display}">
+                                <strong class="th">date</strong> <span class="td">{$write_date}</span>
+                            </li>
+                            <li class="{$config.is_use_recom|display}">
+                                <strong class="th">recommend</strong> <span class="td">{$vote_count}<a href="#none" onclick="{$action_vote}"> <img src="http://img.echosting.cafe24.com/design/skin/mono/board/btn_recom.gif" alt="추천 하기" /></a></span>
+                            </li>
+                            <li class="{$config.use_cnt|display}">
+                                <strong class="th">hit</strong> <span class="td">{$hit_count}</span>
+                            </li>
+                            <li class="{$config.is_use_point|display} grademark">
+                                <strong class="th">grademark</strong> <span class="td"><img src="http://img.echosting.cafe24.com/design/skin/mono/ico_point{$point_count}.gif" alt="{$point_count}점"></span>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="view">
+                        <div class="detail">{$content_image}{$content}</div>
+                    </td>
+                </tr>
+                <tr class="{$config.use_attach|display}" >
+                    <th>첨부파일</th>
+                    <td>{$attach_file}</td>
+                </tr>
+                <tr class="password">
+                    <!-- <th scope="row">비밀번호</th> -->
+                    <td>{$form.password} 삭제하려면 비밀번호를 입력하세요.</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+
+        <div class="btnArea miniType {$config.is_admin|display}">
+            <p>
+                <a href="#none" onclick="{$action_post}" class="{$config.is_post|display}">관리자게시</a>
+                <a href="#none" onclick="{$action_post}" class="admin {$config.not_post|display}">게시안함<!-- <img src="http://img.echosting.cafe24.com/skin/base_ko_KR/board/btn_admin2.gif" alt="게시안함" /> --></a>
+                <a href="#none" onclick="{$action_spam}">스팸 신고<!-- <img src="http://img.echosting.cafe24.com/design/skin/mono/board/btn_spam01.gif" alt="스팸 신고" /> --></a>
+                <a href="#none" onclick="{$action_spam_cancle}">스팸 해제<!-- <img src="http://img.echosting.cafe24.com/design/skin/mono/board/btn_spam02.gif" alt="스팸 해제" /> --></a>
+            </p>
+        </div>
+
+        <div class="btnArea">
+            <p class="btnLeft"><a href="/board/product/list.html{$param_list}">list<!-- <img src="http://img.echosting.cafe24.com/design/skin/mono/board/btn_wList.gif" alt="목록" /> --></a></p>
+            <p class="btnRight">
+                <a href="#none" onclick="{$action_delete}" class="{$delete_button_auth|display}">delete<!-- <img src="http://img.echosting.cafe24.com/design/skin/mono/board/btn_wDel.gif" alt="삭제" /> --></a>
+                <a href="/board/product/modify.html{$param_modify}" class="{$modify_button_auth|display}">edit<!-- <img src="http://img.echosting.cafe24.com/design/skin/mono/board/btn_wModify.gif" alt="수정" /> --></a>
+                <a href="/board/product/reply.html{$param_reply}" class="{$reply_button_auth|display}">reply<!-- <img src="http://img.echosting.cafe24.com/design/skin/mono/board/btn_wReply.gif" alt="답변" /> --></a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div module="board_movement_1002">
+<!--@css(/css/module/board/movement.css)-->
+	<ul>
+		<li class="prev {$prev_display|display}"><strong>이전글</strong><a href="/board/free/read.html{$param_prev}">{$prev_subject}</a></li>
+		<li class="next {$next_display|display}"><strong>다음글</strong><a href="/board/free/read.html{$param_next}">{$next_subject}</a></li>
+	</ul>
+</div>
+
+<div module="board_function_1002">
+<!--@css(/css/module/board/function.css)-->
+<!--
+    $success_return_url = /board/free/list.html
+ -->
+	<p>
+		* 해당 글 이동 : {$form.boardGroup} 으로
+		<a href="#none" onclick="{$action_article_move}" ><img src="http://img.echosting.cafe24.com/design/skin/mono/board/btn_move.gif"  alt="글 이동" /></a>
+		<a href="#none" onclick="{$action_article_copy}" ><img src="http://img.echosting.cafe24.com/design/skin/mono/board/btn_copy.gif" alt="글 복사" /></a>
+		* 댓글포함, 답변 불포함
+	</p>
+</div>
+<!--@define(cmc_log)-->

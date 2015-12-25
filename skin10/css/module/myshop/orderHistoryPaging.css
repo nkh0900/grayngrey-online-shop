@@ -1,0 +1,23 @@
+/*
+.xans-myshop-orderhistorypaging p,
+.xans-myshop-orderhistorypaging ol,
+.xans-myshop-orderhistorypaging li { display:inline; }
+.xans-myshop-orderhistorypaging img {vertical-align:middle; }
+.xans-myshop-orderhistorypaging ol { margin:0 7px; }
+.xans-myshop-orderhistorypaging li { margin:0 9px 0 0; padding:0 0 0 11px; font-size:.9em; background:url(http://img.echosting.cafe24.com/design/skin/mono/bg_page.gif) left center no-repeat; }
+.xans-myshop-orderhistorypaging li:first-child { background:none; }
+.xans-myshop-orderhistorypaging li strong { color:#f26522; }
+.xans-myshop-orderhistorypaging li a { color:#202020; }
+.xans-myshop-orderhistorypaging li a:hover { color:#f26522; text-decoration:underline; }
+.xans-myshop-orderhistorypaging li a.nolink { cursor:default; }*/
+
+.xans-myshop-orderhistorypaging { text-align:center; margin:20px 0 0;}
+.xans-myshop-orderhistorypaging p {display:inline-block;padding:0 15px;vertical-align:middle;}
+.xans-myshop-orderhistorypaging img {vertical-align:top;}
+.xans-myshop-orderhistorypaging ol {font-size:0;line-height:0;display:inline-block;vertical-align:top;}
+.xans-myshop-orderhistorypaging li {font-size:9px;line-height:22px;display:inline-block;vertical-align:top;color:#111;}
+.xans-myshop-orderhistorypaging li a {font-weight:bold;display:block;padding:0 10px;color:#888;background:#fff;}
+.xans-myshop-orderhistorypaging li a.this {text-decoration:underline;color:#f26522;}
+.xans-myshop-orderhistorypaging li strong { color:#f26522; }
+.xans-myshop-orderhistorypaging li a:hover { color:#f26522; text-decoration:underline; }
+.xans-myshop-orderhistorypaging li:first-child {margin-left:0;}

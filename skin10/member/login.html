@@ -1,0 +1,71 @@
+<!--@layout(/layout/basic/layout.html)-->
+<div class="path">
+	<ol>
+		<li><a href="/">home</a></li>
+		<li title="현재 위치"><strong>login</strong></li>
+	</ol>
+</div>
+
+<div class="titleArea">
+    <h3>login</h3>
+</div>
+
+<div module="member_login">
+	<div class="login">
+		<fieldset>
+			<!--@css(/css/module/member/login.css)-->
+			<!--
+				$defaultReturnUrl = /index.html
+				$forbidIpUrl = member/adminFail.html
+			-->
+			<legend>회원로그인</legend>
+			<label class="id"><span>아이디</span> {$form.member_id}
+			</label>
+			<label class="password"><span>비밀번호</span> {$form.member_passwd}
+			</label>
+			<a href="#" onclick="{$action_func_login}">LOGIN</a>
+			<ul>
+				<!-- <li>{$form.check_secret_connect}</li> -->
+				<li class="join"><a href="/member/join.html">You can register here.</a></li>
+				<li>
+					<a href="/member/id/find_id.html">FORGET YOUR ID ?</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/member/passwd/find_passwd_info.html" class="right">FORGET YOUR PW ?</a>
+				</li>
+			</ul>
+			<p class="link">
+				회원가입을 하시면 다양하고 특별한
+				<br />혜택이 준비되어 있습니다.
+				<a href="/member/join.html">JOIN US(회원가입)<!-- <img src="http://img.echosting.cafe24.com/skin/base_ko_KR/member/btn_join.gif" alt="회원가입" /> --></a>
+			</p>
+			<p class="link {$display_nomember|display}" id="noMemberWrap">
+				<b>비회원</b>님도 상품구매가 가능하나 다양한
+				<br />회원혜택에서 제외됩니다.
+				<a href="{$returnUrl}" onclick="{$action_nomember_order}">NONMEMBER ORDER (비회원 구매)<!-- <img src="http://img.echosting.cafe24.com/skin/base_ko_KR/member/btn_nomember.gif" alt="비회원구매" /> --></a>
+			</p>
+		</fieldset>
+	</div>
+</div>
+
+<div module="MyShop_OrderHistoryNologin">
+    <!--@css(/css/module/myshop/orderHistoryNologin.css)-->
+    <!--
+        $orderDetailUrl = /myshop/order/detail.html
+    -->
+		<p>비회원의 경우, 주문시의 주문번호로 주문조회가 가능합니다.</p>
+		<ul>
+			<li>
+				<strong>{$form_label.order_name}</strong>
+				{$form.order_name}
+			</li>
+			<li class="number">
+				<strong>{$form_label.order_id}</strong>
+				{$form.order_id}
+			</li>
+			<li>
+				<strong>{$form_label.order_password}</strong>
+				{$form.order_password}
+			</li>
+		</ul>
+		<p class="button">
+			<input type="image" src="/web/upload/images/i_order_ok.png" alt="로그인">
+		</p>
+</div>

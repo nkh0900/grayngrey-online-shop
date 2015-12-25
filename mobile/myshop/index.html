@@ -1,0 +1,67 @@
+<!--@layout(/layout/basic/layout.html)-->
+<div id="titleArea">
+    <h2>my page</h2>
+</div>
+
+<div module="layout_logincheck">
+<!--
+    $url = /member/login.html
+-->
+</div>
+
+<div class="myshopMain">
+	<div module="myshop_benefit">
+        <!--@css(/css/module/myshop/benefit.css)-->
+        <div class="info">
+            <div class="{$display_benefit|display}">
+                <div class="memberInfo">
+                    <span><img src="{$group_image}" alt="{$group_name}" onerror="this.src='http://img.echosting.cafe24.com/skin/base_ko_KR/member/img_member_default.gif';" width="35" /></span>
+                    <ul>
+                        <li><strong class="name">{$member_name}님</strong>의 구매등급은 <br><strong class="group">[{$group_name}]</strong>입니다.</li>
+                    </ul>
+                </div>
+                <p class="help {$display_no_benefit|display}">
+                    <span class="{$display_no_benefit|display}">{$dc_pay} {$dc_min_price} 구매시 {$dc_price}{$dc_type}을 {$use_dc} 받으실 수 있습니다. {$dc_max_percent}</span>
+                    <span class="{$display_mobile_use_dc|display}">({$dc_pay} {$mobile_dc_min_price} 모바일 구매시 {$mobile_dc_price}{$mobile_dc_price_type}을 {$mobile_use_dc} 받으실 수 있습니다. {$mobile_dc_max_percent})<br></span>
+                    <span class="{$display_with_all|display}">{$dc_pay} {$dc_min_price_mileage} 구매시 {$dc_price_mileage}{$dc_type_mileage}을 {$use_dc_mileage} 받으실 수 있습니다. {$dc_max_mileage_percent}</span>
+                    <span class="{$display_mobile_use_mileage|display}">({$dc_pay} {$mobile_dc_mileage_min_buy_amount} 모바일 구매시 {$mobile_dc_mileage_price_o_percent}{$mobile_dc_mileage_unit}을 {$mobile_use_dc_mileage} 받으실 수 있습니다. {$mobile_dc_mileage_max_percent_buy_amount})</span>
+                </p>
+           </div>
+            <div module="myshop_bankbook">>
+                <ul>
+                    <li>{$mileage_name} : <a href="/myshop/mileage/historyList.html">{$avail_mileage}</a></li>
+                    <li class="{$display_deposit|display}">{$deposit_name} : <a href="/myshop/deposits/historyList.html">{$total_deposit}</a></li>
+                    <li class="{$display_coupon|display}">쿠폰 : <a href="/myshop/coupon/coupon.html">{$coupon_cnt}개</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="invite {$display_reco|display}">
+            <h3>쇼핑몰 주소 복사하기</h3>
+            <div class="inputBox">
+                <input type="text" id="{$reco_url}" value="http://{$shop_domain}/?reco_id={$member_id}" readonly="readonly" /><a href="#none" class="btnStrong" onclick="{$copy_func}">주소복사</a>
+            </div>
+            <div class="help">
+                <p>
+                    쇼핑몰 주소를 친구에게 보내 쇼핑몰에 초대해보세요.<br>
+                    가입즉시 친구에게는 {$reco_mileage2}의 적립금이 지급되고,<br>
+                    {$reco_mileage}
+                </p>
+            </div>
+	   </div>
+    </div>
+
+	<div module="myshop_main" class="myshop_main">
+        <!--@css(/css/module/myshop/main.css)-->
+        <ul>
+            <li class="order"><a href="/myshop/order/list.html"><strong>order</storng> &nbsp;주문조회</a></li>
+            <li class="modify"><a href="/member/modify.html"><strong>profile</storng> &nbsp;회원정보</a></li>
+            <li class="wishlist"><a href="/myshop/wish_list.html"><strong>wishlist</storng> &nbsp;관심상품 <span class="count {$wish_count_display|display}">({$wish_count})</span></a></li>
+            <li class="mileage"><a href="/myshop/mileage/historyList.html"><strong>mileage</storng> &nbsp;{$mileage_name}</a></li>
+            <li class="deposits {$deposit_display|display}"><a href="/myshop/deposits/historyList.html"><strong>deposits</storng> &nbsp;예치금</a></li>
+            <li class="consult {$consult_display|display}"><a href="/board/consult/list.html"><strong>consult</storng> &nbsp;1:1 맞춤상담</a></li>
+            <li class="coupon {$coupon_display|display}"><a href="/myshop/coupon/coupon.html"><strong>coupon</storng> &nbsp;쿠폰 <span class="count {$coupon_count_display|display}">({$coupon_count})</span></a></li>
+            <li class="board"><a href="/myshop/board_list.html"><strong>board</storng> &nbsp;게시물관리</a></li>
+            <li class="address"><a href="/myshop/addr/list.html"><strong>address</storng> &nbsp;배송 주소록 관리</a></li>
+        </ul>
+    </div>
+</div>

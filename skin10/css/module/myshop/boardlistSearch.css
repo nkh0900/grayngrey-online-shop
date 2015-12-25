@@ -1,0 +1,13 @@
+.xans-myshop-boardlistsearch { margin:20px 0 0; padding:2px 8px; color:#888; font-size:11px;  }
+.xans-myshop-boardlistsearch p { padding:10px 0; }
+/*.xans-myshop-boardlistsearch input { border:1px solid #bcbcbc; padding:2px; }*/
+.xans-myshop-boardlistsearch .boardSearch { display:block; }
+.xans-myshop-boardlistsearch p select {margin: 0 5px 0 0;}
+.xans-myshop-boardlistsearch .boardSearch p a {
+    font-size: 9px;
+    padding: 8px 7px 7px 7px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #ddd;
+    vertical-align: middle;
+}

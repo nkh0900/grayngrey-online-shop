@@ -1,0 +1,23 @@
+/*.xans-myshop-orderhistorylist { color:#8f8f8f; padding:0 0 6px; border-bottom:3px solid #333; font-size:.9em; }*/
+
+.xans-myshop-orderhistorylist table th { padding:9px 0 9px;  border-bottom:1px solid #333; border-top:1px solid #333; font-weight:normal; color:#202020; }
+.xans-myshop-orderhistorylist table td { padding:9px 0 9px; vertical-align:middle; text-align:center; line-height:1.4em; border-top:1px solid #e9e9e9;}
+.xans-myshop-orderhistorylist table .first td {border:0; }
+.xans-myshop-orderhistorylist table .date { width:86px; }
+.xans-myshop-orderhistorylist table .number { width:145px; }
+.xans-myshop-orderhistorylist table .number a,
+.xans-myshop-orderhistorylist table .number a:hover { color:#333; font-weight:bold; font-size:1.2em;}
+.xans-myshop-orderhistorylist table td.product { font-size:11px; text-align:left; padding-left:10px; }
+.xans-myshop-orderhistorylist table td.price { width:85px; color:#4b97b4; font-weight:bold; }
+.xans-myshop-orderhistorylist table td.state { width:103px; }
+
+.xans-myshop-orderhistorylist table a,
+.xans-myshop-orderhistorylist table a:hover { color:#8f8f8f; }
+
+/* edit CSS */
+.xans-myshop-orderhistorylist {
+    color: #8f8f8f;
+    padding: 0 0 6px;
+    border-bottom: 1px solid #ddd;
+    font-size: 11px;
+}

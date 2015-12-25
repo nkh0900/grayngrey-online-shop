@@ -1,0 +1,31 @@
+<!--@layout(/layout/basic/layout.html)-->
+<div class="path">
+	<h3>현재 위치</h3>
+	<ol>
+		<li class="first"><a href="/">home</a></li>
+		<li title="현재 위치"><strong>find it password</strong></li>
+	</ol>
+</div>
+
+<div class="titleArea">
+	<h2><span>find it password</span></h2>
+</div>
+
+<div module="member_findpasswdresult">
+<!--@css(/css/module/member/269/findpasswdresult.css)-->
+    <div class="findPw">
+        <!-- <h3><img src="http://img.echosting.cafe24.com/skin/base_ko_KR/member/h3_find_pw.gif" alt="비밀번호 찾기" /></h3> -->
+        <p class="desc">비밀번호가 고객님 메일로 발송되었습니다.</p>
+        <div class="memberInfo">
+            <p class="thumbDesc">
+                <strong>{$id}</strong> 회원님의 패스워드를<br />
+                <span>{$email}</span>으로 보내드렸습니다.<br />
+            </p>
+        </div>
+        <p class="button">
+            <a href="/member/login.html">login</a>
+        </p>
+    </div>
+</div>
+
+

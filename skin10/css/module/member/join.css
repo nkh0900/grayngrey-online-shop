@@ -1,0 +1,122 @@
+.xans-member-join div.boardView { clear:both; margin-top:18px; border-top:3px solid #333; border-bottom:3px solid #333; }
+
+/*
+.xans-member-join h3 { float:left; margin:30px 0; }
+.xans-member-join .chkAdd { float:right; margin:34px 0 0; color:#34a7b3; font-size:.9em; }
+.xans-member-join table.boardView { background:#f5f5f5; }
+.xans-member-join table.boardView input,
+.xans-member-join table.boardView textarea { border:1px solid #bcbcbc; background:#fff; color:#202020; padding:1px 0 2px 4px; }
+.xans-member-join table.boardView th { width:120px; padding:5px 0 5px 20px; text-align:left; line-height:2em; border-bottom:1px solid #e6e6e6; color:#838382; font-weight:normal; }
+.xans-member-join table.boardView td { width:616px; padding:5px 0 5px; border-bottom:1px solid #e6e6e6; line-height:2em; color:#8b8b8c;  }
+.xans-member-join table.boardView td fieldset { width:580px; }
+.xans-member-join table.boardView td p { padding:3px 0 0; line-height:16px; }
+.xans-member-join table.boardView td.write { width:100%; }
+.xans-member-join table.boardView td img { vertical-align:middle; }
+*/
+
+.xans-member-join table.boardView thead th { border-bottom:3px solid #333; }
+.xans-member-join table.boardView thead td { border-bottom:3px solid #333; }
+.xans-member-join table.boardView tfoot th { border-top:3px solid #333; }
+.xans-member-join table.boardView tfoot td { border-top:3px solid #333; }
+.xans-member-join table.boardView .first { border-top:0; padding-top:20px; }
+
+/*.xans-member-join .agreeArea { clear:both; padding:20px; background:#f5f5f5; border-top:3px solid #333; border-bottom:3px solid #333; font-size:.9em; line-height:2em; color:#8f8f8f; }
+.xans-member-join .agreeArea .agreeInner { overflow:auto; height:200px; padding:20px 20px 37px; border:1px solid #bcbcbc; background:#fff; }
+.xans-member-join .agreeArea .agreement { height:500px; }
+.xans-member-join .agreeArea p { padding:5px 0 0; }
+.xans-member-join .agreeArea p span { padding:0 20px 0 0; }*/
+
+/* INPUT SIZE - MEMBERS */
+.xans-member-join #hint_answer { width:500px; }
+/*.xans-member-join #postcode1,
+.xans-member-join #postcode2 { width:40px; text-align:center; padding:1px 0 2px 0;}*/
+.xans-member-join #postcode1,
+.xans-member-join #postcode2 {width:40px;text-align:center;}
+/*.xans-member-join #addr1,
+.xans-member-join #addr2 { width:500px; margin:3px 0;}*/
+.xans-member-join #addr1,
+.xans-member-join #addr2 {width:280px;margin:5px 0 0;}
+.xans-member-join #phone1,
+.xans-member-join #mobile1 { width:60px; margin:0 4px 0 0;}
+.xans-member-join #phone2,
+.xans-member-join #phone3,
+.xans-member-join #mobile2,
+.xans-member-join #mobile3 { width:80px; margin:0 4px;}
+.xans-member-join #email1,
+.xans-member-join #email2 { width: 150px; margin:0 4px 0 0;}
+.xans-member-join #email2 { margin:0 4px; }
+.xans-member-join #birth_year,
+.xans-member-join #marry_year,
+.xans-member-join #partner_year { width:60px; margin:0 4px 0 0;}
+.xans-member-join #birth_month,
+.xans-member-join #marry_month,
+.xans-member-join #partner_month,
+.xans-member-join #birth_day,
+.xans-member-join #marry_day,
+.xans-member-join #partner_day { width:30px; margin:0 4px 0 0;}
+
+.xans-member-join #job,
+.xans-member-join #job_class,
+.xans-member-join #school,
+.xans-member-join #region,
+.xans-member-join #internet,
+.xans-member-join #child,
+.xans-member-join #car,
+.xans-member-join #earning { width:200px; }
+
+.xans-member-join #add1,
+.xans-member-join #add2,
+.xans-member-join #add3,
+.xans-member-join #add4,
+.xans-member-join #add5,
+.xans-member-join #add6,
+.xans-member-join #add7,
+.xans-member-join #add8,
+.xans-member-join #add9  { width:500px; }
+
+.xans-member-join .btnArea { text-align:right; overflow:hidden; margin:20px 0 50px; }
+.xans-member-join .btnArea.miniType { margin:10px 0 20px; padding:0 15px; }
+.xans-member-join .btnArea img { float:left; padding:0 1px 0 0; cursor:pointer; }
+
+.xans-member-join .btnArea p.btnRight { float:right; }
+.xans-member-join .btnArea p.btnRight img { float:left; padding:0 0 0 1px; }
+
+#realNameAuth p span { display:inline-block; width:80px; }
+#ipinWrap img { display:block; }
+
+/* edit CSS */
+
+/* 회원구분 */
+.xans-member-join .boardWrite table {line-height:1.5;table-layout:fixed;color:#333;border-top:1px solid #efefef;}
+.xans-member-join .boardWrite th {font-family:'Arial',san-serif;font-size:12px;font-weight:normal;width:20%;padding:10px 0;text-align:left;vertical-align:middle;letter-spacing:0;border-top:1px solid #efefef;border-bottom:1px solid #efefef;}
+.xans-member-join .boardWrite td {font-family:'Arial', san-serif;font-size:12px;width:80%;padding:10px 0;vertical-align:middle;letter-spacing:0;color:#888;border-top:1px solid #efefef;border-bottom:1px solid #efefef;}
+.xans-member-join .boardWrite td a {font-family:'Arial',serif;font-size:9px;padding:10px 10px 9px 10px;letter-spacing:1px;text-transform:uppercase;color:#111;border:1px solid #ddd;background:#fff;}
+.xans-member-join .boardWrite td a:hover {background:#ddd;}
+.xans-member-join .boardWrite tr:first-child th,
+.xans-member-join .boardWrite tr:first-child td {border-top:0;}
+.xans-member-join .boardWrite th img {height:5px;}
+.xans-member-join .boardWrite input {height:22px;border: 1px solid #ddd;}
+.xans-member-join .boardWrite label {padding:0 20px 0 0;}
+.xans-member-join ul.grid li {margin:5px 0 0;}
+
+/* 기본정보 */
+.xans-member-join h3 {font-family:'Arial',san-serif;font-size:12px;padding:40px 0 15px;letter-spacing:0;color:#333;}
+.xans-member-join .required {font-family:'Arial',san-serif;font-size:12px;margin:-25px 0 15px;text-align:right;letter-spacing:0;color:#111;}
+.xans-member-join .required img {height:5px;vertical-align:middle;}
+.xans-member-join .boardWrite select {height:30px;}
+
+/* 이용약관 */
+.xans-member-join .agreeArea .agree {font-family:'Arial',san-serif;font-size:12px;line-height:17px;overflow:auto;height:100px;padding:20px;letter-spacing:0;color:#888;border:1px solid #ddd;}
+.xans-member-join .agreeArea .agree p {padding:0 0 30px;}
+.xans-member-join .agreeArea .check {font-family:'Arial',san-serif;font-size:12px;padding:15px 0 0 0;letter-spacing:0;color:#111;}
+.xans-member-join input[type=radio],
+.xans-member-join input[type=checkbox] {width:14px;height:14px;margin:0 3px 0 0;padding:0;border:0;}
+
+/* 버튼 */
+.xans-member-join .btnArea {font-size:9px;overflow:hidden;margin:30px 0 50px;text-align:center;text-transform:uppercase;}
+.xans-member-join .btnArea span.left {float:left;margin:0 5px 0 0;}
+.xans-member-join .btnArea span.right {float:right;margin:0 0 0 5px;}
+.xans-member-join .btnArea span.left a {display:block;padding:7px 10px;color:#111;border:1px solid #ddd;background:#fff;}
+.xans-member-join .btnArea span.right a.ok {display:block;padding:7px 20px;color:#fff;border:1px solid #111;background:#111;}
+.xans-member-join .btnArea span.left a:hover {display:block;color:#111;border:1px solid #ddd;background:#ddd;text-decoration: none;}
+.xans-member-join .btnArea span.right a.ok:hover {display:block;color:#111;border:1px solid #ddd;background:#ddd;text-decoration: none;}

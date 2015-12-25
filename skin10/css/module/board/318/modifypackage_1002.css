@@ -1,0 +1,37 @@
+/* modify */
+.xans-board-modify .boardWrite table { table-layout:fixed; border:1px solid #d7d5d5; line-height:180%; }
+.xans-board-modify table th { width:110px; padding:10px 0 8px 20px; border-top:1px solid #e8e8e8; border-right:1px solid #e8e8e8; background-color:#fbfafa; text-align:left; font-weight:normal; vertical-align:middle; }
+.xans-board-modify table td { width:auto; padding:10px 0 8px 10px; border-top:1px solid #e8e8e8; }
+.xans-board-modify table td img { vertical-align:middle; }
+.xans-board-modify table a { text-decoration:none; }
+.xans-board-modify table input,
+.xans-board-modify table textarea { padding:2px 2px 2px 4px; border:1px solid #d9d9d9; color:#202020; }
+.xans-board-modify table td.write { width:100%; padding:0; border-top:none; }
+.xans-board-modify table td.write table { border:0; table-layout:auto; }
+.xans-board-modify table tr.first th,
+.xans-board-modify table tr.first td,
+.xans-board-modify table tr.ucc th,
+.xans-board-modify table tr.ucc td{ border-top:none; }
+.xans-board-modify table tr.captcha td { font-size:11px; color:#757575; vertical-align:middle; }
+.xans-board-modify table tr.agree th,
+.xans-board-modify table tr.agree td { vertical-align:top; }
+.xans-board-modify table tr.agree td textarea { width:560px; height:140px; margin:0 0 10px; }
+.xans-board-modify table #subject { width:390px; height:14px; padding:3px;}
+.xans-board-modify table #writer { height:14px; padding:3px;}
+.xans-board-modify table #ucc_width { width:40px; }
+.xans-board-modify table #ucc_height { width:40px; }
+.xans-board-modify table input[type=radio], .xans-board-modify table input[type=checkbox], .xans-board-modify table #notice0, .xans-board-modify table #secure0, .xans-board-modify table #secure1, .xans-board-modify table #privacy_agreement_radio0, .xans-board-modify table #privacy_agreement_radio1 { border:0; width:13px; height:13px; margin:0 3px 0 0; background:none; vertical-align:middle; }
+
+.xans-board-modify .btnArea { overflow:hidden; margin:20px 0 50px; text-align:right; font-size:1%; line-height:1%; }
+.xans-board-modify .btnArea.center { text-align:center; }
+.xans-board-modify .btnArea img { cursor:pointer; margin:0 1px 0 0;}
+.xans-board-modify .btnArea span.left { float:left; margin:0 0 0 3px; }
+
+/* modify - 상품 */
+.xans-board-modify .prdSelect { overflow:hidden; margin:0 0 20px; padding:15px 20px; border:5px solid #e8e8e8; }
+.xans-board-modify .prdThumb { float:left; }
+.xans-board-modify .prdThumb img { width:90px; height:130px; border:1px solid #d5d5d5; }
+.xans-board-modify .prdInfo { float:left; width:620px; padding:0 0 0 35px; }
+.xans-board-modify .prdInfo h3 { margin:17px 0 5px; font-size:14px; color:#2e2e2e; }
+.xans-board-modify .prdInfo .price { font-size:14px; font-weight:bold; color:#008bcc; }
+.xans-board-modify .prdInfo .button { margin:19px 0 0 0; padding:13px 0 0 0; border-top:1px solid #e8e8e8; }

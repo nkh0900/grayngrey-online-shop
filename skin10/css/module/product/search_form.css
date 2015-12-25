@@ -1,0 +1,74 @@
+.xans-search-form { margin:0 0 20px; }
+/* .searchbox */
+.xans-search-form .searchbox { position: relative; }
+.xans-search-form .searchbox .item {font-family:'Arial',san-serif;font-size:12px;line-height:20px;float:left;width:60%;margin:5px 0 0;letter-spacing:0;color:#333;}
+.xans-search-form .searchbox .item_ {font-family:'Arial',san-serif;font-size:12px;font-weight:normal;line-height:20px;float:left;width:40%;margin:5px 0 0;letter-spacing:0;color:#333;}
+.xans-search-form .searchbox .item:after {display:block;clear:both; content:'';}
+.xans-search-form .searchbox .item_:after {display:block;clear:both; content:'';}
+.xans-search-form .searchbox .item strong {float:left;width:90px;padding:2px 0 0;}
+.xans-search-form .searchbox .item_ strong {float:left;width:80px;padding:2px 0 0;vertical-align:middle;}
+.xans-search-form .searchbox .item input {height:25px;padding:1px 0 0 9px;border:1px solid #ddd;}
+.xans-search-form .searchbox .item_ input {height:25px;padding:1px 0 0 9px;border:1px solid #ddd;}
+.xans-search-form .searchbox .popular {font-size:12px;line-height:18px;margin:8px 0 17px;padding:0 0 0 162px;}
+.xans-search-form .searchbox .popular:after {display:block;clear:both; content:'';}
+.xans-search-form .searchbox .popular strong {float:left;margin:0 0 0 -72px;color:#888;font-weight: normal;}
+.xans-search-form .searchbox .popular p a {font-family:'Lato',serif;font-size:9px;margin:0 3px 0 0;padding:7px 0 0 8px;color:#333;background:url('http://img.echosting.cafe24.com/skin/base_ko_KR/product/bg_popular_search.gif') no-repeat 0 10px;}
+.xans-search-form .searchbox .popular p a:first-child {padding-left:0;background:none;}
+.xans-search-form .searchbox .popular a:hover {text-decoration:none; color:#fe7b05;}
+.xans-search-form .searchbox .button {position:absolute;top:0;right:0;}
+.xans-search-form .searchbox .button input {height:105px;}
+.xans-search-form .noData {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 0 0 70px 0;
+    padding: 50px 0 50px 0;
+    text-align: center;
+    font-family: 'Arial',san-serif;
+    font-size: 12px;
+    letter-spacing: 0px;
+}
+
+/* Input Size */
+.xans-search-form .searchbox #category_no {width:280px;}
+.xans-search-form .searchbox #search_type {width:80px;}
+.xans-search-form .searchbox #keyword {width:230px;}
+.xans-search-form .searchbox #product_price1 {width:122px;}
+.xans-search-form .searchbox #product_price2 {width:122px;}
+.xans-search-form .searchbox #order_by {width:325px;}
+
+/* searchResult */
+.xans-search-form .searchResult {margin:30px 0 10px 0;padding:15px 0 10px 0;text-align:right;}
+.xans-search-form .searchResult .record {font-size:9px;font-weight:normal;float:left;text-transform:uppercase;color:#111;}
+.xans-search-form .searchResult .listType {font-size:9px;display:inline;margin:0 -6px 0 0;text-transform:uppercase;}
+.xans-search-form .searchResult .listType li {display:inline;padding:0 6px 0 12px;cursor:pointer;color:#111;background:url('http://img.echosting.cafe24.com/skin/base_ko_KR/product/bg_result_type.gif') no-repeat 0 50%;}
+.xans-search-form .searchResult .listType li:first-child {background:none;}
+.xans-search-form .searchResult .listType li:hover {text-decoration:none;color:#888;}
+
+/* 할인기간 레이어 */
+/*
+.xans-search-result .discountPeriod { display:inline-block; z-index:10; position:relative; width:55px; height:19px; vertical-align:middle; *zoom:1; *display:inline; }
+.xans-search-result .discountPeriod .edge { position:absolute; left:50%; top:-6px; width:10px; height:6px; margin:0 0 0 -5px; font-size:0; line-height:0; background:url("http://img.echosting.cafe24.com/skin/base_ko_KR/common/ico_tip_edge.gif") no-repeat 0 0; }
+.xans-search-result .layerDiscountPeriod { display:none; position:absolute; left:50%; top:26px; width:247px; margin:0 0 0 -124px; border:1px solid #565960; font-size:12px; background-color:#fff; }
+.xans-search-result .layerDiscountPeriod strong.title { display:block; margin:0 0 12px; padding:0 35px 0 0; font-weight:bold; color:#2e2e2e; }
+.xans-search-result .layerDiscountPeriod .content { padding:9px 10px 12px 14px; font-family:Verdana, "돋움", Dotum, sans-serif; }
+.xans-search-result .layerDiscountPeriod .content p { margin:2px 0 0; font-size:11px; color:#000; line-height:16px; color:#757575; letter-spacing:-1px; }
+.xans-search-result .layerDiscountPeriod .content p strong { font-weight:normal; font-size:12px; color:#2e2e2e; }
+.xans-search-result .layerDiscountPeriod .content p strong span { font-size:11px; }
+.xans-search-result .layerDiscountPeriod .close { position:absolute; right:14px; top:14px; }
+.xans-search-result .layerDiscountPeriod .close img { cursor:pointer; }
+*/
+
+.xans-search-paging { clear:both;padding: 40px 0 50px 0;text-align:center; }
+.xans-search-paging { padding:13px 0; }
+.xans-search-paging { text-align:center; margin:20px 0 0;}
+.xans-search-paging img {vertical-align:top; }
+.xans-search-paging p { margin-right:-4px; }
+.xans-search-paging ol { margin:0 7px; }
+.xans-search-paging li:first-child { margin-left: 0; }
+.xans-search-paging li strong { color:#111; padding: 0 10px;}
+.xans-search-paging li a { display: block;text-decoration:underline; padding: 0 10px;font-weight: bold;color:#888; background: #fff;}
+.xans-search-paging li a:hover { text-decoration: none;color:#111; }
+.xans-search-paging li a.nolink { cursor:default; }
+.xans-search-paging p {display:inline-block;padding:0 15px;vertical-align:middle;*display:inline;*zoom:1;}
+.xans-search-paging ol {font-size:0;line-height:0;display:inline-block;vertical-align:top;*display:inline;*zoom:1;*margin:0;}
+.xans-search-paging li {font-size:11px;line-height:22px;display:inline-block;vertical-align:top;color:#111;*display:inline;*zoom:1;}

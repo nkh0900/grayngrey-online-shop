@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Cache-Control" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<title>기본 레이아웃</title>
+	<link rel="shortcut icon" href="http://teamgray.cafe24.com/web/upload/images/favicon.ico">
+	<link href="http://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Suranna" rel="stylesheet" type="text/css">
+	<link rel="canonical" href="http://ecudemo17976.cafe24.com/product/list.html?cate_no=26">
+	<!--@css(/layout/basic/css/common.css)-->
+	<!--@css(/layout/basic/css/layout.css)-->
+	<!--@css(/layout/basic/css/rightmenu.css)-->
+	<!--@js(/layout/basic/js/basic.js)-->
+	<!--@js(/js/common.js)-->
+	<script type="text/javascript" src="/layout/basic/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="/ec-js/common.js"></script>
+	<!--@js(/layout/basic/js/rightscroll.js)-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#menu ul').hide();
+			$('#menu ul').children('.current').parent().show();
+			//$('#menu ul:first').show();
+			$('#menu li a').click(
+			    function() {
+			        var checkElement = $(this).next();
+			        if ((checkElement.is('ul')) && (checkElement.is(':visible'))) {
+			            return false;
+			        }
+			        if ((checkElement.is('ul')) && (!checkElement.is(':visible'))) {
+			            $('#menu ul:visible').slideUp('normal');
+			            checkElement.slideDown('normal');
+			            return false;
+			        }
+			    }
+			);
+		});
+	</script>
+<body>
+<div id="menu_top_03">
+	<ul>
+		<li module="Layout_stateLogon">
+			<a href="{$action_logout}" class="log">logout</a><br>
+			<a href="/myshop/order/list.html">order</a><br>
+			<a href="/myshop/index.html">my page</a>
+		</li>
+		<li module="Layout_stateLogoff">
+			<a href="/member/join.html">join</a><br>
+			<a href="/myshop/order/list.html">login</a><br>
+			<a href="/myshop/index.html">my page</a>
+		</li>
+	</ul>
+	<div id="menu">
+		<li style="padding:15px 0 50px 0;" module="Layout_stateLogon">
+			<a href="/order/basket.html">
+				<img src="/web/upload/images/i_cart_menu.png" class="cart">
+				&nbsp;&nbsp;
+				<span class="count {$basket_count_display|display}">
+					<span>{$basket_count}</span>
+				</span>
+			</a>
+			&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+			<a href="/product/search.html"><img src="/web/upload/images/i_search_menu.png" class="search"></a>
+		</li>
+		<li style="padding:15px 0 50px 0;" module="Layout_stateLogoff">
+			<a href="/order/basket.html">
+				<img src="/web/upload/images/i_cart_menu.png" class="cart">
+				&nbsp;&nbsp;
+				<span class="count {$basket_count_display|display}">
+					<span>{$basket_count}</span>
+				</span>
+			</a>
+			&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+			<a href="/product/search.html"><img src="/web/upload/images/i_search_menu.png" class="search"></a>
+		</li>
+		<li><span>customer center</span>
+			<br>mon-fri pm11 - 7
+			<br>lunch pm1 - 2
+			<br>sat.sun.red-day off
+			<br>
+		</li>
+		<li>
+			<a href="javascript:;">banking info</a>
+			<ul style="display: none;">
+				<li>우리 1005-902-853760
+					<br>그레이앤그레이(장영롱)</li>
+			</ul>
+		</li>
+		<li>
+			<br><span>sns</span>
+			<br><a href="http://blog.naver.com/teamgray/" target="_blank" class="sns">blog</a>
+			<br><a href="https://instagram.com/grayngrey" target="_blank" class="sns">@instagram</a>
+			<div class="insta">
+				<iframe src="http://widget.websta.me/in/grayngrey/?s=56&w=2&h=2&b=0&p=3" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:118px; height: 118px" ></iframe> <!-- websta - web.stagram.com -->
+			</div>
+		</li>
+	</div>
+	<div id="menu_top_04">
+		<li>
+		<br>
+		<br>
+		<br><a href="/shopinfo/company.html" class="sns">About</a>
+		<br><a href="/member/agreement.html" class="sns">Agreement</a>
+		<br><a href="/shopinfo/guide.html" class="sns">Shopping Guide</a>
+		<br><a href="/member/privacy.html" class="sns">Privacy Agreement</a>
+		</li>
+	</div>
+</div>
+
+<div id="menu_top_02">
+	<div class="topArea">
+		<h1 module="Layout_LogoTop">
+	 	<!--@css(/css/module/layout/logotop.css)-->
+			<a href="/index.html">{$mall_name}</a>
+		</h1>
+	</div>
+	<div id="menu">
+		<li>
+			<span><strong>
+				<a href="/product/list.html?cate_no=44" class="new">NEW</a>
+			</strong></span>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<span><strong>
+				<a href="/product/list.html?cate_no=45" class="best">BEST</a>
+			</strong></span>
+		</li>
+		<li module="Layout_category">
+			<a href="/product/list.html{$param}" class="cate">{$name}</a>
+			<a href="/product/list.html{$param}" class="cate">{$name}</a>
+		</li>
+		<li>
+		<span>community</span>
+			<br><a href="/board/free/list.html?board_no=1" class="com">Notice</a>
+			<br><a href="/board/product/list.html?board_no=6" class="com">Q&amp;A</a>
+			<br><a href="/board/product/list.html?board_no=4" class="com">Review</a>
+		</li>
+	</div>
+	<div id="menu_top_05" module="Layout_productRecent">
+    <!--@css(/css/module/layout/productRecent.css)-->
+    <!-- <h2><a href="/product/recent_view_product.html">recent view</a></h2> -->
+		<p class="player">
+			<img src="/web/upload/images/i_menu_arrival_top.png" alt="이전 제품" class="prev" />
+		</p>
+    <ul>
+        <li class="{$disp_recent|display}">
+            <a href="/product/detail.html{$param}"><img src="{$recent_img}" alt="" /><span class="displaynone">{$name}</span></a>
+        </li>
+        <li class="{$disp_recent|display}">
+            <a href="/product/detail.html{$param}"><img src="{$recent_img}" alt="" /><span class="displaynone">{$name}</span></a>
+        </li>
+    </ul>
+    <p class="player">
+    	<img src="/web/upload/images/i_menu_arrival_bottom.png" alt="다음 제품" class="next" />
+    </p>
+	</div>
+</div>
+
+	<hr class="layout" />
+	<div id="wrap">
+		<div class="contents">
+		<!--@contents-->
+		</div>
+		<div class="footer">
+			<div module="Layout_footer">
+			<!--@css(/css/module/layout/footer.css)-->
+				<ul>
+					<li>
+						회사명<!-- company --> : {$company_name}&nbsp;(그레이앤그레이)&nbsp;&nbsp;&nbsp;
+						대표<!-- Owner/Cpo --> : 장영롱<!-- {$president_name} -->&nbsp;&nbsp;&nbsp;&nbsp;
+						이메일<!-- e-mail --> : <a href="mailto:{$email}">{$email}</a>&nbsp;&nbsp;&nbsp;&nbsp;
+						연락처<!-- TEL -->: {$phone}&nbsp;&nbsp;&nbsp;&nbsp;<br>
+						사업자번호<!-- Business Number --> : {$company_regno}
+						<!-- <span>
+							<a href="http://www.ftc.go.kr/info/bizinfo/communicationViewPopup.jsp?wrkr_no=1274733136" target="_blank">(checking)</a>
+						</span> -->&nbsp;&nbsp;&nbsp;&nbsp;
+						통신판매신고<!-- Permit Number --> : {$network_regno}&nbsp;&nbsp;&nbsp;&nbsp;
+						주소<!-- address --> : {$mall_zipcode},&nbsp;<span>서울시 성북구 삼선교로18길 55, 202호<!-- 55, Samseongyo-ro 18-gil, Seongbuk-gu, Seoul, Korea --></span>
+					</li>
+					<li>
+						Copyright © {$company_name}. All rights reserved.
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<hr class="layout" />
+
+	<div id="progressPaybar" style="display:none;">
+		<div id="progressPaybarBackground" class="layerProgress"></div>
+		<div id="progressPaybarView">
+			<div class="box">
+				<p class="graph">
+					<span><img src="http://img.cafe24.com/images/ec_hosting/popup/layer_guide/txt_prog_001.gif" alt="현재 결제가 진행중입니다." /></span>
+					<span><img src="http://img.cafe24.com/images/ec_hosting/popup/layer_guide/img_loading_bar.gif" alt="" /></span>
+				</p>
+				<p class="txt">
+					본 결체 창은 결제완료 후 자동으로 닫히며,결제 진행 중에 본 결제 창을 닫으시면<br />
+					주문이 되지 않으니 결제 완료 될 때 까지 닫지 마시기 바랍니다.
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<div module="Layout_conversionPc">
+<!--@css(/css/module/layout/464/conversionpc.css)-->
+    <a href="{$mobile_url}"><span>모바일 화면보기</span></a>
+</div>
+
+

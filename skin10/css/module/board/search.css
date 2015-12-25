@@ -1,0 +1,13 @@
+/*
+.xans-board-search { padding:2px 8px; background:#d9d9d9; color:#888; font-size:.9em;  }
+.xans-board-search p { padding:10px 0; }
+.xans-board-search input { border:1px solid #bcbcbc; padding:2px; }
+.xans-board-search .boardSearch { display:block; }
+*/
+
+.xans-board-search {float:right;padding:15px 0 0 0;text-align:right;}
+.xans-board-search .keyword select#search_date {margin:0 5px 0 0;}
+.xans-board-search .keyword select#search_key {margin:0 5px 0 0;}
+.xans-board-search .keyword select#search_key {margin:0 5px 0 0;}
+.xans-board-search .keyword a {font-size:9px;padding:8px 7px 7px 7px;text-align:center;text-transform:uppercase;border:1px solid #ddd;}
+legend {line-height:0;position:absolute;top:-9999px;left:-9999px;visibility:hidden;width:0;height:0;}

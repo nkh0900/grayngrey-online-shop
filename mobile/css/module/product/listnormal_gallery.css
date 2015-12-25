@@ -1,0 +1,32 @@
+.xans-product-listnormal {background:#fff;}
+
+/* 타입 : 갤러리 */
+.xans-product-listnormal.typeGallery {margin:0;}
+.xans-product-listnormal.typeGallery ul {font-size:0;line-height:0;display:table;table-layout:fixed;}
+.xans-product-listnormal.typeGallery img {max-width:100%;}
+.xans-product-listnormal.typeGallery li {font-size:13px;line-height:1.2em;position:relative;display:inline-block;overflow:hidden;margin:0 0 10px;padding:0;vertical-align:top;}
+.xans-product-listnormal.typeGallery .thumbnail {margin:0;}
+.xans-product-listnormal.typeGallery .thumbnail img {width:100%;border:1px solid #ededed;}
+.xans-product-listnormal.typeGallery .information,
+.xans-product-listnormal.typeGallery .information a,
+.xans-product-listnormal.typeGallery .information:before {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;width:100%;}
+.xans-product-listnormal.typeGallery .information {position:absolute;bottom:-160px;left:0;height:160px;}
+.xans-product-listnormal.typeGallery .information:before {display:block;height:100%;content:'';opacity:.6;background:#000;-moz-opacity:.6;-webkit-opacity:.6;}
+.xans-product-listnormal.typeGallery .information:after {position:absolute;top:0;right:12px;display:block;width:15px;height:100%;content:'';-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg);transform:rotate(270deg);background:url('http://img.echosting.cafe24.com/skin/mobile_ko_KR/layout/ico_arrow_white.png') 0 center no-repeat;background-size:15px 15px;}
+.xans-product-listnormal.typeGallery .information a {position:absolute;top:0;display:block;overflow:hidden;height:100%;padding:15px 38px 15px 15px;color:#fff;}
+.xans-product-listnormal.typeGallery .information a .price {font-weight:bold;margin:4px 0 0;}
+.xans-product-listnormal.typeGallery .information a .price span {display:none;}
+.xans-product-listnormal.typeGallery .information a p.price {font-size:9px;margin:3px 0 0;}
+.xans-product-listnormal.typeGallery .information a p.sale.price {font-size:12px;margin:3px 0 0;}
+.xans-product-listnormal.typeGallery .information a p.strike {text-decoration:line-through;}
+.xans-product-listnormal.typeGallery .information a p.name {font-family:'Suranna', serif;font-size:20px;line-height:115%;display:block;overflow:hidden;padding:0 0 5px 0;white-space:nowrap;text-overflow:ellipsis;color:#fff;}
+.xans-product-listnormal.typeGallery .information a p.summary {font-size:11px;margin:7px 0 0;color:#fff;}
+
+.xans-product-listnormal.typeGallery .grid1 li {width:100%;}
+.xans-product-listnormal.typeGallery .grid1 li .name {font-size:15px;}
+.xans-product-listnormal.typeGallery .grid2 li {width:50%;}
+.xans-product-listnormal.typeGallery .grid2 li .name {font-size:13px;}
+.xans-product-listnormal.typeGallery .grid3 li {width:33.333%;}
+.xans-product-listnormal.typeGallery .grid3 li .name {font-size:11px;}
+.xans-product-listnormal.typeGallery .grid4 li {width:25%;}
+.xans-product-listnormal.typeGallery .grid4 li .name {font-size:11px;}

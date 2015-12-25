@@ -1,0 +1,15 @@
+<!--@layout(/layout/basic/zoom.html)-->
+<div module="Product_ZoomPackage">
+    <!--@css(/css/module/product/zoomPackage.css)-->
+    <!--@js(/js/module/product/zoomPackage.js)-->
+    <div module="product_zoom">
+        <div class="header">
+            <h2 class="prdName">{$name}</h2>
+            <button type="button" class="btnClose" onclick="self.close();">닫기</button>
+        </div>
+        <ul>
+            <li style="display:block"><img src="{$big_img}" alt="" class="thumbImage" /></li>
+            {$aAddImage}
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,89 @@
+<!--@layout(/layout/basic/layout.html)-->
+<div id="titleArea" module="search_form">
+    <!--@css(/css/module/search/form.css)-->
+    <!--@js(/js/module/search/form.js)-->
+    <h2>search(<span class="count">{$total_count}</span>)</h2>
+
+    <div class="searchbox">
+        {$form.keyword}
+        <p class="button"><button type="submit" class="btnStrong">search</button></p>
+        <button type="button" class="btnDelete">삭제</button>
+    </div>
+
+    <div class="inner">
+        {$form.order_by}
+    </div>
+
+    <p class="empty {$search_fail_display|display}">검색 결과가 없습니다.</p>
+</div>
+
+<div module="Search_Result">
+    <!--@css(/css/module/search/result.css)-->
+    <!--@js(/js/module/search/result.js)-->
+    <!--
+        $count = 10
+    -->
+    <ul>
+        <li>
+            <div class="thumbnail"><a href="/product/detail.html{$param}"><img src="{$image_medium}" alt="" width="86" height="86"></a></div>
+            <div class="information">
+                <p class="name {$product_name_display|display}"><a href="/product/detail.html{$param}">{$product_name}</a></p>
+                <!-- <p class="icon">{$soldout_icon} {$new_icon} {$recommend_icon} {$product_icons}</p> -->
+                <p class="price  {$product_price_display|display} {$product_sale_strike}">{$price_unit_head}{$product_price}<span>{$price_unit_tail}</span></p>
+                <p class="price sale {$product_sale_visible}">{$price_unit_head}{$product_sale_price}<!-- <span>{$price_unit_tail}</span> --></p>
+                <p class="summary {$summary_desc|display}">{$summary_desc}</p>
+                <div class="price {$product_promotion_display|display}">
+                    <div class="discountPeriod {$product_promotion_display|display}">
+                        <a href="#none" class="btnNormal">할인기간</a>
+                        <div class="layerDiscountPeriod">
+                            <div class="inner">
+                                <h3>할인기간</h3>
+                                <p class="timeleft">{$product_promotion_date}</p>
+                                <ul>
+                                    <li><span>할인금액</span>{$product_promotion_dc_price}</li>
+                                    <li><span>할인기간</span>{$product_promotion_start_date} ~<br>{$product_promotion_end_date}</li>
+                                </ul>
+                                <a href="#none" class="btnClose">닫기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="thumbnail"><a href="/product/detail.html{$param}"><img src="{$image_medium}" alt="" width="86" height="86"></a></div>
+            <div class="information">
+                <p class="name {$product_name_display|display}"><a href="/product/detail.html{$param}">{$product_name}</a></p>
+                <!-- <p class="icon">{$soldout_icon} {$new_icon} {$recommend_icon} {$product_icons}</p> -->
+                <p class="price  {$product_price_display|display} {$product_sale_strike}">{$price_unit_head}{$product_price}<span>{$price_unit_tail}</span></p>
+                <p class="price sale {$product_sale_visible}">{$price_unit_head}{$product_sale_price}<!-- <span>{$price_unit_tail}</span> --></p>
+                <p class="summary {$summary_desc|display}">{$summary_desc}</p>
+                <div class="price {$product_promotion_display|display}">
+                    <div class="discountPeriod {$product_promotion_display|display}">
+                        <a href="#none" class="btnNormal">할인기간</a>
+                        <div class="layerDiscountPeriod">
+                            <div class="inner">
+                                <h3>할인기간</h3>
+                                <p class="timeleft">{$product_promotion_date}</p>
+                                <ul>
+                                    <li><span>할인금액</span>{$product_promotion_dc_price}</li>
+                                    <li><span>할인기간</span>{$product_promotion_start_date} ~<br>{$product_promotion_end_date}</li>
+                                </ul>
+                                <a href="#none" class="btnClose">닫기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<div module="search_paging" class="paginate typeList">
+    <p class="prev"><a href="{$param_before}"><span>이전 페이지</span></a></p>
+    <ol>
+        <li><a href="{$param}" class="{$param_class}">{$no}</a></li>
+        <li><a href="{$param}" class="{$param_class}">{$no}</a></li>
+    </ol>
+    <p class="next"><a href="{$param_next}"><span>다음 페이지</span></a></p>
+</div>

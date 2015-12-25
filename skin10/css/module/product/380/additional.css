@@ -1,0 +1,184 @@
+.xans-product-additional ul.link {line-height:1.5;margin:30px 0 11px;border-bottom:1px solid #292929;border-left:0;*zoom:1;}
+.xans-product-additional ul.link:after {display:block;clear:both;content:'';}
+.xans-product-additional ul.link li {float:left;width:20%;margin:0 0 0 -1px;border-top:1px solid #cbcdce;}
+.xans-product-additional ul.link li.selected {width:20.3%;}
+.xans-product-additional ul.link li a {line-height:38px;display:block;height:38px;padding:0 15px;text-align:center;text-decoration:none;color:#757575;border-right:1px solid #cbcdce;border-left:1px solid #cbcdce;background:#f0f2f2;}
+.xans-product-additional ul.link li.selected a {font-weight:bold;position:relative;top:-1px;margin:0 0 -1px;color:#fff;border:1px solid #292929;background:#4a5164;}
+.xans-product-additional ul.link li:first-child,
+.xans-product-additional ul.link li.selected:first-child {margin-left:0;}
+
+/* 상품상세 하단 정보 */
+.xans-product-additional .cont {line-height:20px;width:100%;padding:150px 0 0 0;text-align:center;color:#111;}
+.xans-product-additional .cont h3 {font-size:12px;color:#111;}
+.xans-product-additional .cont div img {width:100%;max-width:1240px;}
+.xans-product-additional div.board p.nodata {font-family:'Arial', san-serif;font-size:12px;clear:both;padding:50px 0;text-align:center;letter-spacing:0;border-top:1px solid #eee;border-bottom:1px solid #eee;background-color:#fff;}
+
+.xans-product-additional .cont.addinfo {
+    float: left;
+    width: 31.3%;
+    padding: 40px 2% 80px 0;
+}
+.xans-product-additional .cont.addinfo h3 {
+    font-size: 11px;
+    color: #333;
+    padding: 0 0 15px 0;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: normal;
+}
+.xans-product-additional .cont.addinfo .ainfo {
+    overflow: auto;
+    text-align: left;
+    height: 150px;
+    font-size: 11px;
+    font-family: 'Nanum Gothic', serif;
+    line-height: 18px;
+    padding: 20px;
+    color: #888;
+    border: 1px solid #eee;
+    background: #fff;
+}
+.xans-product-additional .cont.addinfo .ainfo p {
+    padding: 0 0 30px;
+}
+
+
+/* 상품 게시판 */
+/*.xans-product-additional div.board { padding:27px 0 46px; color:#353535; line-height:18px; }
+.xans-product-additional div.board h3 { padding:0 10px 0 9px; font-size:12px; }
+.xans-product-additional div.board p.desc { padding:0 10px 0 9px; }
+.xans-product-additional div.board p.nodata { margin:15px 0 0; border:1px solid #d7d5d5; font-weight:bold; color:#008bcc; line-height:39px; text-align:center; }
+.xans-product-additional div.board .btnArea { padding:10px 0; text-align:right; }
+.xans-product-additional div.board .btnArea img { margin:0 0 0 4px; }
+.xans-product-additional div.board > .btnArea { padding:8px 19px 12px 0; border:1px solid #d7d5d5; border-top:0; }
+*/
+
+/*.xans-product-additional .paging { margin:-1px 0 0; padding:12px 0; border:1px solid #d7d5d5; border-top:1px solid #e9e9e9; text-align:center; background:#fbfafa; }
+.xans-product-additional .paging p { display:inline-block; vertical-align:top; *display:inline; *zoom:1; }
+.xans-product-additional .paging p.first { margin:0 -4px 0 0; }
+.xans-product-additional .paging p.last { margin:0 0 0 -4px; }
+.xans-product-additional .paging ol { display:inline-block; margin:0 -4px; font-size:0; line-height:0; vertical-align:top; *display:inline; *zoom:1; *margin:0; }
+.xans-product-additional .paging li { display:inline-block; margin:0 0 0 -1px; border:1px solid #d7d5d5; font-size:12px; color:#757575; vertical-align:top; *display:inline; *zoom:1; }
+.xans-product-additional .paging li:first-child { margin-left:0; }
+.xans-product-additional .paging img { vertical-align:top; }
+.xans-product-additional .paging li a { display:block; width:33px; padding:9px 0; font-weight:bold; color:#939393; line-height:14px; background:#fff; }
+.xans-product-additional .paging li a:hover { text-decoration:none; background:#f0f2f2; }
+.xans-product-additional .paging li a.this { padding-bottom:6px; border-bottom:3px solid #495164; color:#495164; }
+.xans-product-additional .paging a.nolink { cursor:default; }*/
+
+#commentWriteForm_4 {padding:0;}
+#SecretForm_4 {background:#fbf9fa;}
+#SecretForm_4 .view {padding:8px 0 7px;}
+#SecretForm_4 input {font-size:0;line-height:0;width:41px;height:24px;margin:0 0 0 6px;cursor:pointer;border:0;background:url('http://img.echosting.cafe24.com/skin/base_ko_KR/board/btn_ico_submit.gif') no-repeat 0 0;}
+#SecretForm_4 input#secure_password {font-size:12px;line-height:14px;width:130px;height:18px;margin-left:11px;padding:2px 2px 2px 4px;cursor:text;border:1px solid #d9d9d9;background:#fff;}
+#product-review-read td,
+#product-qna-read td {padding:0;}
+#product-review-read td #SecretForm_4 .view {padding-left:79px;}
+#product-qna-read td #SecretForm_4 .view {padding-left:213px;}
+.xans-product-additional .boardComment {padding:0 19px;}
+.xans-product-additional .boardComment li {line-height:14px;position:relative;overflow:hidden;margin:10px 0 0 0;padding:12px 0 0;text-align:left;color:#353535;border-top:1px solid #d7d5d6;}
+.xans-product-additional .boardComment li:first-child {margin-top:0;}
+.xans-product-additional .boardComment li .comment {line-height:18px;margin:9px 0 0;padding:16px 0 15px 9px;word-break:break-all;border-top:1px solid #e9e9e9;}
+.xans-product-additional .boardComment li .name {margin:0 21px 0 0;}
+.xans-product-additional .boardComment li .name input {width:13px;height:13px;margin:0 2px 0 0;vertical-align:-2px;*vertical-align:2px;}
+.xans-product-additional .boardComment li .date {font-size:11px;margin:0 10px 0 0;}
+.xans-product-additional .boardComment li .grade {margin:0 10px 0 0;}
+.xans-product-additional .boardComment li .button {position:absolute;top:6px;right:0;}
+.xans-product-additional .memoCont {margin:0;padding:15px;text-align:left;color:#353535;border:1px solid #e9e9e9;background:#fbfafa;}
+.xans-product-additional .memoCont .user {overflow:hidden;padding:0 2px 0 0;}
+.xans-product-additional .memoCont .user input,
+.xans-product-additional .memoCont .user textarea {border:1px solid #d9d9d9;}
+.xans-product-additional .memoCont .user input {width:100px;height:18px;margin:0 10px 0 9px;padding:2px 2px 2px 4px;}
+.xans-product-additional .memoCont .user .secret input {width:13px;height:13px;margin-right:3px;}
+.xans-product-additional .memoCont .user .secret {margin:0 20px 0 0;}
+.xans-product-additional .memoCont .user textarea {width:100%;height:44px;padding:2px 0;text-indent:4px;*margin-right:10px;}
+.xans-product-additional .memoCont .user a {display: block;padding-top: 10px;}
+.xans-product-additional .memoCont .nameArea {display:block;margin:0 0 10px;}
+.xans-product-additional .memoCont .rating {margin:12px 0 0;}
+.xans-product-additional .memoCont .rating input {width:13px;height:13px;margin:0 2px 0 0;padding:0;vertical-align:-2px;border:0;*vertical-align:1px;}
+.xans-product-additional .memoCont .rating label {padding:0 10px 0 0;}
+.xans-product-additional .memoCont .rating em {font-style:normal;}
+.xans-product-additional .memoCont .text {font-size:11px;margin:5px 0 0;}
+.xans-product-additional .memoCont .text span {color:#008bcc;}
+.xans-product-additional .memoCont .captcha {font-size:11px;margin:8px 0 0;padding:10px 0 0;color:#757575;border-top:1px solid #e9e9e9;}
+.xans-product-additional .memoCont .captcha img {vertical-align:middle;}
+.xans-product-additional .memoCont .captcha input {font-size:12px;margin:0 10px 0 20px;}
+.xans-product-additional table.board td .view + form .memoCont {margin-top:0;}
+
+/* 댓글의 댓글 */
+
+.xans-product-additional .boardComment li.replyArea {margin:-1px 0 0;padding:10px 0 7px 33px;border:1px solid #e9e9e9;background:url('http://img.echosting.cafe24.com/skin/admin_ko_KR/board/ico_comment.gif') no-repeat 20px 15px;}
+.xans-product-additional .boardComment li.replyArea .commentSecret {margin-right:30px;}
+.xans-product-additional .boardComment li.replyArea .comment {margin:7px 0 0;padding:0;border-top:0;}
+
+/* 권한없을시 */
+
+.xans-product-additional .noAccess {font-weight:bold;line-height:39px;margin:15px 0 10px;text-align:center;color:#008bcc;border:1px solid #d7d5d5;}
+
+/* 미성년자 */
+
+.xans-product-additional .minor {font-weight:bold;line-height:14px;margin:15px 0 0;padding:35px 0 24px;text-align:center;color:#353535;border:1px solid #d7d5d5;}
+.xans-product-additional .minor p:first-child img {margin:-11px 8px 0 0;vertical-align:top;}
+.xans-product-additional .minor strong {color:#008bcc;}
+.xans-product-additional .minor .button {margin:-7px 0 0;}
+
+/* 비밀글 관련 */
+
+.xans-product-additional .commentSecret {margin:10px 10px 5px 0;padding:10px 15px;color:#353535;border:1px solid #e9e9e9;background-color:#fbfafa;}
+.xans-product-additional .commentSecret input[type=password] {height:20px;padding:2px 2px 2px 4px;border:1px solid #d9d9d9;}
+
+
+
+
+#prdReview {float:left;width:48%;padding:40px 2% 0 0;clear: both;}
+#prdQnA {float:left;width:48%;padding:40px 2% 0 0;}
+table {width:100%;border-spacing:0;border-collapse:collapse;border:0;}
+th,
+td {vertical-align:top;border:0;}
+.xans-product-additional div.board {line-height:18px;color:#333;}
+.xans-product-additional div.board h3 {font-size:11px;font-weight:normal;float:left;width:70%;padding:0 0 15px 0;letter-spacing:1px;text-transform:uppercase;}
+.xans-product-additional div.board span.btn-group {font-size:10px;float:right;width:30%;text-align:right;text-transform:uppercase;}
+.xans-product-additional div.board span.btn-group a {padding:0 0 0 20px;color:#888;}
+.xans-product-additional .noAccess {font-weight:bold;line-height:39px;margin:15px 0 10px;text-align:center;color:#008bcc;border:1px solid #d7d5d5;}
+
+/* 상품게시판 수정본 */
+.xans-product-additional table.board {font-size:12px;margin:15px 0 0;color:#333;}
+.xans-product-additional table th {font-size:9px;font-weight:normal;font-weight:normal;padding:7px 0;text-transform:uppercase;color:#111;background:#eee;}
+.xans-product-additional table td {font-size:10px;padding:10px 0;text-align:center;vertical-align:middle;border-bottom:1px solid #ddd;}
+.xans-product-additional table.board a {color:#333;}
+.xans-product-additional table.board .subject {text-align:left;word-break:break-all;}
+.xans-product-additional table.board .writer,
+.xans-product-additional table.board .subject {font-family:'Arial', san-serif;font-size:12px;letter-spacing:0;word-break:break-all; }
+.xans-product-additional table.board .subject img {margin:0 1px; vertical-align:middle;}
+.xans-product-additional table.board .txtLess {font-size:11px; color:#939393;}
+.xans-product-additional table.board td .view {font-family:'Arial',san-serif;font-size:12px;line-height:22px;padding:16px 19px 0;text-align:left;letter-spacing:0;}
+.xans-product-additional table.board td .view p.btnArea {margin: 20px;}
+/*원본*/
+/*.xans-product-additional table.board th { padding:12px 0 10px; border-right:1px solid #e3e3e3; background:#fbfafa; font-weight:normal; }
+.xans-product-additional table.board td { padding:14px 3px 13px; border-top:1px solid #e3e3e3; border-right:1px solid #e3e3e3; text-align:center; vertical-align:middle; }
+.xans-product-additional table.board th:last-child,
+.xans-product-additional table.board td:last-child { border-right:none; }
+.xans-product-additional table.board a,
+.xans-product-additional table.board a:hover { color:#353535; }
+.xans-product-additional table.board .subject { padding-left:8px; color:#f76560; text-align:left; word-break:break-all; }
+*/
+
+
+
+.xans-product-reviewpaging {clear:both;padding:30px 0 30px 0;text-align:center;}
+.xans-product-reviewpaging p {display:inline-block;padding:0 15px;vertical-align:middle;}
+.xans-product-reviewpaging img {vertical-align:top;}
+.xans-product-reviewpaging ol {font-size:0;line-height:0;display:inline-block;vertical-align:top;}
+.xans-product-reviewpaging li:first-child {margin-left:0;}
+.xans-product-reviewpaging li {font-size:9px;line-height:22px;display:inline-block;vertical-align:top;color:#111;}
+.xans-product-reviewpaging li a {font-weight:bold;display:block;padding:0 10px;color:#888;background:#fff;}
+.xans-product-reviewpaging li a.this {text-decoration:underline;color:#111;}
+
+.xans-product-qnapaging {clear:both;padding:30px 0 100px 0;text-align:center;}
+.xans-product-qnapaging p {display:inline-block;padding:0 15px;vertical-align:middle;}
+.xans-product-qnapaging img {vertical-align:top;}
+.xans-product-qnapaging ol {font-size:0;line-height:0;display:inline-block;vertical-align:top;}
+.xans-product-qnapaging li:first-child {margin-left:0;}
+.xans-product-qnapaging li {font-size:9px;line-height:22px;display:inline-block;vertical-align:top;color:#111;}
+.xans-product-qnapaging li a {font-weight:bold;display:block;padding:0 10px;color:#888;background:#fff;}
+.xans-product-qnapaging li a.this {text-decoration:underline;color:#111;}

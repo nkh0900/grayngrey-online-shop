@@ -1,0 +1,36 @@
+.xans-product-listnormal { background:#fff; }
+
+/* 수정 */
+.xans-product-listnormal.typeThumb li {font-size:10px;display:inline-block;margin:0 0 25px;padding:0;text-align:center;vertical-align:top;letter-spacing:1px !important;letter-spacing:normal;}
+.xans-product-listnormal.typeThumb .thumbnail {margin:0 0 14px;padding:0 2px;}
+.xans-product-listnormal.typeThumb .thumbnail img {width:100%;}
+.xans-product-listnormal.typeThumb .information {line-height:1em;position:relative;min-height:10px;margin:0 7px;}
+.xans-product-listnormal.typeThumb .name {line-height:12px;margin:0 0 6px;letter-spacing:0;word-wrap:break-word;}
+.xans-product-listnormal.typeThumb .name a {font-size:10px !important;color:#111;}
+.xans-product-listnormal.typeThumb .custom {font-size:8px;text-decoration:line-through;color:#888 !important;}
+.xans-product-listnormal.typeThumb .price {font-size:12px;margin:3px 0 0;}
+.xans-product-listnormal.typeThumb .sale.price {font-size:12px;margin:5px 0 0;}
+.xans-product-listnormal.typeThumb .strike { text-decoration:line-through; }
+.xans-product-listnormal.typeThumb .icon {margin:0 0 6px;}
+
+/* 타입 : 섬네일 */
+.xans-product-listnormal.typeThumb > ul { display:table; table-layout:fixed; width:100%; padding:0 9px 0 7px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; font-size:0; line-height:0; }
+
+.xans-product-listnormal.typeThumb .grid1 li { width:100%; }
+.xans-product-listnormal.typeThumb .grid1 li .name a { font-size:15px; }
+.xans-product-listnormal.typeThumb .grid2 li { width:50%; }
+.xans-product-listnormal.typeThumb .grid2 li .name a { font-size:13px; }
+.xans-product-listnormal.typeThumb .grid3 li { width:33.333%; }
+.xans-product-listnormal.typeThumb .grid3 li .name a { font-size:13px; }
+.xans-product-listnormal.typeThumb .grid4 li { width:25%; }
+.xans-product-listnormal.typeThumb .grid4 li .name a { font-size:11px; }
+
+.xans-product-listnormal.typeThumb .layerDiscountPeriod { display:none; position:absolute; z-index:100; left:0; width:100%; padding:11px 7px; box-sizing:border-box; }
+.xans-product-listnormal.typeThumb .layerDiscountPeriod .inner { border:1px solid #353535; background:#f1f1f1; border-radius:4px; }
+.xans-product-listnormal.typeThumb .layerDiscountPeriod .inner h3 { padding:10px 14px; font-size:14px; background-color:#353535; color:#fff; }
+.xans-product-listnormal.typeThumb .layerDiscountPeriod .inner .timeleft { padding:14px; color:#508bed; font-size:13px; font-weight:bold; text-align:center; }
+.xans-product-listnormal.typeThumb .layerDiscountPeriod ul { margin:0 7px 14px; padding:0; border:1px solid #d5d5d5; background:#fff; }
+.xans-product-listnormal.typeThumb .layerDiscountPeriod ul li { position:relative; display:block; width:100%; margin:0; padding:14px 13px 14px 100px; color:#353535; border-top:1px solid #ececec; box-sizing:border-box; }
+.xans-product-listnormal.typeThumb .layerDiscountPeriod ul li:first-child { border-top:0; }
+.xans-product-listnormal.typeThumb .layerDiscountPeriod ul li span { position:absolute; top:14px; left:13px; color:#757575; }
+.xans-product-listnormal.typeThumb .layerDiscountPeriod .btnClose { position:absolute; top:8px; right:4px; display:block; width:40px; height:40px; text-indent:-9999px; font-size:0; background:url("http://img.echosting.cafe24.com/skin/mobile_ko_KR/layout/ico_close_white.png") center center no-repeat; background-size:50% 50%; }

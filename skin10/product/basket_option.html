@@ -1,0 +1,87 @@
+<style type="text/css">
+/**
+ 익스플로어계열의 브라우져에서 ajax로 가져온 페이지의 외부 css호출 링크가 작동하지 않아서 직접 css를 입력합니다.
+ 디자인 수정시에도 확인 해주세요.
+ */
+/* 상품 리스트 장바구니 담기 레이어 */
+/* LAYER POP */
+.xans-product-basketoption {
+	background:#b4bdc5; overflow:hidden;
+	position:fixed; _position:absolute; top:50%; left:50%; width:500px; margin:-157px 0 0 -250px; z-index:100; border:1px solid #d3d3d3;
+}
+.xans-product-basketoption .close { text-align:right; }
+.xans-product-basketoption .close img { cursor:pointer; }
+
+.xans-product-basketoption h1 { padding:0 25px 25px; color:#272823; font-size:26px; text-decoration:underline; }
+.xans-product-basketoption .btnArea { overflow:hidden; zoom:1; background:#fff; padding:30px 30px 30px 27px ; margin:0; position:relative; left:0; text-align:right; }
+.xans-product-basketoption .btnArea img { margin:0 0 0 -3px; }
+
+.xans-product-basketoption .layInner { position:relative; padding:20px 25px 0; border-top:1px solid #99a2aa; overflow:auto; overflow-x:hidden; max-height:210px; .height:210px; background:#fff; border-bottom:1px solid #dedcdc; }
+.xans-product-basketoption .layInner p { padding:0 0 10px; }
+.xans-product-basketoption .layInner p span { padding:0 0 0 15px; color:#f26522; text-decoration:underline; }
+.xans-product-basketoption table { margin:0 0 20px; }
+.xans-product-basketoption th { background:#fff; color:#000; font-weight:normal; padding:5px 0; font-size:11px; }
+.xans-product-basketoption td { padding:7px 0; text-align:center; vertical-align:middle; }
+.xans-product-basketoption .chk { width:30px; }
+.xans-product-basketoption td.option { text-align:left;}
+.xans-product-basketoption td.quantity { width:70px; text-align:center; }
+.xans-product-basketoption .quantity input { width:50px; padding:1px 2px; border:1px solid #c3cad1; background:none; text-align:center; }
+.xans-product-optionlist td { border-bottom:1px solid #c3cad1; }
+</style>
+<style type="text/css">
+/**
+ 익스플로어계열의 브라우져에서 ajax로 가져온 페이지의 외부 css호출 링크가 작동하지 않아서 직접 css를 입력합니다.
+ 디자인 수정시에도 확인 해주세요.
+ */
+.xans-product-basketoption { position:fixed; top:50%; left:50%; z-index:1000; width:420px; margin:-149px 0 0 -211px; font-family:Verdana, "돋움", Dotum, sans-serif; }
+.xans-product-basketoption h1 { height:35px; padding:0 35px 0 19px; color:#fff; font-size:14px; line-height:35px; background:#495164; }
+.xans-product-basketoption .content { overflow:auto; overflow-x:hidden; height:174px; padding:20px 25px; border-right:1px solid #757575; border-left:1px solid #757575; background:#fff; }
+.xans-product-basketoption .close { position:absolute; right:20px; top:10px; }
+.xans-product-basketoption .close img { cursor:pointer; }
+.xans-product-basketoption .btnArea { padding:9px 0; border:1px solid #757575; border-top:1px solid #d7d5d5; text-align:center; background:#fbfafa; }
+.xans-product-basketoption .btnArea img:first-child { margin:0 1px 0 0; }
+.xans-product-basketoption .content p { padding:0 0 4px; color:#2e2e2e; }
+.xans-product-basketoption .content p strong { color:#495164; }
+.xans-product-basketoption table { border:1px solid #d7d5d5; color:#353535; font-size:11px; }
+.xans-product-basketoption table th { padding:13px 0 11px; border-left:1px solid #e9e9e9; font-weight:normal; vertical-align:middle; background:#fbfafa; }
+.xans-product-basketoption table th:first-child { border-left:0; }
+.xans-product-basketoption table td { padding:12px 9px 9px; border-top:1px solid #e9e9e9; line-height:1.5; text-align:center; vertical-align:middle; }
+.xans-product-basketoption table td.left { text-align:left; }
+.xans-product-basketoption table td.quantity input { width:40px; padding:2px; border:1px solid #d5d5d5; font-size:12px; color:#353535; font-family:Verdana, "돋움", Dotum, sans-serif; text-align:center; background:none; }
+.xans-product-basketoption table td .required { color:#f00; }
+</style>
+<!-- 참고 : 뉴상품관리 전용 변수가 포함되어 있습니다. 뉴상품관리 이외의 곳에서 사용하면 일부 변수가 정상동작하지 않을 수 있습니다. -->
+<div module="Product_BasketOption">
+    {$form.delvtype}
+    <h1>장바구니 담기</h1>
+    <div class="content">
+        <p>상품명: <strong>{$name}</strong></p>
+        <table border="1" summary="">
+            <caption>상품 옵션입력</caption>
+            <colgroup>
+                <col style="width:60px;" />
+                <col style="width:auto;" />
+                <col style="width:60px;" />
+            </colgroup>
+            <thead>
+                <tr>
+                    <th scope="col">선택</th>
+                    <th scope="col">옵션</th>
+                    <th scope="col">수량</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr module="Product_OptionList">
+                    <td>{$form.check}</td>
+                    <td class="left" {$name_colspan}>{$option_name}</td>
+                    <td class="quantity {$quantity_display|display}">{$form.quantity}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="btnArea">
+        <a href="#none" onclick="{$action_basket}"><img src="http://img.echosting.cafe24.com/skin/base_ko_KR/product/btn_add_basket.gif" alt="장바구니담기" /></a>
+        <a href="#none" onclick="{$action_buy}"><img src="http://img.echosting.cafe24.com/skin/base_ko_KR/product/btn_buy_now.gif" alt="바로구매하기" /></a>
+    </div>
+    <div class="close"><a onclick="$('.xans-product-basketoption').hide();"><img src="http://img.echosting.cafe24.com/skin/base_ko_KR/common/btn_close.png" alt="닫기" /></a></div>
+</div>

@@ -1,0 +1,65 @@
+.xans-product-detail {float:left; width:250px;}
+
+.xans-product-detail #imgArea img {width:100%;}
+
+.xans-product-detail #prdInfo {width:100%; margin-top:30px; border-top: 1px solid #dedcdc;}
+.xans-product-detail #prdInfo h3 {padding:10px 5px; color:black; font-size:11px;}
+.xans-product-detail #prdInfo h3 span img {vertical-align:middle;}
+
+.xans-product-detail #prdInfo .prddesc {padding:0 5px; color:black; font:11px verdana, tahoma, arial, sans-serif;}
+.xans-product-detail #prdInfo .prdName { background:url(http://img.echosting.cafe24.com/design/skin/mono/bg_dot.gif) 0 bottom repeat-x; padding:8px 0 10px; }
+.xans-product-detail #prdInfo .mileage td { padding-top:7px; }
+.xans-product-detail #prdInfo .mileage td li { line-height:1.7em; }
+
+.xans-product-detail #prdInfo table { border:0; margin:10px 0 0;}
+.xans-product-detail #prdInfo th { font-weight:normal; color:#808080; width:90px; padding:9px 0 9px 5px; text-align:left; vertical-align:middle; }
+.xans-product-detail #prdInfo td { padding:9px 0; vertical-align:middle; }
+.xans-product-detail #prdInfo td .ProductPrice {color:#cc0000;}
+.xans-product-detail #prdInfo td input { border:1px solid #bcbcbc; height:18px; }
+.xans-product-detail #prdInfo td.social { padding:4px 0 0; }
+.xans-product-detail #prdInfo td.social img { cursor:pointer; }
+.xans-product-detail #prdInfo td .sale {color:black; text-decoration:line-through;}
+.xans-product-detail #prdInfo td p { position:relative; z-index:0; }
+.xans-product-detail #prdInfo td input { width:30px; height:18px; border:1px solid #bcbcbc; }
+.xans-product-detail #prdInfo td .QuantityUp { position:absolute; left:32px; top:0; z-index:1; }
+.xans-product-detail #prdInfo td .QuantityDown { position:absolute; left:32px; bottom:0; z-index:1; }
+.xans-product-detail #prdInfo .delivery input { border:0; }
+.xans-product-detail #prdInfo td img.qrcode { border:1px solid #e1e1e1; }
+.xans-product-detail #prdInfo td p.qrcode { padding:5px 0 0; }
+
+.xans-product-detail #prdInfo .cyworld img { cursor:pointer; }
+.xans-product-detail #prdInfo .cyworld .cyTooltip { position:relative; z-index:101; }
+.xans-product-detail #prdInfo .cyworld #divNate { position:absolute; top:0px; left:134px; width:243px; padding:20px 0 0; background:url(http://img.echosting.cafe24.com/design/skin/mono/product/bg_cyTooltipTop.gif) 0 0 no-repeat; }
+.xans-product-detail #prdInfo .cyworld #divNate .inner { padding:0 10px 17px; background:url(http://img.echosting.cafe24.com/design/skin/mono/product/bg_cyTooltipBtm.gif) 0 bottom no-repeat; font-size:11px; }
+.xans-product-detail #prdInfo .cyworld #divNate .inner strong { font-weight:normal; color:#ff6440; }
+
+.xans-product-detail #prdInfo .btnArea {margin-top:17px;}
+.xans-product-detail #prdInfo .btnArea a {display:block; margin-bottom:1px; padding:5px; font:11px verdana, tahoma, arial, sans-serif; text-align:right; background-color:#ddd;}
+.xans-product-detail #prdInfo .btnArea a:hover {color:white; text-decoration:none; background-color:black;}
+
+.xans-product-detail #prdEvent { clear:both; overflow:hidden; }
+.xans-product-detail .titleArea { height:21px; margin:17px 0 30px; border-bottom:1px solid #dedcdc; zoom:1; }
+.xans-product-detail .titleArea:after {content:""; display:block; clear:both; }
+.xans-product-detail .titleArea h3 { height:21px; padding:0 5px 0 0; color:#272823; font-size:16px; float:left; border-bottom:1px solid #272823;  }
+
+.xans-product-multioption { background:url(http://img.echosting.cafe24.com/design/skin/mono/bg_dot.gif) 0 0 repeat-x; }
+.xans-product-multioption p { padding:10px 0; text-align:right; }
+.xans-product-multioption div { background:url(http://img.echosting.cafe24.com/design/skin/mono/bg_dot.gif) 0 0 repeat-x; margin:10px 0 0;}
+
+.xans-myshop-benefit { clear:both; overflow:hidden; zoom:1; margin:30px 0; padding:10px; color:#8b8b8c; border-top:3px solid #333; border-bottom:3px solid #333; }
+.xans-myshop-benefit p { float:left; padding:0 10px 0 0; }
+.xans-myshop-benefit p strong { color:#8c91a2; }
+.xans-myshop-benefit p.myInfo { width:260px; padding:0; line-height:20px; }
+.xans-myshop-benefit p span.typeBlock { display:block; }
+
+#image_zoom_small { display:none; position:absolute; z-index:999; background:#fff; border:1px solid #aaa; filter:alpha(opacity=50); opacity:0.5; }
+#zoom_wrap { position:absolute; z-index:100px; top:0; left:0; }
+.image_zoom_large { position:absolute; z-index:999; width:350px; height:350px; overflow:hidden; background:#fff; border:1px solid #aaa; }
+.image_zoom_large .image_zoom_large_relative { position:relative; }
+.image_zoom_large .image_zoom_large_relative #zoom_image { position:absolute; z-index:99; }
+
+
+#divNvPointInfo { display:none; position:absolute; z-index:99; width:245px; padding:10px; color:#777; font-size:11px; background:#fff; border:1px solid #5B9761; }
+#divNvPointInfo a { display:block; padding:5px 0 0; color:#1ec228; }
+#divNvPointInfo a img { vertical-align:middle; }
+#imgNaverMileageHelp { cursor:pointer; }

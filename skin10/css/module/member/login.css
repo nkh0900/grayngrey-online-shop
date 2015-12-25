@@ -1,0 +1,42 @@
+/*h2.member_login {color:#005915; font:bold 1.2em verdana, tahoma, arial, sans-serif;}
+.xans-member-login {position:relative; margin-top:40px; padding-top:25px;}
+.xans-member-login legend {position:absolute; top:0; left:0; width:auto; height:auto; color:black; font:1.2em verdana, tahoma, arial, sans-serif; text-indent:0;}
+*/
+*+html .xans-member-login legend {margin-left:-7px;} /* IE 7 */
+/*
+.xans-member-login legend + p {color:#454545; font-size:11px;}
+.xans-member-login dl {padding-bottom:20px;}
+.xans-member-login dt {display:none;}
+.xans-member-login dd {overflow:hidden;}
+.xans-member-login dd input {float:left; width:194px; margin-top:20px; padding:2px; border:1px solid #ddd; background-color:#f8f8f8;}
+.xans-member-login p a {display:block; width:190px; padding:5px; color:white; font:10px verdana, tahoma, arial, sans-serif; text-align:right; background-color:black;}
+.xans-member-login p a:hover {background-color:#cc0000; text-decoration:none;}
+.xans-member-login ul {overflow:hidden; margin-top:20px;}
+.xans-member-login li {float:left; margin-right:20px;}
+*/
+*+html .xans-member-login li {margin-top:4px;} /* IE 7 */
+
+*+html .xans-member-login li:first-child {margin-top:0;} /* IE 7 */
+
+/*.xans-member-login li label {margin-left:3px;}*/
+
+
+.xans-member-login .login {width:100%;margin:30px auto 50px;text-transform:uppercase;color:#333;}
+.xans-member-login .login fieldset {position:relative;width:300px;margin:0 auto;}
+legend {line-height:0;position:absolute;top:-9999px;left:-9999px;visibility:hidden;width:0;height:0;}
+.xans-member-login .login fieldset .id,
+.xans-member-login .login fieldset .password {font-family:'Arial',san-serif;font-size:12px;display:block;overflow:hidden;width:298px;margin:0 0 5px;letter-spacing:0;color:#333;border:1px solid #ddd;border-radius:3px;}
+.xans-member-login .login fieldset ul {font-size:9px;overflow:hidden;margin:0 0 20px 0;}
+.xans-member-login .login fieldset li {display:inline-block;padding:0;text-align:center;}
+.xans-member-login .login fieldset .id span,
+.xans-member-login .login fieldset .password span {line-height:32px;float:left;width:60px;height:32px;padding:0 0 0 8px;color:#333;}
+.xans-member-login .login fieldset li.join a {font-family:'Lato',serif;font-size:15px;font-weight:bold;display:block;clear:both;padding:0 70px 0 0;letter-spacing:1px;text-transform:lowercase;color:#333;}
+.xans-member-login .login fieldset li a {font-size:9px;display:inline-block;margin:5px 0;color:#333;}
+.xans-member-login .login fieldset input {float:left;width:165px;height:28px;padding:2px 2px 2px 3px;color:#333;border:0 none;}
+
+.xans-member-login .login fieldset > a {font-size:9px;display:block;width:50px;margin:15px 0 20px 0;padding:7px 20px;text-align:center;color:#fff;border:1px solid #111;background:#111;}
+.xans-member-login .login fieldset > a:hover {text-decoration:none;color:#111;border:1px solid #ddd;background:#ddd;}
+.xans-member-login .login fieldset p.link a {font-size:9px;display:block;width:242px;margin:15px 0 30px 0;padding:7px 28px;text-align:center;color:#fff;border:1px solid #111;background:#111;}
+.xans-member-login .login fieldset p.link a:hover {text-decoration:none;color:#111;border:1px solid #ddd;background:#ddd;}
+
+.xans-member-login .login fieldset .link {font-size: 12px;border-top: 1px solid #ddd;padding-top: 20px;}

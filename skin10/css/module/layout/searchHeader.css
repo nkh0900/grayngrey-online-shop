@@ -1,0 +1,6 @@
+.xans-layout-searchheader {float:left; margin:12px 0 30px 0; border-bottom:1px solid black;}
+.xans-layout-searchheader legend {display:none;}
+.xans-layout-searchheader input {float:left; width:110px; height:20px; border:0; outline: none; font-size:1.3em;}
+.xans-layout-searchheader a {float:left; padding:6px 5px 2px 5px; font:11px verdana, tahoma, arial, sans-serif; letter-spacing:0.1em; background-color:white;}
+@-moz-document url-prefix() {.xans-layout-searchheader a {padding-bottom:0;}} /* Firefox */
+.xans-layout-searchheader a:hover {text-decoration:none;}

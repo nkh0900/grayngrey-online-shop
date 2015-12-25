@@ -1,0 +1,50 @@
+<!--@layout(/layout/basic/intro.html)-->
+<div module="Member_AdultHead">
+<!--@css(/css/module/member/adultHead.css)-->
+    <h1><span>로그인</span></h1>
+    <div class="under19">
+        <div class="msg">
+            <h2>19세 미만의 미성년자는 <br />출입을 금합니다.</h2>
+            <p class="info">
+                이 정보내용은 청소년 유해매체물로서 <br />
+                정보통신망 이용촉진법 및 정보보호 등에 관한 법률 및 청소년 보호법의 <br />
+                규정에 의하여 19세 미만의 청소년은 사용할 수 없습니다. <br />
+                <span>미성년자 차단을 위하여 <em>로그인 또는 본인인증 절차</em>를 거치셔야 합니다.</span>
+            </p>
+            <a href="{$outlink}"><img src="http://img.echosting.cafe24.com/design/skin/mono/intro/btn_under19ipin.gif" alt="19세 미만 나가기" /></a>
+        </div>
+    </div>
+    <div class="member" module="Member_Login">
+        <h2><img src="http://img.echosting.cafe24.com/design/skin/mono/intro/h2_ipinMember.gif" alt="회원 로그인" /></h2>
+        <div class="inner">
+            <p class="login">
+                <span class="inputType">
+                    <span class="name"><strong>아이디</strong> {$form.member_id} </span>
+                    <span class="number"><strong>비밀번호</strong> {$form.member_passwd}<br /></span>
+                </span>
+                <span class="btn"><a href="#none" onclick="{$action_func_login}"><img src="http://img.echosting.cafe24.com/design/skin/mono/intro/btn_login.gif" alt="로그인" /></a></span>
+            </p>
+            <p class="security">
+                <img src="http://img.echosting.cafe24.com/design/skin/default/member/ico_access.gif" alt="" /> 보안접속
+            </p>
+            <p class="join">
+                <a href="/member/id/find_id.html{$skip_intro}">아이디</a>
+                <a href="/member/passwd/find_passwd_info.html{$skip_intro}">비밀번호 찾기</a>
+                <a href="/member/join.html{$skip_intro}">회원 가입 하기</a>
+            </p>
+        </div>
+    </div>
+    <div class="member" {$display_auth}>
+        <h2><img src="http://img.echosting.cafe24.com/design/skin/mono/intro/h2_ipinNoMember.gif" alt="비회원 성인인증" /></h2>
+        <div class="inner">
+            <label><input type="radio" name='AuthType' checked /> 아이핀(i-PIN) 인증</label>
+            <p class="ipin">
+                <span><a href="#none" onclick="{$ipinpopup}"><img src="http://img.echosting.cafe24.com/design/skin/mono/member/btn_memJoin2.gif" alt="아이핀 인증" style="vertical-align:middle" /></a></span>
+                아이핀이란, 회원님의 개인정보 보호를 위해 <br />
+                웹사이트에 주민등록번호를 제공하지 않고,<br />
+                본인임을 확인하는 인터넷상의 개인식별번호 서비스입니다.<br />
+                아이핀을 통한 가입을 원하시면 아이핀 인증 버튼을 눌러 진행해 주십시오.
+            </p>
+        </div>
+    </div>
+</div>

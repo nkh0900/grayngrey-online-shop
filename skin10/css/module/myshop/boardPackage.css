@@ -1,0 +1,21 @@
+div.xans-myshop-boardlist { color:#8f8f8f; padding:0 0 6px; border-bottom:1px solid #333; font-size:11px; }
+div.xans-myshop-boardlist table th { padding:9px 0 7px; border-top:1px solid #333; border-bottom:1px solid #333; font-weight:normal; color:#202020; }
+div.xans-myshop-boardlist table td { line-height:1.4em; }
+div.xans-myshop-boardlist table .number { width:52px; }
+div.xans-myshop-boardlist table .subject {}
+div.xans-myshop-boardlist table .subject img { vertical-align:middle; margin:0 1px; }
+div.xans-myshop-boardlist table .date { width:74px; }
+div.xans-myshop-boardlist table .hit { width:45px; }
+
+div.xans-myshop-boardlist table tbody.notice .first td { background:none; padding-top:15px; }
+div.xans-myshop-boardlist table .first td { background:none; }
+div.xans-myshop-boardlist table td { text-align:center; padding:9px 0 7px; background:url(http://img.echosting.cafe24.com/design/skin/mono/bg_dot_board.gif) 0 0 repeat-x;}
+div.xans-myshop-boardlist table td.category { width:94px; color:#7ca6d8; }
+div.xans-myshop-boardlist table td.subject { text-align:left; }
+div.xans-myshop-boardlist table tr.cont td { text-align:left; }
+div.xans-myshop-boardlist table a,
+div.xans-myshop-boardlist table a:hover { color:#8f8f8f; margin:0 4px 0 0;}
+div.xans-myshop-boardlist table td.category a,
+div.xans-myshop-boardlist table td.category a:hover { color:#7ca6d8; }
+
+.xans-myshop-boardlisthead { margin:0 0 10px;font-size: 12px; }

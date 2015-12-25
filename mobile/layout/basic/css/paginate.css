@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/* 페이지네이트 */
+.paginate { text-align:center; background:#fff; }
+
+    /* 더보기 */
+    .paginate.typeMoreview {width:40%;margin:0 30%;padding:0 0 40px 0;}
+    .paginate.typeMoreview a {font-weight:normal;display:block;margin:0 auto;padding:10px 0;text-transform:uppercase;color:#fff;border-radius:5px;background:#333;}
+    .paginate.typeMoreview span.icoMore {font-size:0;line-height:0;display:inline-block;width:7px;height:4px;margin:-2px 0 0 3px;vertical-align:baseline;background:url('/web/upload/images/title_open_w.png') no-repeat 0 30%;background-size:7px 4px;}
+
+    /* Swipe */
+    .paginate.typeSwipe {color:#757575;margin-top: 15px;}
+    .paginate.typeSwipe button.circle {width:13px;height:13px;margin:0 3px 0 4px;cursor:pointer;border:0;background:url('/web/upload/images/rolling_off.png') no-repeat 0 0;background-size:10px 10px;}
+    .paginate.typeSwipe button.circle.selected {background:url('/web/upload/images/rolling_on.png') no-repeat 0 0;background-size:10px 10px;}
+    .paginate.typeSwipe span {font-size:0;line-height:0;color:#fff;}
+
+    /* 이전, 다음페이지보기(총페이지노출형) */
+    .paginate.typeTotal { color:#696969; }
+    .paginate.typeTotal > span { margin:0 8px;font-weight:bold; }
+    .paginate.typeTotal p { display:inline-block;vertical-align:middle; }
+    .paginate.typeTotal .prev,
+    .paginate.typeTotal .next { width:7px;height:13px; font-size:15px; line-height:1.2em; background:url("http://img.echosting.cafe24.com/skin/mobile_ko_KR/layout/btn_prev.png") no-repeat 50% 50%; background-size:7px auto; }
+    .paginate.typeTotal .next { background:url("http://img.echosting.cafe24.com/skin/mobile_ko_KR/layout/btn_next.png") no-repeat 50% 50%; background-size:7px auto; }
+    .paginate.typeTotal p span { overflow:hidden; display:block; width:29px; text-indent:-999px; }
+    .paginate.typeTotal strong { color:#508bed; }
+
+    /* 이전, 다음페이지보기(리스트형) */
+    .paginate.typeList { padding:7px 0; color:#1b1b1b; }
+    .paginate.typeList ol { margin:0 8px; }
+    .paginate.typeList ol, .paginate.typeList ol li, .paginate.typeList p, .paginate.typeList p a, .paginate.typeList ol li a { display:inline-block; vertical-align:middle; }
+    .paginate.typeList ol li { margin:0 1px 5px; list-style:none; background:#fff;}
+    .paginate.typeList p,
+    .paginate.typeList ol li a { padding:7px 0 2px; width:31px; height:19px; border-radius:2px; }
+    .paginate.typeList ol li .other, .paginate.typeList p, .paginate.typeList ol li a  { border:1px solid #d9d9d9; }
+    .paginate.typeList ol li .this { border:1px solid #508bed; }
+    .paginate.typeList .this { color:#508bed; }
+    .paginate.typeList .prev,
+    .paginate.typeList .next { margin:0 0 5px; width:31px; font-size:15px; line-height:1.2em; background:#fff url("http://img.echosting.cafe24.com/skin/mobile_ko_KR/layout/btn_prev.png") no-repeat 50% 50%; background-size:7px auto; }
+    .paginate.typeList .next { background-image:url("http://img.echosting.cafe24.com/skin/mobile_ko_KR/layout/btn_next.png"); }
+    .paginate.typeList p span { overflow:hidden; display:block; width:29px; text-indent:-999px; }
+    .paginate.typeList p a { padding:7px 0 2px; width:31px; height:19px; color:#fff; }
