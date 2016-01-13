@@ -175,7 +175,7 @@ body {min-width:965px;}
 .path ol,
 .pathBoard ol {float:right;}
 .path li,
-.pathBoard li {font-family:'Lato', 'Arial', Helvetica, sans-serif;font-size:9px !important;font-weight:normal;float:left;margin:0 0 0 10px;padding:0 0 0 14px;letter-spacing:1px;text-transform:uppercase;color:#111;background:url('http://teamgray.cafe24.com/web/upload/images/i_nav_path.png') no-repeat 0 4px;}
+.pathBoard li {font-family:'Lato', 'Arial', Helvetica, sans-serif;font-size:10px !important;font-weight:normal;float:left;margin:0 0 0 10px;padding:0 0 0 14px;letter-spacing:1px;text-transform:uppercase;color:#111;background:url('http://teamgray.cafe24.com/web/upload/images/i_nav_path.png') no-repeat 0 4px;}
 .path li.displaynone,
 .pathBoard li.displaynone {display:none;}
 .path li:first-child,
